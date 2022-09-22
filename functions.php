@@ -1,14 +1,14 @@
 <?php
 /**
- * This file adds functions to the bildr WordPress theme.
+ * This file adds functions to the uniblock WordPress theme.
  *
- * @package bildr
+ * @package uniblock
  * @author  WPZOOM
  * @license GNU General Public License v2 or later
  * @link    https://www.wpzoom.com/
  */
 
-if ( ! function_exists( 'bildr_setup' ) ) {
+if ( ! function_exists( 'uniblock_setup' ) ) {
 
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -21,10 +21,10 @@ if ( ! function_exists( 'bildr_setup' ) ) {
 	 *
 	 * @return void
 	 */
-	function bildr_setup() {
+	function uniblock_setup() {
 
 		// Make theme available for translation.
-		load_theme_textdomain( 'bildr', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'uniblock', get_template_directory() . '/languages' );
 
 		// Enqueue editor styles and fonts.
 		add_editor_style(
@@ -38,13 +38,13 @@ if ( ! function_exists( 'bildr_setup' ) ) {
 
 	}
 }
-add_action( 'after_setup_theme', 'bildr_setup' );
+add_action( 'after_setup_theme', 'uniblock_setup' );
 
 // Enqueue style sheet.
-add_action( 'wp_enqueue_scripts', 'bildr_enqueue_style_sheet' );
-function bildr_enqueue_style_sheet() {
+add_action( 'wp_enqueue_scripts', 'uniblock_enqueue_style_sheet' );
+function uniblock_enqueue_style_sheet() {
 
-	wp_enqueue_style( 'bildr', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'uniblock', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 
 }
 
@@ -53,37 +53,37 @@ function bildr_enqueue_style_sheet() {
  *
  * @since 0.9.2
  */
-function bildr_register_block_styles() {
+function uniblock_register_block_styles() {
 
 	$block_styles = array(
 		'core/button'          => array(
-			'fill-background'    => __( 'Fill Background', 'bildr' ),
-			'outline-background' => __( 'Outline Background', 'bildr' ),
+			'fill-background'    => __( 'Fill Background', 'uniblock' ),
+			'outline-background' => __( 'Outline Background', 'uniblock' ),
 		),
 		'core/group'           => array(
-			'shadow'       => __( 'Shadow', 'bildr' ),
-			'shadow-solid' => __( 'Shadow Solid', 'bildr' ),
-			'full-height'  => __( 'Full-height', 'bildr' ),
+			'shadow'       => __( 'Shadow', 'uniblock' ),
+			'shadow-solid' => __( 'Shadow Solid', 'uniblock' ),
+			'full-height'  => __( 'Full-height', 'uniblock' ),
 		),
         'core/column'           => array(
-            'shadow'       => __( 'Shadow', 'bildr' ),
-            'shadow-solid' => __( 'Shadow Solid', 'bildr' ),
-            'full-height'  => __( 'Full-height', 'bildr' ),
+            'shadow'       => __( 'Shadow', 'uniblock' ),
+            'shadow-solid' => __( 'Shadow Solid', 'uniblock' ),
+            'full-height'  => __( 'Full-height', 'uniblock' ),
         ),
 		'core/image'           => array(
-			'shadow' => __( 'Shadow', 'bildr' ),
+			'shadow' => __( 'Shadow', 'uniblock' ),
 		),
 		'core/list'            => array(
-			'no-disc' => __( 'No Disc', 'bildr' ),
+			'no-disc' => __( 'No Disc', 'uniblock' ),
 		),
 		'core/media-text'      => array(
-			'shadow-media' => __( 'Shadow', 'bildr' ),
+			'shadow-media' => __( 'Shadow', 'uniblock' ),
 		),
 		'core/navigation-link' => array(
-			'fill'         => __( 'Fill', 'bildr' ),
-			'fill-background'    => __( 'Fill Background', 'bildr' ),
-			'outline'      => __( 'Outline', 'bildr' ),
-			'outline-background' => __( 'Outline Background', 'bildr' ),
+			'fill'         => __( 'Fill', 'uniblock' ),
+			'fill-background'    => __( 'Fill Background', 'uniblock' ),
+			'outline'      => __( 'Outline', 'uniblock' ),
+			'outline-background' => __( 'Outline Background', 'uniblock' ),
 		),
 	);
 
@@ -99,40 +99,40 @@ function bildr_register_block_styles() {
 		}
 	}
 }
-add_action( 'init', 'bildr_register_block_styles' );
+add_action( 'init', 'uniblock_register_block_styles' );
 
 /**
  * Registers block categories, and type.
  *
  * @since 0.9.2
  */
-function bildr_register_block_pattern_categories() {
+function uniblock_register_block_pattern_categories() {
 
 	/* Functionality specific to the Block Pattern Explorer plugin. */
 	if ( function_exists( 'register_block_pattern_category_type' ) ) {
-		register_block_pattern_category_type( 'bildr', array( 'label' => __( 'bildr', 'bildr' ) ) );
+		register_block_pattern_category_type( 'uniblock', array( 'label' => __( 'uniblock', 'uniblock' ) ) );
 	}
 
 	$block_pattern_categories = array(
-		'bildr-footer'  => array(
-			'label'         => __( 'Footer', 'bildr' ),
-			'categoryTypes' => array( 'bildr' ),
+		'uniblock-footer'  => array(
+			'label'         => __( 'Footer', 'uniblock' ),
+			'categoryTypes' => array( 'uniblock' ),
 		),
-		'bildr-general' => array(
-			'label'         => __( 'General', 'bildr' ),
-			'categoryTypes' => array( 'bildr' ),
+		'uniblock-general' => array(
+			'label'         => __( 'General', 'uniblock' ),
+			'categoryTypes' => array( 'uniblock' ),
 		),
-		'bildr-header'  => array(
-			'label'         => __( 'Header', 'bildr' ),
-			'categoryTypes' => array( 'bildr' ),
+		'uniblock-header'  => array(
+			'label'         => __( 'Header', 'uniblock' ),
+			'categoryTypes' => array( 'uniblock' ),
 		),
-		'bildr-page'    => array(
-			'label'         => __( 'Page', 'bildr' ),
-			'categoryTypes' => array( 'bildr' ),
+		'uniblock-page'    => array(
+			'label'         => __( 'Page', 'uniblock' ),
+			'categoryTypes' => array( 'uniblock' ),
 		),
-		'bildr-query'   => array(
-			'label'         => __( 'Query', 'bildr' ),
-			'categoryTypes' => array( 'bildr' ),
+		'uniblock-query'   => array(
+			'label'         => __( 'Query', 'uniblock' ),
+			'categoryTypes' => array( 'uniblock' ),
 		),
 	);
 
@@ -140,4 +140,4 @@ function bildr_register_block_pattern_categories() {
 		register_block_pattern_category( $name, $properties );
 	}
 }
-add_action( 'init', 'bildr_register_block_pattern_categories', 9 );
+add_action( 'init', 'uniblock_register_block_pattern_categories', 9 );
