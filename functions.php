@@ -62,13 +62,14 @@ function uniblock_register_block_styles() {
 		),
 		'core/group'           => array(
 			'shadow'       => __( 'Shadow', 'uniblock' ),
-			'shadow-solid' => __( 'Shadow Solid', 'uniblock' ),
+			'border' => __( 'Border', 'uniblock' ),
 			'full-height'  => __( 'Full-height', 'uniblock' ),
 		),
         'core/column'           => array(
             'shadow'       => __( 'Shadow', 'uniblock' ),
-            'shadow-solid' => __( 'Shadow Solid', 'uniblock' ),
-            'full-height'  => __( 'Full-height', 'uniblock' ),
+            'border' => __( 'Border', 'uniblock' ),
+            'pull-right'  => __( 'Pull right', 'uniblock' ),
+            'pull-left'  => __( 'Pull left', 'uniblock' ),
         ),
 		'core/image'           => array(
 			'shadow' => __( 'Shadow', 'uniblock' ),

@@ -8,7 +8,7 @@ Tags: accessibility-ready, block-patterns, block-styles, custom-colors, custom-l
 Requires at least: 6.0
 Tested up to: 6.0
 Requires PHP: 5.6
-Version: 0.9.8
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: uniblock
@@ -59,6 +59,7 @@ ol,
 ul {
     margin: 0;
     padding: 0;
+    list-style-position: inside;
 }
 
 b,
@@ -68,6 +69,11 @@ strong {
 
 blockquote {
     margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /*
@@ -139,7 +145,7 @@ input[type="submit"]:hover,
 .wp-block-button__link:hover,
 .wp-block-search__button:focus,
 .wp-block-search__button:hover {
-    background-color: var(--wp--preset--color--tertiary);
+    background-color: var(--wp--preset--color--secondary);
     color: var(--wp--preset--color--white);
     text-decoration: none;
 }
@@ -286,8 +292,8 @@ kbd {
     box-shadow: 0 0 50px rgb(0 0 0 / 10%);
 }
 
-.wp-block-group.is-style-shadow-solid {
-    box-shadow: 5px 5px var(--wp--preset--color--foreground);
+.wp-block-group.is-style-border{
+    border: 1px solid var(--wp--preset--color--lightgrey);
 }
 
 /* Column
@@ -298,9 +304,29 @@ kbd {
     border-radius: 20px;
 }
 
-.wp-block-column.is-style-shadow-solid {
-    box-shadow: 5px 5px var(--wp--preset--color--foreground);
+.wp-block-column.is-style-border {
+    border: 1px solid var(--wp--preset--color--lightgrey);
 }
+
+.wp-block-column.is-style-pull-right {
+    margin-right: -120px;
+    margin-top: 60px;
+    position: relative;
+    box-shadow: 0 14px 12px rgb(0 0 0 / 7%);
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.wp-block-column.is-style-pull-left {
+    margin-left: -120px;
+    margin-top: 60px;
+    position: relative;
+    box-shadow: 0 14px 12px rgb(0 0 0 / 7%);
+    border-radius: 20px;
+    z-index: 10;
+}
+
+
 
 /* Image
 --------------------------------------------- */
@@ -358,12 +384,9 @@ ul li:where(.wp-block-list) {
 
 .wp-block-navigation__responsive-container-close,
 .wp-block-navigation__responsive-container-open {
-    border: 1px solid var(--wp--preset--color--foreground);
-    padding: 2px;
 }
 
 .has-background .wp-block-navigation__responsive-container-open {
-    border: 1px solid var(--wp--preset--color--background);
 }
 
 .has-background .wp-block-navigation__responsive-container-open:focus,
@@ -487,6 +510,21 @@ p.has-background {
     margin-left: auto !important;
 }
 
+.wp-block-query-pagination-numbers .page-numbers {
+    margin: 0 5px;
+}
+
+/* Featured Images */
+
+.wp-block-post-featured-image img {
+    border-radius: 20px;
+}
+
+
+/* Read More button */
+.wp-block-read-more:hover {
+    background-color: var(--wp--preset--color--secondary);
+}
 
 /* Table
 --------------------------------------------- */
