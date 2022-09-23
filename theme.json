@@ -196,11 +196,11 @@
 				},
 				{
 					"fluid": {
-						"max": "60px",
+						"max": "50px",
 						"min": "34px"
 					},
 					"name": "xLarge",
-					"size": "60px",
+					"size": "50px",
 					"slug": "x-large"
 				},
 				{
