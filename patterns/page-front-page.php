@@ -728,7 +728,7 @@
 
 <!-- wp:query {"queryId":4,"query":{"perPage":"2","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":2}} -->
 <div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:post-featured-image {"isLink":true,"width":"570px","height":"340px","style":{"border":{"radius":"20px"}}} /-->
+<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"340px","style":{"border":{"radius":"20px"}}} /-->
 
 <!-- wp:post-date /-->
 
