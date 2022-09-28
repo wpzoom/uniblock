@@ -6,8 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"layout":{"type":"constrained"},"backgroundColor":"primary"} -->
-<div class="wp-block-group has-primary-background-color has-background"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
+<!-- wp:group {"layout":{"type":"constrained"},"align":"full","backgroundColor":"primary"} -->
+<div class="wp-block-group alignfull has-primary-background-color has-background"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
 <div class="wp-block-group alignwide"><!-- wp:spacer {"height":"151px"} -->
 <div style="height:151px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
