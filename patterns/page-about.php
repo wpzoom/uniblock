@@ -479,5 +479,3 @@
 <!-- wp:spacer {"height":"50px"} -->
 <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
-
-<!-- wp:template-part {"slug":"footer-call-to-action","theme":"uniblock","align":"full"} /-->

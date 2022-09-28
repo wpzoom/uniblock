@@ -751,5 +751,3 @@
 <!-- /wp:spacer --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-
-<!-- wp:template-part {"slug":"footer-call-to-action","theme":"uniblock","align":"full"} /-->

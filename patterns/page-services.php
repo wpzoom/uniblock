@@ -313,5 +313,3 @@
 <!-- wp:spacer {"height":"0px"} -->
 <div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
-
-<!-- wp:template-part {"slug":"footer-call-to-action","theme":"uniblock","align":"full"} /-->
