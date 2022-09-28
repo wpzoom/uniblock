@@ -6,56 +6,64 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0px">
-<!-- wp:spacer {"height":100} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
+<div class="wp-block-group alignwide"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
-<!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide">
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}}} -->
-<h4 style="font-size:72px;line-height:1;">“</h4>
-<!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae lorem a neque imperdiet sagittis. Vivamus enim velit.</p>
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">TESTIMONIALS</p>
 <!-- /wp:paragraph -->
-<!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><strong>—Allison Taylor, Designer</strong></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}}} -->
-<h4 style="font-size:72px;line-height:1">“</h4>
-<!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-<p style="font-size:18px">Fusce at est sapien. Aliquam tempus et nulla nisipt rhoncus, morbi convallis magna swift. Morbi viverra lobortis ante, volutpat ipsum.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><strong>—Anthony Breck, Developer</strong></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:column -->
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}}} -->
-<h4 style="font-size:72px;line-height:1">“</h4>
+
+<!-- wp:heading {"fontSize":"max-48"} -->
+<h2 class="has-max-48-font-size">What people say<br>about us</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-<p style="font-size:18px">Quisque ullamcorper nulla breu elementum, atipo consectetur ex iaculis quis. Vestibulum et faucibus. Quisque vitae mi pellentesque.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><strong>—Rebecca Jones, Coach</strong></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:column -->
-</div>
-<!-- /wp:columns -->
-<!-- wp:spacer {"height":100} -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"73px"} -->
+<div style="height:73px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
-</div>
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph -->
+<p>"Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam."</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":96,"width":79,"height":79,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Ellipse-2.png" alt="" class="wp-image-96" width="79" height="79"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:pullquote {"textAlign":"left","style":{"border":{"width":"0px","style":"none"}},"textColor":"tertiary"} -->
+<figure class="wp-block-pullquote has-text-align-left has-tertiary-color has-text-color" style="border-style:none;border-width:0px"><blockquote><p><strong>Eva Lester</strong></p><cite>Senior Supervisors ・ Fables</cite></blockquote></figure>
+<!-- /wp:pullquote --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph -->
+<p>"Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam."</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":105,"width":91,"height":91,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Ellipse-3.png" alt="" class="wp-image-105" width="91" height="91"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:pullquote {"textAlign":"left","style":{"border":{"width":"0px","style":"none"}},"textColor":"tertiary"} -->
+<figure class="wp-block-pullquote has-text-align-left has-tertiary-color has-text-color" style="border-style:none;border-width:0px"><blockquote><p><strong>James Richardson</strong></p><cite>Environmental Economist</cite></blockquote></figure>
+<!-- /wp:pullquote --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":"58px"} -->
+<div style="height:58px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph {"align":"center","textColor":"primary"} -->
+<p class="has-text-align-center has-primary-color has-text-color"><strong><a href="#">View more</a></strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->

@@ -65,6 +65,9 @@ function uniblock_register_block_styles() {
 			'border' => __( 'Border', 'uniblock' ),
 			'full-height'  => __( 'Full-height', 'uniblock' ),
 		),
+        'core/cover'           => array(
+            'round-corners'       => __( 'Rounded', 'uniblock' ),
+        ),
         'core/column'           => array(
             'shadow'       => __( 'Shadow', 'uniblock' ),
             'border' => __( 'Border', 'uniblock' ),

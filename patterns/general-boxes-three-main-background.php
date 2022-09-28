@@ -6,68 +6,85 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"foreground","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-foreground-background-color has-background" style="margin-top:0px">
-<!-- wp:spacer {"height":100} -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
+<div class="wp-block-group alignwide"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
-<!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide">
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"background"} -->
-<div class="wp-block-column has-background-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
-<!-- wp:heading {"level":3} -->
-<h3 id="sample-heading-1"><?php echo esc_html__( 'Sample Heading', 'uniblock' ); ?></h3>
-<!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque.</p>
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">OTHER SERVICES</p>
 <!-- /wp:paragraph -->
-<!-- wp:buttons -->
-<div class="wp-block-buttons">
-<!-- wp:button {"style":{"border":{"radius":0}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'uniblock' ); ?></a></div>
-<!-- /wp:button -->
-</div>
-<!-- /wp:buttons -->
-</div>
-<!-- /wp:column -->
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"background"} -->
-<div class="wp-block-column has-background-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
-<!-- wp:heading {"level":3} -->
-<h3 id="sample-heading-2"><?php echo esc_html__( 'Sample Heading', 'uniblock' ); ?></h3>
+
+<!-- wp:heading {"fontSize":"max-48"} -->
+<h2 class="has-max-48-font-size">Bring the world to <br>your solutions</h2>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque.</p>
-<!-- /wp:paragraph -->
-<!-- wp:buttons -->
-<div class="wp-block-buttons">
-<!-- wp:button {"style":{"border":{"radius":0}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'uniblock' ); ?></a></div>
-<!-- /wp:button -->
-</div>
-<!-- /wp:buttons -->
-</div>
-<!-- /wp:column -->
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"background"} -->
-<div class="wp-block-column has-background-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
-<!-- wp:heading {"level":3} -->
-<h3 id="sample-heading-3"><?php echo esc_html__( 'Sample Heading', 'uniblock' ); ?></h3>
-<!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque.</p>
-<!-- /wp:paragraph -->
-<!-- wp:buttons -->
-<div class="wp-block-buttons">
-<!-- wp:button {"style":{"border":{"radius":0}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'uniblock' ); ?></a></div>
-<!-- /wp:button -->
-</div>
-<!-- /wp:buttons -->
-</div>
-<!-- /wp:column -->
-</div>
-<!-- /wp:columns -->
-<!-- wp:spacer {"height":100} -->
+
+<!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
-</div>
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"secondary","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-secondary-background-color has-background" style="border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:html -->
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="#0D6EFD"></path>
+</svg>
+<!-- /wp:html -->
+
+<!-- wp:heading {"textColor":"white"} -->
+<h2 class="has-white-color has-text-color">Service 1</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="#">Learn more →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"secondary","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-secondary-background-color has-background" style="border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:html -->
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="#0D6EFD"></path>
+</svg>
+<!-- /wp:html -->
+
+<!-- wp:heading {"textColor":"white"} -->
+<h2 class="has-white-color has-text-color">Service 2</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="#">Learn more →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"secondary","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-secondary-background-color has-background" style="border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:html -->
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="#0D6EFD"></path>
+</svg>
+<!-- /wp:html -->
+
+<!-- wp:heading {"textColor":"white"} -->
+<h2 class="has-white-color has-text-color">Service 3</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="#">Learn more →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
