@@ -1,4 +1,4 @@
-# uniblock
+# UniBlock
 
 An FSE theme from WPZOOM
 
@@ -21,7 +21,7 @@ Coming soon
 
 **Coding Standards**
 
-uniblock adheres to the [WordPress coding standards](https://developer.wordpress.org/coding-standards/). To optionally test standards locally, you will need [Composer](https://getcomposer.org/) on your machine. Run `composer install` to install test-specific development dependencies. The following commands are available:
+UniBlock adheres to the [WordPress coding standards](https://developer.wordpress.org/coding-standards/). To optionally test standards locally, you will need [Composer](https://getcomposer.org/) on your machine. Run `composer install` to install test-specific development dependencies. The following commands are available:
 
 - `composer run lint` Checks all PHP files for syntax errors
 - `composer run standards:check` Checks all PHP files for standards errors

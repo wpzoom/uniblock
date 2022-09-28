@@ -1,8 +1,8 @@
 <?php
 /**
- * This file adds functions to the uniblock WordPress theme.
+ * This file adds functions to the UniBlock WordPress theme.
  *
- * @package uniblock
+ * @package UniBlock
  * @author  WPZOOM
  * @license GNU General Public License v2 or later
  * @link    https://www.wpzoom.com/
@@ -17,7 +17,7 @@ if ( ! function_exists( 'uniblock_setup' ) ) {
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 *
-	 * @since 0.8.0
+	 * @since 1.0.0
 	 *
 	 * @return void
 	 */
@@ -51,7 +51,7 @@ function uniblock_enqueue_style_sheet() {
 /**
  * Register block styles.
  *
- * @since 0.9.2
+ * @since 1.0.0
  */
 function uniblock_register_block_styles() {
 
@@ -108,7 +108,7 @@ add_action( 'init', 'uniblock_register_block_styles' );
 /**
  * Registers block categories, and type.
  *
- * @since 0.9.2
+ * @since 1.0
  */
 function uniblock_register_block_pattern_categories() {
 
@@ -123,7 +123,7 @@ function uniblock_register_block_pattern_categories() {
 			'categoryTypes' => array( 'uniblock' ),
 		),
 		'uniblock-general' => array(
-			'label'         => __( 'General', 'uniblock' ),
+			'label'         => __( 'Sections', 'uniblock' ),
 			'categoryTypes' => array( 'uniblock' ),
 		),
 		'uniblock-header'  => array(
@@ -131,11 +131,11 @@ function uniblock_register_block_pattern_categories() {
 			'categoryTypes' => array( 'uniblock' ),
 		),
 		'uniblock-page'    => array(
-			'label'         => __( 'Page', 'uniblock' ),
+			'label'         => __( 'Pages', 'uniblock' ),
 			'categoryTypes' => array( 'uniblock' ),
 		),
 		'uniblock-query'   => array(
-			'label'         => __( 'Query', 'uniblock' ),
+			'label'         => __( 'Blog Posts', 'uniblock' ),
 			'categoryTypes' => array( 'uniblock' ),
 		),
 	);

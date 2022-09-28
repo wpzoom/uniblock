@@ -1,8 +1,8 @@
-=== uniblock ===
+=== UniBlock ===
 Contributors: wpzoom
 Requires at least: 6.0
-Tested up to: 6.0
-Requires PHP: 5.6
+Tested up to: 6.1
+Requires PHP: 7.4
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,8 +20,8 @@ Initial public release.
 
 == Copyright ==
 
-uniblock WordPress Theme, (C) 2022 WPZOOM.
-uniblock is distributed under the terms of the GNU GPL.
+UniBlock WordPress Theme, (C) 2022 WPZOOM.
+UniBlock is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
