@@ -1,9 +1,13 @@
 # UniBlock
 
+![UniBlock Theme](https://demo.wpzoom.com/uniblock/wp-content/themes/uniblock/assets/admin/img/uniblock.png)
+
 
 ## About
 
 UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.
+
+Download the latest stable [release](https://github.com/wpzoom/uniblock/releases)
 
 
 ## Requirements
@@ -15,16 +19,15 @@ UniBlock is a next-generation WordPress theme that adopts the Full Site Editing 
 
 ## Getting Started
 
-Coming soon
+You can download the latest stable release of UniBlock using the link above. Alternatively, install the entire repository for development purposes:
 
-**Coding Standards**
+1. Set up a local WordPress development environment.
+2. Ensure you are using WordPress 6.0+ with the [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/) active.
+3. Clone / download this repository into the `/wp-content/themes/` directory of your new WordPress instance.
+4. In the WordPress admin, use the Appearance > Themes screen to activate UniBlock.
 
-UniBlock adheres to the [WordPress coding standards](https://developer.wordpress.org/coding-standards/). To optionally test standards locally, you will need [Composer](https://getcomposer.org/) on your machine. Run `composer install` to install test-specific development dependencies. The following commands are available:
-
-- `composer run lint` Checks all PHP files for syntax errors
-- `composer run standards:check` Checks all PHP files for standards errors
-- `composer run standards:fix` Attempts to automatically fix all PHP standards errors
 
 ## Resources
 
-- [WPZOOM website](https://wpzoom.com/)
+- [WPZOOM website](https://www.wpzoom.com/)
+- [Documentation](https://www.wpzoom.com/documentation/uniblock/)
