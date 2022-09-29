@@ -65,3 +65,40 @@ Included as part of the following classes and functions:
 - uniblock_admin_scripts
 - uniblock_theme_admin_menu()
 - uniblock_admin_page_content()
+
+
+Starter content image, Copyright  Direct Media
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://stocksnap.io/photo/working-family-2KP6VVDMXQ
+
+Blog header image
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://pxhere.com/en/photo/911100
+
+Starter content image, Woman Sitting in Front of Computer in Office
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://www.pexels.com/photo/woman-sitting-in-front-of-computer-in-office-3861967/
+
+Contact page image,
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://www.pexels.com/photo/female-engineer-holding-presentation-3861945/
+
+Starter content image
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://www.pexels.com/photo/colleagues-looking-at-computer-screen-3861948/
+
+Starter content image
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://www.pexels.com/photo/engineers-developing-robotic-arm-3913031/
+
+Front page image
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://www.pexels.com/photo/adult-male-mechanic-fixing-metal-detail-in-workshop-3855343/
+
+Teeam member images
+License: CC0 1.0 Universal (CC0 1.0)
+Source:
+https://www.pexels.com/photo/man-wearing-white-dress-shirt-and-black-blazer-2182970/
+https://www.pexels.com/photo/woman-holding-a-tablet-6579980/
+https://www.pexels.com/photo/businessman-fashion-young-business-4392050/
+https://www.pexels.com/photo/1181567/
