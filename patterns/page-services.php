@@ -8,13 +8,13 @@
 ?>
 <!-- wp:group {"tagName":"main","layout":{"type":"default"},"align":"full","style":{"spacing":{"margin":{"top":"0"}},"color":{"gradient":"linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%)"}},"className":"site-content"} -->
 <main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-49.png","id":5614,"dimRatio":60,"overlayColor":"secondary","align":"full"} -->
-<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5614" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-49.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"},"align":"wide","className":"is-style-default"} -->
-<div class="wp-block-group alignwide is-style-default"><!-- wp:spacer {"height":"88px"} -->
+<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5614" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-49.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"},"className":"is-style-default"} -->
+<div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"88px"} -->
 <div style="height:88px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","textColor":"white","fontSize":"max-48"} -->
-<h1 class="alignwide has-text-align-center has-white-color has-text-color has-max-48-font-size">We help companies build <br>great solutions</h1>
+<!-- wp:heading {"textAlign":"center","level":1,"textColor":"white","fontSize":"max-48"} -->
+<h1 class="has-text-align-center has-white-color has-text-color has-max-48-font-size">We help companies build <br>great solutions</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -29,8 +29,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"},"className":"is-style-default"} -->
-<div class="wp-block-group is-style-default"><!-- wp:group {"layout":{"type":"constrained"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<div class="wp-block-group is-style-default"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -46,8 +46,8 @@
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"default"}} -->
+<!-- wp:columns {"verticalAlignment":"center"} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:image {"id":62} -->
 <figure class="wp-block-image"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-24.png" alt="" class="wp-image-62"/></figure>
 <!-- /wp:image --></div>
@@ -86,8 +86,8 @@
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"white","className":"is-style-pull-right"} -->
+<!-- wp:columns {"verticalAlignment":"center"} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"white","className":"is-style-pull-right"} -->
 <div class="wp-block-column is-vertically-aligned-center is-style-pull-right has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small);flex-basis:50%"><!-- wp:heading -->
 <h2>Service 2<br></h2>
 <!-- /wp:heading -->
@@ -125,8 +125,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -214,9 +214,9 @@
 <div class="wp-block-group"></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -245,16 +245,16 @@
 <!-- /wp:spacer --></div>
 <!-- /wp:group -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23-1.png","id":5681,"dimRatio":10,"minHeight":536,"minHeightUnit":"px","isDark":false,"align":"wide"} -->
-<div class="wp-block-cover alignwide is-light" style="min-height:536px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5681" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23-1.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:wpzoom-video-popup-block/block {"url":"https://vimeo.com/693743279","text":"","icon":2,"iconSize":"50px","textColor":"primary"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23-1.png","id":5681,"dimRatio":10,"minHeight":536,"minHeightUnit":"px","isDark":false} -->
+<div class="wp-block-cover is-light" style="min-height:536px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5681" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23-1.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:wpzoom-video-popup-block/block {"url":"https://vimeo.com/693743279","text":"","icon":2,"iconSize":"50px","textColor":"primary"} -->
 <a class="wp-block-wpzoom-video-popup-block-block wpzoom-video-popup-block has-primary-color has-text-color" href="https://vimeo.com/693743279"><span class="wpzoom-video-popup-block_icon" style="height:50px;width:50px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"><path d="m14.25 10.367c-1-0.57778-2.2504 0.14388-2.2504 1.2988v8.6674c0 1.155 1.2504 1.8766 2.2504 1.2988l8.2498-4.7666c0.3094-0.1786 0.4998-0.5088 0.4998-0.86588 0-0.35714-0.1904-0.68718-0.4998-0.86586zm-14.25 5.6326c0-8.8366 7.1634-16 16-16 8.8366 0 16 7.1634 16 16 0 8.8366-7.1634 16-16 16-8.8366 0-16-7.1634-16-16zm16-14c-7.732 0-14 6.268-14 14 0 7.732 6.268 14 14 14 7.732 0 14-6.268 14-14 0-7.732-6.268-14-14-14z" fill="currentColor"></path></svg></span></a>
 <!-- /wp:wpzoom-video-popup-block/block --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 

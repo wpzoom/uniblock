@@ -7,8 +7,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"},"align":"full","style":{"spacing":{"margin":{"top":"0"}},"color":{"gradient":"linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%)"}},"className":"site-content"} -->
-<main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:group {"layout":{"type":"default"},"align":"wide","className":"is-style-default"} -->
-<div class="wp-block-group alignwide is-style-default"><!-- wp:spacer {"height":"28px"} -->
+<main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:group {"layout":{"type":"default"},"className":"is-style-default"} -->
+<div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"28px"} -->
 <div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -37,9 +37,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"className":"is-style-default"} -->
-<div class="wp-block-group is-style-default" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"layout":{"type":"constrained"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"right":"var:preset|spacing|80"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group is-style-default" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"right":"var:preset|spacing|80"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="padding-right:var(--wp--preset--spacing--80);flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
 <p class="has-primary-color has-text-color">Let's Connect!</p>
 <!-- /wp:paragraph -->
@@ -124,8 +124,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 

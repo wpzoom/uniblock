@@ -7,8 +7,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"},"align":"full","style":{"spacing":{"margin":{"top":"0"}},"color":{"gradient":"linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%)"}},"className":"site-content"} -->
-<main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:group {"layout":{"type":"default"},"align":"wide","className":"is-style-default"} -->
-<div class="wp-block-group alignwide is-style-default"><!-- wp:spacer {"height":"88px"} -->
+<main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:group {"layout":{"type":"default"},"className":"is-style-default"} -->
+<div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"88px"} -->
 <div style="height:88px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -34,8 +34,8 @@
 <div style="height:88px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"layout":{"type":"default"},"align":"wide","style":{"border":{"radius":"20px"}}} -->
-<div class="wp-block-group alignwide" style="border-radius:20px"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23.png","id":45,"dimRatio":30,"overlayColor":"secondary","minHeight":536,"minHeightUnit":"px","isDark":false,"align":"center","className":"is-style-round-corners"} -->
+<!-- wp:group {"layout":{"type":"default"},"style":{"border":{"radius":"20px"}}} -->
+<div class="wp-block-group" style="border-radius:20px"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23.png","id":45,"dimRatio":30,"overlayColor":"secondary","minHeight":536,"minHeightUnit":"px","isDark":false,"align":"center","className":"is-style-round-corners"} -->
 <div class="wp-block-cover aligncenter is-light is-style-round-corners" style="min-height:536px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-45" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:wpzoom-video-popup-block/block {"url":"https://vimeo.com/693743279","text":"","icon":2,"iconSize":"50px","textColor":"white"} -->
 <a class="wp-block-wpzoom-video-popup-block-block wpzoom-video-popup-block has-white-color has-text-color" href="https://vimeo.com/693743279"><span class="wpzoom-video-popup-block_icon" style="height:50px;width:50px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"><path d="m14.25 10.367c-1-0.57778-2.2504 0.14388-2.2504 1.2988v8.6674c0 1.155 1.2504 1.8766 2.2504 1.2988l8.2498-4.7666c0.3094-0.1786 0.4998-0.5088 0.4998-0.86588 0-0.35714-0.1904-0.68718-0.4998-0.86586zm-14.25 5.6326c0-8.8366 7.1634-16 16-16 8.8366 0 16 7.1634 16 16 0 8.8366-7.1634 16-16 16-8.8366 0-16-7.1634-16-16zm16-14c-7.732 0-14 6.268-14 14 0 7.732 6.268 14 14 14 7.732 0 14-6.268 14-14 0-7.732-6.268-14-14-14z" fill="currentColor"></path></svg></span></a>
 <!-- /wp:wpzoom-video-popup-block/block --></div></div>
@@ -49,9 +49,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"},"className":"is-style-default"} -->
-<div class="wp-block-group is-style-default"><!-- wp:group {"layout":{"type":"constrained"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-<div class="wp-block-columns alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"right":"var:preset|spacing|x-large"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group is-style-default"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"right":"var:preset|spacing|x-large"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-column" style="padding-right:var(--wp--preset--spacing--x-large);flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
 <p class="has-primary-color has-text-color">WHO WE ARE</p>
 <!-- /wp:paragraph -->
@@ -81,8 +81,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -196,9 +196,9 @@
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -333,8 +333,8 @@
 <div style="height:118px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"layout":{"type":"constrained"},"align":"wide","style":{"border":{"radius":"20px"},"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"primary","textColor":"white"} -->
-<div class="wp-block-group alignwide has-white-color has-primary-background-color has-text-color has-background" style="border-radius:20px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","fontSize":"max-36"} -->
+<!-- wp:group {"layout":{"type":"constrained"},"style":{"border":{"radius":"20px"},"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"primary","textColor":"white"} -->
+<div class="wp-block-group has-white-color has-primary-background-color has-text-color has-background" style="border-radius:20px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","fontSize":"max-36"} -->
 <h3 class="has-text-align-center has-white-color has-text-color has-max-36-font-size">We are proud of your <br>accomplishments</h3>
 <!-- /wp:heading -->
 
@@ -377,8 +377,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -443,8 +443,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:group {"layout":{"type":"constrained"},"align":"full","backgroundColor":"white"} -->
-<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -470,9 +470,9 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -709,8 +709,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:spacer -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 

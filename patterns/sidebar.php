@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Sidebar
- * Slug: uniblock/general-sidebar
+ * Slug: uniblock/sidebar
  * Categories: uniblock-general
  * Viewport Width: 1200
  */

@@ -8,8 +8,8 @@
  */
 ?>
 <!-- wp:group {"layout":{"type":"constrained"},"align":"full","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"},"margin":{"top":"0px"}},"color":{"background":"#0e151f"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","className":"is-style-default","fontSize":"small"} -->
-<div class="wp-block-group alignfull is-style-default has-background-color has-text-color has-background has-link-color has-small-font-size" style="background-color:#0e151f;margin-top:0px;padding-top:40px;padding-bottom:40px"><!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-group alignfull is-style-default has-background-color has-text-color has-background has-link-color has-small-font-size" style="background-color:#0e151f;margin-top:0px;padding-top:40px;padding-bottom:40px"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"grey"} -->
 <h2 class="has-grey-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50)">UNIBLOCK</h2>
 <!-- /wp:heading -->
@@ -67,8 +67,8 @@
 <hr class="wp-block-separator alignwide has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#ffffff24;color:#ffffff24"/>
 <!-- /wp:separator -->
 
-<!-- wp:group {"layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"},"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph {"textColor":"grey"} -->
+<!-- wp:group {"layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"grey"} -->
 <p class="has-grey-color has-text-color">Copyright © <?php echo esc_html( gmdate( 'Y' ) ); ?> UniBlock</p>
 <!-- /wp:paragraph -->
 
