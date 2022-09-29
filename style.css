@@ -3,7 +3,7 @@ Theme Name: UniBlock
 Theme URI: https://www.wpzoom.com/
 Author: WPZOOM
 Author URI: https://www.wpzoom.com/
-Description: UniBlock is a Full Site Editing block theme for the WordPress block editor. The theme includes multiple pre-designed pages so you can easily build a business website. The theme can be also used for a simple blog.
+Description: UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, block-patterns, full-site-editing, template-editing, e-commerce
 Requires at least: 6.0
 Tested up to: 6.1
@@ -12,6 +12,9 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: uniblock
+
+UniBlock is based on Frost WordPress Theme https://github.com/wpengine/frost, (C) 2022 WP Engine.
+Frost is distributed under the terms of the GNU GPL v2 or later.
 
 UniBlock WordPress Theme, (C) 2022 WPZOOM.
 UniBlock is distributed under the terms of the GNU GPL.
@@ -58,8 +61,8 @@ a:hover {
 ol,
 ul {
     margin: 0;
-    padding: 0;
-    list-style-position: inside;
+    /*padding: 0;*/
+    /*list-style-position: inside;*/
 }
 
 b,

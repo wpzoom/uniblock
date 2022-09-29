@@ -145,3 +145,17 @@ function uniblock_register_block_pattern_categories() {
 	}
 }
 add_action( 'init', 'uniblock_register_block_pattern_categories', 9 );
+
+
+// Theme Admin Page
+require get_template_directory() . '/inc/admin/theme-admin.php';
+
+/*--------------------------------------------------------------
+# Enqueue Admin Scripts and Styles
+--------------------------------------------------------------*/
+if ( ! function_exists( 'uniblock_admin_scripts' ) ) :
+    function uniblock_admin_scripts() {
+        wp_enqueue_style( 'uniblock-admin-styles', get_template_directory_uri() . '/assets/admin/css/admin-styles.css' );
+    }
+    add_action( 'admin_enqueue_scripts', 'uniblock_admin_scripts' );
+endif;
