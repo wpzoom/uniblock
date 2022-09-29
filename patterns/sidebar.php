@@ -3,7 +3,7 @@
  * Title: Sidebar
  * Slug: uniblock/general-sidebar
  * Categories: uniblock-general
- * Viewport Width: 1280
+ * Viewport Width: 1200
  */
 ?>
 <!-- wp:group {"layout":{"type":"default"}} -->

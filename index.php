@@ -1,0 +1,1 @@
+<?php /* The silence is golden. This file's purpose is to pass the Theme Check
