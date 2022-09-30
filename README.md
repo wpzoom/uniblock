@@ -1,4 +1,4 @@
-# UniBlock
+# UniBlock - The WordPress theme to unblock your creativity
 
 ![UniBlock Theme](https://demo.wpzoom.com/uniblock/wp-content/themes/uniblock/assets/admin/img/uniblock.png)
 
