@@ -203,13 +203,178 @@
 					],
 					"fontFamily": "Outfit, sans-serif",
 					"name": "Outfit",
-					"slug": "primary"
+					"slug": "outfit"
 				},
-				{
-					"fontFamily": "monospace",
-					"name": "Monospace",
-					"slug": "monospace"
-				}
+                {
+                  "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif)",
+                  "name": "Sans Serif",
+                  "slug": "sans-serif"
+                },
+                {
+                  "fontFamily": "serif",
+                  "name": "Serif",
+                  "slug": "serif"
+                },
+                {
+                  "fontFamily": "monospace",
+                  "name": "Monospace",
+                  "slug": "monospace"
+                },
+                {
+                  "fontFamily": "Archivo, sans-serif",
+                  "name": "Archivo",
+                  "slug": "archivo"
+                },
+                {
+                  "fontFamily": "Alegreya, serif",
+                  "name": "Alegreya",
+                  "slug": "alegreya"
+                },
+                {
+                  "fontFamily": "Crimson Pro, serif",
+                  "name": "Crimson Pro",
+                  "slug": "crimson-pro"
+                },
+                {
+                  "fontFamily": "DM Sans, sans-serif",
+                  "name": "DM Sans",
+                  "slug": "dm-sans"
+                },
+                {
+                  "fontFamily": "Epilogue, sans-serif",
+                  "name": "Epilogue",
+                  "slug": "epilogue"
+                },
+                {
+                  "fontFamily": "Figtree, sans-serif",
+                  "name": "Figtree",
+                  "slug": "figtree"
+                },
+                {
+                  "fontFamily": "IBM Plex Sans, sans-serif",
+                  "name": "IBM Plex Sans",
+                  "slug": "ibm-plex-sans"
+                },
+                {
+                  "fontFamily": "IBM Plex Mono, monospace",
+                  "name": "IBM Plex Mono",
+                  "slug": "ibm-plex-mono"
+                },
+                {
+                  "fontFamily": "Inter, sans-serif",
+                  "name": "Inter",
+                  "slug": "inter"
+                },
+                {
+                  "fontFamily": "Jost, sans-serif",
+                  "name": "Jost",
+                  "slug": "jost"
+                },
+                {
+                  "fontFamily": "Lexend, sans-serif",
+                  "name": "Lexend",
+                  "slug": "lexend"
+                },
+                {
+                    "fontFamily": "'Libre Baskerville', serif",
+                    "slug": "libre-baskerville",
+                    "name": "Libre Baskerville"
+                },
+                {
+                    "fontFamily": "'Libre Franklin', sans-serif",
+                    "slug": "libre-franklin",
+                    "name": "Libre Franklin"
+                },
+                {
+                  "fontFamily": "Lora, serif",
+                  "name": "Lora",
+                  "slug": "lora"
+                },
+                {
+                  "fontFamily": "Manrope, sans-serif",
+                  "name": "Manrope",
+                  "slug": "manrope"
+                },
+                {
+                    "fontFamily": "Merriweather, serif",
+                    "slug": "merriweather",
+                    "name": "Merriweather"
+                },
+                {
+                    "fontFamily": "Montserrat, sans-serif",
+                    "slug": "montserrat",
+                    "name": "Montserrat"
+                },
+                {
+                  "fontFamily": "Mulish, sans-serif",
+                  "name": "Mulish",
+                  "slug": "mulish"
+                },
+                {
+                    "fontFamily": "Nunito, sans-serif",
+                    "slug": "nunito",
+                    "name": "Nunito"
+                },
+                {
+                  "fontFamily": "Open Sans, sans-serif",
+                  "name": "Open Sans",
+                  "slug": "open-sans"
+                },
+                {
+                  "fontFamily": "Oswald, sans-serif",
+                  "name": "Oswald",
+                  "slug": "oswald"
+                },
+                {
+                  "fontFamily": "Playfair Display, serif",
+                  "name": "Playfair Display",
+                  "slug": "playfair-display"
+                },
+                {
+                  "fontFamily": "Poppins, sans-serif",
+                  "name": "Poppins",
+                  "slug": "poppins"
+                },
+                {
+                  "fontFamily": "Quicksand, sans-serif",
+                  "name": "Quicksand",
+                  "slug": "quicksand"
+                },
+                {
+                  "fontFamily": "Raleway, sans-serif",
+                  "name": "Raleway",
+                  "slug": "raleway"
+                },
+                {
+                  "fontFamily": "Roboto, sans-serif",
+                  "name": "Roboto",
+                  "slug": "roboto"
+                },
+                {
+                  "fontFamily": "Rubik, sans-serif",
+                  "name": "Rubik",
+                  "slug": "rubik"
+                },
+                {
+                  "fontFamily": "Source Serif Pro, sans-serif",
+                  "name": "Source Serif Pro",
+                  "slug": "source-serif-pro"
+                },
+                {
+                  "fontFamily": "Space Grotesk, sans-serif",
+                  "name": "Space Grotesk",
+                  "slug": "space-grotesk"
+                },
+                {
+                  "fontFamily": "Urbanist, sans-serif",
+                  "name": "Urbanist",
+                  "slug": "urbanist"
+                },
+                {
+                  "fontFamily": "Work Sans, sans-serif",
+                  "name": "Work Sans",
+                  "slug": "work-sans"
+                }
 			],
 			"fontSizes": [
 				{
@@ -656,7 +821,7 @@
 			"blockGap": "30px"
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--primary)",
+			"fontFamily": "var(--wp--preset--font-family--outfit)",
 			"fontSize": "var(--wp--preset--font-size--small)",
 			"fontWeight": "var(--wp--custom--font-weight--regular)",
 			"lineHeight": "var(--wp--custom--line-height--body)"

@@ -159,3 +159,79 @@ if ( ! function_exists( 'uniblock_admin_scripts' ) ) :
     }
     add_action( 'admin_enqueue_scripts', 'uniblock_admin_scripts' );
 endif;
+
+
+/* Add the link to the Customizer */
+add_action('customize_register', function ( $manager ) {  },  10, 1 );
+
+
+
+/**
+* Enqueue theme fonts.
+*/
+function uniblock_theme_fonts() {
+    $fonts_url = uniblock_get_fonts_url();
+
+    // Load Fonts if necessary.
+    if ( $fonts_url ) {
+        require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
+
+        wp_enqueue_style( 'uniblock-theme-fonts', wptt_get_webfont_url( $fonts_url ), array(), '20220930' );
+
+        add_editor_style( $fonts_url );
+
+    }
+
+}
+add_action( 'admin_init', 'uniblock_theme_fonts', 1 );
+add_action( 'wp_enqueue_scripts', 'uniblock_theme_fonts', 1 );
+add_action( 'enqueue_block_editor_assets', 'uniblock_theme_fonts', 1 );
+
+
+
+/**
+ * Retrieve webfont URL to load fonts locally.
+ */
+function uniblock_get_fonts_url() {
+    $font_families = array(
+        'Alegreya:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600',
+        'Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600',
+        'DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700',
+        'Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700',
+        'Figtree:wght@400;500;600;700;800',
+        'IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600',
+        'IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Inter:wght@300;400;500;600;700',
+        'Jost:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Lexend:wght@400;500;600;700',
+        'Libre+Baskerville:ital,wght@0,400;0,700;1,400',
+        'Libre+Franklin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Manrope:wght@400;500;600;700',
+        'Merriweather:ital,wght@0,400;0,700;1,400;1,700',
+        'Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600',
+        'Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Oswald:wght@400;500;600;700',
+        'Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,700',
+        'Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Quicksand:wght@400;500;600;700',
+        'Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700',
+        'Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700',
+        'Space+Grotesk:wght@300;400;500;600;700',
+        'Urbanist:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700'
+    );
+
+    $query_args = array(
+        'family'  => urlencode( implode( '|', $font_families ) ),
+        'subset'  => urlencode( 'latin,latin-ext' ),
+        'display' => urlencode( 'swap' ),
+    );
+
+    return apply_filters( 'uniblock_get_fonts_url', add_query_arg( $query_args, 'https://fonts.googleapis.com/css' ) );
+}
