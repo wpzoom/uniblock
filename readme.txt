@@ -91,7 +91,7 @@ Starter content image
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://www.pexels.com/photo/engineers-developing-robotic-arm-3913031/
 
-Front page image
+Front page image (used in Screenshot too)
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://www.pexels.com/photo/adult-male-mechanic-fixing-metal-detail-in-workshop-3855343/
 
