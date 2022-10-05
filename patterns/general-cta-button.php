@@ -1,12 +1,12 @@
 <?php
 /**
- * Title: Call-to-action with text, button.
+ * Title: Call-to-action with text, button
  * Slug: uniblock/general-cta-button
  * Categories: uniblock-general
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"layout":{"type":"constrained"},"align":"full","backgroundColor":"primary"} -->
+<!-- wp:group {"align":"full","backgroundColor":"primary","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull has-primary-background-color has-background"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"151px"} -->
 <div style="height:151px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -21,8 +21,8 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"14%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:14%"><!-- wp:buttons {"className":"wpz-alt-button","layout":{"type":"flex","justifyContent":"space-between"}} -->
-<div class="wp-block-buttons wpz-alt-button"><!-- wp:button {"backgroundColor":"secondary","align":"right","className":"is-style-fill"} -->
-<div class="wp-block-button alignright is-style-fill"><a class="wp-block-button__link has-secondary-background-color has-background wp-element-button">Get in touch</a></div>
+<div class="wp-block-buttons wpz-alt-button"><!-- wp:button {"backgroundColor":"secondary","align":"right","style":{"border":{"radius":"4px"}},"className":"is-style-fill"} -->
+<div class="wp-block-button alignright is-style-fill"><a class="wp-block-button__link has-secondary-background-color has-background" style="border-radius:4px">Get in touch</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

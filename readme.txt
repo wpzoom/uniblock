@@ -3,7 +3,7 @@ Contributors: WPZOOM
 Requires at least: 6.0
 Tested up to: 6.1
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.
 
 == Changelog ==
+
+= 1.0.2 =
+* Added compatibility with WordPress 6.0
+* The theme is not relying on the Gutenberg plugin anymore
 
 = 1.0.1 =
 * Added support for multiple Google Fonts which are hosted locally using WPTT Webfont Loader (GDPR-compliant, as fonts are not loaded from Google's servers)

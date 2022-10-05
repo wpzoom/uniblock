@@ -162,7 +162,7 @@ endif;
 
 
 /* Add the link to the Customizer */
-add_action('customize_register', function ( $manager ) {  },  10, 1 );
+// add_action('customize_register', function ( $manager ) {  },  10, 1 );
 
 
 

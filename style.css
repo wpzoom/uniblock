@@ -8,7 +8,7 @@ Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, f
 Requires at least: 6.0
 Tested up to: 6.1
 Requires PHP: 7.4
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: uniblock
@@ -61,8 +61,8 @@ a:hover {
 ol,
 ul {
     margin: 0;
-    /*padding: 0;*/
-    /*list-style-position: inside;*/
+    padding: 0;
+    list-style-position: inside;
 }
 
 b,
@@ -577,6 +577,7 @@ p.has-background {
 
 .wp-block-query-pagination-numbers:first-child {
     margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .wp-block-query-pagination-numbers .page-numbers {

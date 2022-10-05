@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"layout":{"type":"constrained"},"align":"full","style":{"spacing":{"margin":{"top":"0px"}}}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -78,14 +78,14 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px"><!-- wp:button {"style":{"border":{"radius":"5px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:5px">Sign Up Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px">Sign Up Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px","padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
-<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}},"border":{"radius":{"topLeft":"20px","topRight":"20px"}}},"backgroundColor":"primary","textColor":"background"} -->
+<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}},"border":{"radius":{"topLeft":"20px","topRight":"20px"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":true}} -->
 <div class="wp-block-group has-background-color has-primary-background-color has-text-color has-background" style="border-top-left-radius:20px;border-top-right-radius:20px;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px"><!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -103,7 +103,7 @@
 <!-- /wp:spacer --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"style":"none","width":"0px"}}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"style":"none","width":"0px"}},"layout":{"inherit":true}} -->
 <div class="wp-block-group" style="border-style:none;border-width:0px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 <p class="has-text-align-center has-small-font-size">Feature #1</p>
 <!-- /wp:paragraph -->
@@ -142,14 +142,14 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px"><!-- wp:button {"style":{"border":{"radius":"5px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:5px">Sign Up Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px">Sign Up Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px","padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
-<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}},"border":{"radius":{"topLeft":"20px","topRight":"20px"}}},"backgroundColor":"secondary","textColor":"background"} -->
+<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}},"border":{"radius":{"topLeft":"20px","topRight":"20px"}}},"backgroundColor":"secondary","textColor":"background","layout":{"inherit":true}} -->
 <div class="wp-block-group has-background-color has-secondary-background-color has-text-color has-background" style="border-top-left-radius:20px;border-top-right-radius:20px;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px"><!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -167,7 +167,7 @@
 <!-- /wp:spacer --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"style":"none","width":"0px"}}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"style":"none","width":"0px"}},"layout":{"inherit":true}} -->
 <div class="wp-block-group" style="border-style:none;border-width:0px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 <p class="has-text-align-center has-small-font-size">Feature #1</p>
 <!-- /wp:paragraph -->
@@ -206,7 +206,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px"><!-- wp:button {"style":{"border":{"radius":"5px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:5px">Sign Up Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px">Sign Up Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

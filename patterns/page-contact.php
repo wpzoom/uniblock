@@ -6,8 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"tagName":"main","layout":{"type":"constrained"},"align":"full","style":{"spacing":{"margin":{"top":"0"}},"color":{"gradient":"linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%)"}},"className":"site-content"} -->
-<main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:group {"layout":{"type":"default"},"className":"is-style-default"} -->
+<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}},"color":{"gradient":"linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%)"}},"className":"site-content","layout":{"inherit":true}} -->
+<main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:group {"className":"is-style-default","layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"28px"} -->
 <div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -28,7 +28,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:image {"align":"right","id":5753,"sizeSlug":"large","linkDestination":"none","style":{"color":{}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:image {"align":"right","id":5753,"sizeSlug":"large","linkDestination":"none","style":{"color":[]}} -->
 <figure class="wp-block-image alignright size-large"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-24-1.png" alt="" class="wp-image-5753"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
@@ -36,11 +36,15 @@
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"default"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"className":"is-style-default"} -->
-<div class="wp-block-group is-style-default" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-<div class="wp-block-columns are-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"right":"var:preset|spacing|80"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-right:var(--wp--preset--spacing--80);flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"className":"is-style-default","layout":{"type":"default"}} -->
+<div class="wp-block-group is-style-default" style="padding-top:var:preset|spacing|80;padding-bottom:var:preset|spacing|80"><!-- wp:group {"layout":{"inherit":true}} -->
+<div class="wp-block-group"><!-- wp:spacer {"height":"51px"} -->
+<div style="height:51px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"right":"7%"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-right:7%;flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
 <p class="has-primary-color has-text-color">Let's Connect!</p>
 <!-- /wp:paragraph -->
 
@@ -75,11 +79,15 @@
 </form>
 <!-- /wp:html --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":"51px"} -->
+<div style="height:51px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"},"align":"full"} -->
+<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull"><!-- wp:columns {"verticalAlignment":"center","align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"white"} -->
 <div class="wp-block-columns alignfull are-vertically-aligned-center has-white-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"center","width":"50%","className":"map-grayscale","layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-center map-grayscale" style="flex-basis:50%"><!-- wp:webfactory/map {"zoom":13,"height":550,"address":"1500 Broadway, New York, NY 10036, United States"} -->
@@ -87,8 +95,8 @@
 <!-- /wp:webfactory/map --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"left":"var:preset|spacing|small","top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small);flex-basis:50%"><!-- wp:heading {"fontSize":"max-48"} -->
+<!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"2%"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var:preset|spacing|small;padding-right:var:preset|spacing|small;padding-bottom:var:preset|spacing|small;padding-left:2%;flex-basis:50%"><!-- wp:heading {"fontSize":"max-48"} -->
 <h2 class="has-max-48-font-size">UNIBLOCK</h2>
 <!-- /wp:heading -->
 
@@ -123,7 +131,7 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"inherit":true}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -170,7 +178,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","left":"0","bottom":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:0"><!-- wp:column {"verticalAlignment":"center","width":"66.66%","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-columns" style="padding-top:var:preset|spacing|60;padding-bottom:var:preset|spacing|60;padding-left:0"><!-- wp:column {"verticalAlignment":"center","width":"66.66%","layout":{"inherit":true,"justifyContent":"left"}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:heading -->
 <h2>Thinking about joining our team?</h2>
 <!-- /wp:heading -->
@@ -182,11 +190,15 @@
 
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-primary-background-color has-background wp-element-button">View Job Openings</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"4px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-primary-background-color has-background" style="border-radius:4px">View Job Openings</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":"45px"} -->
+<div style="height:45px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

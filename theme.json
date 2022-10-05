@@ -450,15 +450,18 @@
 					"slug": "max-72"
 				}
 			]
-		},
-		"useRootPaddingAwareAlignments": true
+		}
 	},
 	"styles": {
 		"blocks": {
 			"core/button": {
 				"color": {
 					"background": "var(--wp--preset--color--primary)"
-				}
+				},
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--small)",
+                    "fontWeight": "var(--wp--custom--font-weight--medium)"
+                }
 			},
 			"core/buttons": {
 				"spacing": {
