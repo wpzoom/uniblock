@@ -3,7 +3,7 @@ Contributors: WPZOOM
 Requires at least: 6.0
 Tested up to: 6.1
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.
 
 == Changelog ==
+
+= 1.0.3 =
+* Updating some images from the starter content
 
 = 1.0.2 =
 * Added compatibility with WordPress 6.0
@@ -97,6 +100,10 @@ Source: https://www.pexels.com/photo/female-engineer-holding-presentation-386194
 
 Starter content image
 License: CC0 1.0 Universal (CC0 1.0)
+Source: https://www.pexels.com/photo/woman-in-black-tank-top-3861962/
+
+Starter content image
+License: CC0 1.0 Universal (CC0 1.0)
 Source: https://www.pexels.com/photo/colleagues-looking-at-computer-screen-3861948/
 
 Starter content image
@@ -112,5 +119,7 @@ License: CC0 1.0 Universal (CC0 1.0)
 Source:
 https://www.pexels.com/photo/man-wearing-white-dress-shirt-and-black-blazer-2182970/
 https://www.pexels.com/photo/woman-holding-a-tablet-6579980/
-https://www.pexels.com/photo/businessman-fashion-young-business-4392050/
-https://www.pexels.com/photo/1181567/
+https://www.pexels.com/photo/man-wearing-black-suit-jacket-and-pants-937481/
+https://www.pexels.com/photo/young-ethnic-self-assured-woman-in-white-room-4257878/
+https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/
+https://www.pexels.com/photo/gray-scale-bearded-man-842980/

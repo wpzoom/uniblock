@@ -36,6 +36,8 @@ if ( ! function_exists( 'uniblock_setup' ) ) {
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
 
+        register_nav_menus( array( 'primary' => esc_html__( 'Primary Menu', 'uniblock' ) ) );
+
 	}
 }
 add_action( 'after_setup_theme', 'uniblock_setup' );
@@ -163,7 +165,6 @@ endif;
 
 /* Add the link to the Customizer */
 // add_action('customize_register', function ( $manager ) {  },  10, 1 );
-
 
 
 /**
