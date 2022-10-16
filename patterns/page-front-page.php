@@ -6,8 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}},"color":{"gradient":"linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%)"}},"className":"site-content","layout":{"inherit":true}} -->
-<main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:group {"className":"is-style-default","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}}},"gradient":"black-primary","className":"site-content","layout":{"inherit":true}} -->
+<main class="wp-block-group alignfull site-content has-black-primary-gradient-background has-background" style="margin-top:0"><!-- wp:group {"className":"is-style-default","layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"88px"} -->
 <div style="height:88px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -37,7 +37,7 @@
 <!-- wp:group {"style":{"border":{"radius":"20px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="border-radius:20px"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23-1.png","id":45,"dimRatio":30,"overlayColor":"secondary","minHeight":536,"minHeightUnit":"px","isDark":false,"align":"center","className":"is-style-round-corners"} -->
 <div class="wp-block-cover aligncenter is-light is-style-round-corners" style="min-height:536px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-45" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23-1.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:wpzoom-video-popup-block/block {"url":"https://vimeo.com/693743279","text":"","icon":2,"iconSize":"50px","textColor":"white"} -->
-<a class="wp-block-wpzoom-video-popup-block-block wpzoom-video-popup-block has-white-color has-text-color" href="https://vimeo.com/693743279"><span class="wpzoom-video-popup-block_icon" style="height:50px;width:50px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"><path d="m14.25 10.367c-1-0.57778-2.2504 0.14388-2.2504 1.2988v8.6674c0 1.155 1.2504 1.8766 2.2504 1.2988l8.2498-4.7666c0.3094-0.1786 0.4998-0.5088 0.4998-0.86588 0-0.35714-0.1904-0.68718-0.4998-0.86586zm-14.25 5.6326c0-8.8366 7.1634-16 16-16 8.8366 0 16 7.1634 16 16 0 8.8366-7.1634 16-16 16-8.8366 0-16-7.1634-16-16zm16-14c-7.732 0-14 6.268-14 14 0 7.732 6.268 14 14 14 7.732 0 14-6.268 14-14 0-7.732-6.268-14-14-14z" fill="currentColor"></path></svg></span></a>
+<a class="wp-block-wpzoom-video-popup-block-block wpzoom-video-popup-block has-white-color has-text-color" href="https://vimeo.com/693743279"><span class="wpzoom-video-popup-block_icon" style="height:50px;width:50px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"><path d="m14.25 10.367c-1-0.57778-2.2504 0.14388-2.2504 1.2988v8.6674c0 1.155 1.2504 1.8766 2.2504 1.2988l8.2498-4.7666c0.3094-0.1786 0.4998-0.5088 0.4998-0.86588 0-0.35714-0.1904-0.68718-0.4998-0.86586zm-14.25 5.6326c0-8.8366 7.1634-16 16-16 8.8366 0 16 7.1634 16 16 0 8.8366-7.1634 16-16 16-8.8366 0-16-7.1634-16-16zm16-14c-7.732 0-14 6.268-14 14 0 7.732 6.268 14 14 14 7.732 0 14-6.268 14-14 0-7.732-6.268-14-14-14z" fill="var(--wp--preset--color--primary)"></path></svg></span></a>
 <!-- /wp:wpzoom-video-popup-block/block --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
@@ -99,10 +99,10 @@
 <!-- /wp:spacer -->
 
 <!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
-<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:html -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"light-background","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-light-background-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:html -->
 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="#0D6EFD"></path>
+<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="var(--wp--preset--color--primary)"></path>
 </svg>
 <!-- /wp:html -->
 
@@ -119,10 +119,10 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
-<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:html -->
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"light-background","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-light-background-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:html -->
 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="#0D6EFD"></path>
+<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="var(--wp--preset--color--primary)"></path>
 </svg>
 <!-- /wp:html -->
 
@@ -139,10 +139,10 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
-<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:html -->
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"light-background","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-light-background-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:html -->
 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="#0D6EFD"></path>
+<path d="M50 27.7778H31.6667L44.7222 40.8333L40.8333 44.7222L27.7778 31.6667V50H22.2222V31.3889L9.16667 44.4444L5.27778 40.5556L17.7778 27.7778H0V22.2222H18.3333L5.27778 9.16667L9.16667 5.27778L22.2222 18.3333V0H27.7778V17.7778L40.5556 5L44.4444 9.16667L31.3889 22.2222H50V27.7778Z" fill="var(--wp--preset--color--primary)"></path>
 </svg>
 <!-- /wp:html -->
 
@@ -354,8 +354,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
-<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:paragraph -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"light-background","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-light-background-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:paragraph -->
 <p>"Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam."</p>
 <!-- /wp:paragraph -->
 
@@ -370,8 +370,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"white","className":"is-style-shadow"} -->
-<div class="wp-block-column is-style-shadow has-white-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:paragraph -->
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"light-background","className":"is-style-shadow"} -->
+<div class="wp-block-column is-style-shadow has-light-background-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:paragraph -->
 <p>"Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam."</p>
 <!-- /wp:paragraph -->
 
@@ -400,8 +400,8 @@
 <div style="height:130px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"align":"full","backgroundColor":"white","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"align":"full","backgroundColor":"light-background","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull has-light-background-background-color has-background"><!-- wp:group {"layout":{"inherit":true}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -618,7 +618,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:html -->
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10.9091 19.0909C13.8024 19.0909 16.5771 20.2403 18.623 22.2861C20.6688 24.332 21.8182 27.1067 21.8182 30C21.8182 32.8933 20.6688 35.668 18.623 37.7139C16.5771 39.7597 13.8024 40.9091 10.9091 40.9091C8.01582 40.9091 5.24105 39.7597 3.1952 37.7139C1.14935 35.668 0 32.8933 0 30C0 27.1067 1.14935 24.332 3.1952 22.2861C5.24105 20.2403 8.01582 19.0909 10.9091 19.0909ZM30 0C32.8933 0 35.668 1.14935 37.7139 3.1952C39.7597 5.24105 40.9091 8.01582 40.9091 10.9091C40.9091 13.8024 39.7597 16.5771 37.7139 18.623C35.668 20.6688 32.8933 21.8182 30 21.8182C27.1067 21.8182 24.332 20.6688 22.2861 18.623C20.2403 16.5771 19.0909 13.8024 19.0909 10.9091C19.0909 8.01582 20.2403 5.24105 22.2861 3.1952C24.332 1.14935 27.1067 0 30 0ZM30 38.1818C32.8933 38.1818 35.668 39.3312 37.7139 41.377C39.7597 43.4229 40.9091 46.1976 40.9091 49.0909C40.9091 51.9842 39.7597 54.7589 37.7139 56.8048C35.668 58.8507 32.8933 60 30 60C27.1067 60 24.332 58.8507 22.2861 56.8048C20.2403 54.7589 19.0909 51.9842 19.0909 49.0909C19.0909 46.1976 20.2403 43.4229 22.2861 41.377C24.332 39.3312 27.1067 38.1818 30 38.1818ZM49.0909 19.0909C51.9842 19.0909 54.7589 20.2403 56.8048 22.2861C58.8507 24.332 60 27.1067 60 30C60 32.8933 58.8507 35.668 56.8048 37.7139C54.7589 39.7597 51.9842 40.9091 49.0909 40.9091C46.1976 40.9091 43.4229 39.7597 41.377 37.7139C39.3312 35.668 38.1818 32.8933 38.1818 30C38.1818 27.1067 39.3312 24.332 41.377 22.2861C43.4229 20.2403 46.1976 19.0909 49.0909 19.0909ZM10.9091 24.5455C9.46246 24.5455 8.07507 25.1201 7.05214 26.1431C6.02922 27.166 5.45455 28.5534 5.45455 30C5.45455 31.4466 6.02922 32.834 7.05214 33.8569C8.07507 34.8799 9.46246 35.4545 10.9091 35.4545C12.3557 35.4545 13.7431 34.8799 14.766 33.8569C15.789 32.834 16.3636 31.4466 16.3636 30C16.3636 28.5534 15.789 27.166 14.766 26.1431C13.7431 25.1201 12.3557 24.5455 10.9091 24.5455ZM49.0909 24.5455C47.6443 24.5455 46.2569 25.1201 45.234 26.1431C44.211 27.166 43.6364 28.5534 43.6364 30C43.6364 31.4466 44.211 32.834 45.234 33.8569C46.2569 34.8799 47.6443 35.4545 49.0909 35.4545C50.5375 35.4545 51.9249 34.8799 52.9479 33.8569C53.9708 32.834 54.5455 31.4466 54.5455 30C54.5455 28.5534 53.9708 27.166 52.9479 26.1431C51.9249 25.1201 50.5375 24.5455 49.0909 24.5455ZM30 43.6364C28.5534 43.6364 27.166 44.211 26.1431 45.234C25.1201 46.2569 24.5455 47.6443 24.5455 49.0909C24.5455 50.5375 25.1201 51.9249 26.1431 52.9479C27.166 53.9708 28.5534 54.5455 30 54.5455C31.4466 54.5455 32.834 53.9708 33.8569 52.9479C34.8799 51.9249 35.4545 50.5375 35.4545 49.0909C35.4545 47.6443 34.8799 46.2569 33.8569 45.234C32.834 44.211 31.4466 43.6364 30 43.6364Z" fill="#0D6EFD"></path>
+<path d="M10.9091 19.0909C13.8024 19.0909 16.5771 20.2403 18.623 22.2861C20.6688 24.332 21.8182 27.1067 21.8182 30C21.8182 32.8933 20.6688 35.668 18.623 37.7139C16.5771 39.7597 13.8024 40.9091 10.9091 40.9091C8.01582 40.9091 5.24105 39.7597 3.1952 37.7139C1.14935 35.668 0 32.8933 0 30C0 27.1067 1.14935 24.332 3.1952 22.2861C5.24105 20.2403 8.01582 19.0909 10.9091 19.0909ZM30 0C32.8933 0 35.668 1.14935 37.7139 3.1952C39.7597 5.24105 40.9091 8.01582 40.9091 10.9091C40.9091 13.8024 39.7597 16.5771 37.7139 18.623C35.668 20.6688 32.8933 21.8182 30 21.8182C27.1067 21.8182 24.332 20.6688 22.2861 18.623C20.2403 16.5771 19.0909 13.8024 19.0909 10.9091C19.0909 8.01582 20.2403 5.24105 22.2861 3.1952C24.332 1.14935 27.1067 0 30 0ZM30 38.1818C32.8933 38.1818 35.668 39.3312 37.7139 41.377C39.7597 43.4229 40.9091 46.1976 40.9091 49.0909C40.9091 51.9842 39.7597 54.7589 37.7139 56.8048C35.668 58.8507 32.8933 60 30 60C27.1067 60 24.332 58.8507 22.2861 56.8048C20.2403 54.7589 19.0909 51.9842 19.0909 49.0909C19.0909 46.1976 20.2403 43.4229 22.2861 41.377C24.332 39.3312 27.1067 38.1818 30 38.1818ZM49.0909 19.0909C51.9842 19.0909 54.7589 20.2403 56.8048 22.2861C58.8507 24.332 60 27.1067 60 30C60 32.8933 58.8507 35.668 56.8048 37.7139C54.7589 39.7597 51.9842 40.9091 49.0909 40.9091C46.1976 40.9091 43.4229 39.7597 41.377 37.7139C39.3312 35.668 38.1818 32.8933 38.1818 30C38.1818 27.1067 39.3312 24.332 41.377 22.2861C43.4229 20.2403 46.1976 19.0909 49.0909 19.0909ZM10.9091 24.5455C9.46246 24.5455 8.07507 25.1201 7.05214 26.1431C6.02922 27.166 5.45455 28.5534 5.45455 30C5.45455 31.4466 6.02922 32.834 7.05214 33.8569C8.07507 34.8799 9.46246 35.4545 10.9091 35.4545C12.3557 35.4545 13.7431 34.8799 14.766 33.8569C15.789 32.834 16.3636 31.4466 16.3636 30C16.3636 28.5534 15.789 27.166 14.766 26.1431C13.7431 25.1201 12.3557 24.5455 10.9091 24.5455ZM49.0909 24.5455C47.6443 24.5455 46.2569 25.1201 45.234 26.1431C44.211 27.166 43.6364 28.5534 43.6364 30C43.6364 31.4466 44.211 32.834 45.234 33.8569C46.2569 34.8799 47.6443 35.4545 49.0909 35.4545C50.5375 35.4545 51.9249 34.8799 52.9479 33.8569C53.9708 32.834 54.5455 31.4466 54.5455 30C54.5455 28.5534 53.9708 27.166 52.9479 26.1431C51.9249 25.1201 50.5375 24.5455 49.0909 24.5455ZM30 43.6364C28.5534 43.6364 27.166 44.211 26.1431 45.234C25.1201 46.2569 24.5455 47.6443 24.5455 49.0909C24.5455 50.5375 25.1201 51.9249 26.1431 52.9479C27.166 53.9708 28.5534 54.5455 30 54.5455C31.4466 54.5455 32.834 53.9708 33.8569 52.9479C34.8799 51.9249 35.4545 50.5375 35.4545 49.0909C35.4545 47.6443 34.8799 46.2569 33.8569 45.234C32.834 44.211 31.4466 43.6364 30 43.6364Z" fill="var(--wp--preset--color--primary)"></path>
 </svg>
 <!-- /wp:html -->
 
@@ -634,7 +634,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:html -->
 <svg width="60" height="47" viewBox="0 0 60 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M54.5455 13.6364C50.4545 13.6364 48.2727 17.4545 49.3636 20.4545L39.5455 30.2727C38.7273 30 37.6364 30 36.8182 30.2727L29.7273 23.1818C30.8182 20.1818 28.6364 16.3636 24.5455 16.3636C20.7273 16.3636 18.2727 20.1818 19.3636 23.1818L6.81818 35.4545C3.81818 34.6364 0 36.8182 0 40.9091C0 43.9091 2.45455 46.3636 5.45455 46.3636C9.27273 46.3636 11.7273 42.5455 10.6364 39.5455L22.9091 27C23.7273 27.2727 24.8182 27.2727 25.6364 27L32.7273 34.0909C31.9091 36.8182 34.0909 40.9091 38.1818 40.9091C42.2727 40.9091 44.4545 37.0909 43.3636 34.0909L53.1818 24.2727C56.1818 25.0909 60 22.9091 60 19.0909C60 16.0909 57.5455 13.6364 54.5455 13.6364ZM38.1818 16.3636L40.6364 10.6364L46.3636 8.18182L40.6364 5.72727L38.1818 0L35.7273 5.72727L30 8.18182L35.7273 10.6364L38.1818 16.3636ZM6.81818 21.8182L8.18182 16.3636L13.6364 15L8.18182 13.6364L6.81818 8.18182L5.45455 13.6364L0 15L5.45455 16.3636L6.81818 21.8182Z" fill="#0D6EFD"></path>
+<path d="M54.5455 13.6364C50.4545 13.6364 48.2727 17.4545 49.3636 20.4545L39.5455 30.2727C38.7273 30 37.6364 30 36.8182 30.2727L29.7273 23.1818C30.8182 20.1818 28.6364 16.3636 24.5455 16.3636C20.7273 16.3636 18.2727 20.1818 19.3636 23.1818L6.81818 35.4545C3.81818 34.6364 0 36.8182 0 40.9091C0 43.9091 2.45455 46.3636 5.45455 46.3636C9.27273 46.3636 11.7273 42.5455 10.6364 39.5455L22.9091 27C23.7273 27.2727 24.8182 27.2727 25.6364 27L32.7273 34.0909C31.9091 36.8182 34.0909 40.9091 38.1818 40.9091C42.2727 40.9091 44.4545 37.0909 43.3636 34.0909L53.1818 24.2727C56.1818 25.0909 60 22.9091 60 19.0909C60 16.0909 57.5455 13.6364 54.5455 13.6364ZM38.1818 16.3636L40.6364 10.6364L46.3636 8.18182L40.6364 5.72727L38.1818 0L35.7273 5.72727L30 8.18182L35.7273 10.6364L38.1818 16.3636ZM6.81818 21.8182L8.18182 16.3636L13.6364 15L8.18182 13.6364L6.81818 8.18182L5.45455 13.6364L0 15L5.45455 16.3636L6.81818 21.8182Z" fill="var(--wp--preset--color--primary)"></path>
 </svg>
 <!-- /wp:html -->
 
@@ -650,7 +650,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:html -->
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M59.0775 27.87H59.1075L32.1075 0.87C31.4775 0.3 30.7575 0 29.9775 0C29.1975 0 28.4775 0.3 27.8475 0.87L0.8475 27.87H0.8775C-0.2925 29.04 -0.2925 30.96 0.8775 32.13H0.8475L27.8475 59.13C28.4775 59.7 29.1975 60 29.9775 60C30.7575 60 31.4775 59.7 32.1075 59.13L59.1075 32.13H59.0775C60.2475 30.96 60.2475 29.04 59.0775 27.87ZM32.9775 18.84V10.23L45.8775 23.13L32.9775 18.84ZM26.9775 18.84L14.0775 23.13L26.9775 10.23V18.84ZM29.9775 24.15L47.4975 30L29.9775 35.85L12.4575 30L29.9775 24.15ZM26.9775 41.16V49.77L14.0775 36.87L26.9775 41.16ZM32.9775 41.16L45.8775 36.87L32.9775 49.77V41.16Z" fill="#0D6EFD"></path>
+<path d="M59.0775 27.87H59.1075L32.1075 0.87C31.4775 0.3 30.7575 0 29.9775 0C29.1975 0 28.4775 0.3 27.8475 0.87L0.8475 27.87H0.8775C-0.2925 29.04 -0.2925 30.96 0.8775 32.13H0.8475L27.8475 59.13C28.4775 59.7 29.1975 60 29.9775 60C30.7575 60 31.4775 59.7 32.1075 59.13L59.1075 32.13H59.0775C60.2475 30.96 60.2475 29.04 59.0775 27.87ZM32.9775 18.84V10.23L45.8775 23.13L32.9775 18.84ZM26.9775 18.84L14.0775 23.13L26.9775 10.23V18.84ZM29.9775 24.15L47.4975 30L29.9775 35.85L12.4575 30L29.9775 24.15ZM26.9775 41.16V49.77L14.0775 36.87L26.9775 41.16ZM32.9775 41.16L45.8775 36.87L32.9775 49.77V41.16Z" fill="var(--wp--preset--color--primary)"></path>
 </svg>
 <!-- /wp:html -->
 

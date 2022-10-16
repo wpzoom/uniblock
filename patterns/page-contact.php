@@ -6,8 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}},"color":{"gradient":"linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%)"}},"className":"site-content","layout":{"inherit":true}} -->
-<main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 63%,rgb(249,250,253) 63%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:group {"className":"is-style-default","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}}},"gradient":"black-primary","className":"site-content","layout":{"inherit":true}} -->
+<main class="wp-block-group alignfull site-content has-black-primary-gradient-background has-background" style="margin-top:0"><!-- wp:group {"className":"is-style-default","layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"28px"} -->
 <div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -88,8 +88,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull"><!-- wp:columns {"verticalAlignment":"center","align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"white"} -->
-<div class="wp-block-columns alignfull are-vertically-aligned-center has-white-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"center","width":"50%","className":"map-grayscale","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull"><!-- wp:columns {"verticalAlignment":"center","align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"light-background"} -->
+<div class="wp-block-columns alignfull are-vertically-aligned-center has-light-background-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"center","width":"50%","className":"map-grayscale","layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-center map-grayscale" style="flex-basis:50%"><!-- wp:webfactory/map {"zoom":13,"height":550,"address":"1500 Broadway, New York, NY 10036, United States"} -->
 <div class="wp-block-webfactory-map"><div class="wp-block-webfactory-map"><iframe width="100%" height="550px" src="https://www.google.com/maps/embed/v1/place?q=1500%20Broadway%2C%20New%20York%2C%20NY%2010036%2C%20United%20States&amp;maptype=roadmap&amp;zoom=13&amp;key=AIzaSyAjyDspiPfzEfjRSS5fQzm-3jHFjHxeXB4" frameborder="0"></iframe></div></div>
 <!-- /wp:webfactory/map --></div>

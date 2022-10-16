@@ -144,8 +144,8 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 .wp-block-button__link:hover,
 .wp-block-search__button:hover {
-    background-color: var(--wp--preset--color--secondary);
-    color: var(--wp--preset--color--white);
+    background-color: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--light-background);
     text-decoration: none;
 }
 
@@ -383,16 +383,19 @@ ul li:where(.wp-block-list) {
 /* Navigation
 --------------------------------------------- */
 
-.wp-block-navigation .wp-block-navigation-item a:hover,
-.wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item > .current-menu-item,
-.wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item.current-menu-item > a {
-    color: var(--wp--preset--color--primary);
-}
+@media (min-width:600px) {
 
-.wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item.current-menu-item svg {
-    stroke: var(--wp--preset--color--primary);
-}
+    .wp-block-navigation .wp-block-navigation-item a:hover,
+    .wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item > .current-menu-item,
+    .wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item.current-menu-item > a {
+        color: var(--wp--preset--color--primary);
+    }
 
+    .wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item.current-menu-item svg {
+        stroke: var(--wp--preset--color--primary);
+    }
+
+}
 
 .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open,
 .wp-block-navigation__responsive-container.is-menu-open {
@@ -426,7 +429,7 @@ ul li:where(.wp-block-list) {
 
 .has-background .wp-block-navigation__responsive-container-open:focus,
 .has-background .wp-block-navigation__responsive-container-open:hover {
-    color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--white);
 }
 
 .wp-block-navigation:not([style*=text-decoration]) a,
@@ -441,7 +444,7 @@ ul li:where(.wp-block-list) {
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
     background-color: var(--wp--preset--color--primary);
     border: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--light-background);
     padding: 10px;
     border-radius: 4px;
 
@@ -466,15 +469,20 @@ ul li:where(.wp-block-list) {
 }
 
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container a:hover {
-    color: var(--wp--preset--color--white);
+    color: var(--wp--preset--color--light-background);
     opacity: .8;
 }
 
 /* Header Button */
 
+.wpz-alt-button .wp-block-button__link,
+.wpz-alt-button.wp-block-button__link {
+    color: var(--wp--preset--color--light-background);
+}
+
 .wpz-alt-button .wp-block-button__link:hover,
 .wpz-alt-button.wp-block-button__link:hover {
-    background-color: var(--wp--preset--color--white) !important;
+    background-color: var(--wp--preset--color--light-background) !important;
     color: var(--wp--preset--color--foreground);
 }
 
@@ -505,7 +513,7 @@ p.has-background {
 .wp-block-pullquote cite {
     display: block;
     font-size: var(--wp--preset--font-size--small);
-    color: var(--wp--preset--color--grey);
+    color: var(--wp--preset--color--tertiary);
     font-style: inherit;
     margin-top: 10px;
     text-transform: inherit;
@@ -593,7 +601,8 @@ p.has-background {
 
 /* Read More button */
 .wp-block-read-more:hover {
-    background-color: var(--wp--preset--color--secondary);
+    background-color: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--light-background);
 }
 
 /* Table
@@ -715,7 +724,7 @@ textarea,
     background-color: var(--wp--preset--color--white);
     border: 1px solid var(--wp--preset--color--lightgrey);
     border-radius: 3px;
-    color: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--secondary);
     font-family: var(--wp--preset--font-family--outfit);
     font-size: var(--wp--preset--font-size-small);
     font-weight: var(--wp--custom--font-weight--regular);

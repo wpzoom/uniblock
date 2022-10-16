@@ -1,0 +1,81 @@
+{
+    "version": 2,
+    "title": "Epilogue",
+    "settings": {
+        "color": {
+            "gradients": [
+                {
+                    "gradient": "linear-gradient(180deg, var(--wp--preset--color--background) 0%, var(--wp--preset--color--background) 73%, var(--wp--preset--color--background) 73%, var(--wp--preset--color--background) 100%)",
+                    "name": "Secondary to Light",
+                    "slug": "black-primary"
+                },
+                {
+                    "gradient": "linear-gradient(135deg,rgba(0,0,0,1) 50%,var(--wp--preset--color--tertiary) 100%)",
+                    "name": "Black to Tertiary",
+                    "slug": "black-secondary"
+                }
+            ],
+            "palette": [
+                {
+                    "color": "#FFD100",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#333333",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#202020",
+                    "name": "Header & Footer",
+                    "slug": "header-footer"
+                },
+                {
+                    "color": "#EDEDED",
+                    "name": "Tertiary",
+                    "slug": "tertiary"
+                },
+                {
+                    "color": "rgba(255, 255, 255, 0.4)",
+                    "name": "LightGrey",
+                    "slug": "lightgrey"
+                },
+                {
+                    "color": "#fff",
+                    "name": "Foreground",
+                    "slug": "foreground"
+                },
+                {
+                    "color": "#202020",
+                    "name": "Background",
+                    "slug": "background"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "White",
+                    "slug": "white"
+                },
+                {
+                    "color": "#333333",
+                    "name": "Light Background",
+                    "slug": "light-background"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "var(--wp--preset--color--background)"
+                }
+            },
+            "core/read-more": {
+                "color": {
+                    "text": "var(--wp--preset--color--background)"
+                }
+            }
+        }
+    }
+}

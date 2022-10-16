@@ -1,0 +1,56 @@
+{
+	"version": 2,
+	"title": "Yeseva One",
+	"settings": {
+		"color": {
+			"palette": [
+                {
+                    "color": "#40916C",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#081C15",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#081C15",
+                    "name": "Header & Footer",
+                    "slug": "header-footer"
+                },
+                {
+                    "color": "#6C6C77",
+                    "name": "Tertiary",
+                    "slug": "tertiary"
+                },
+                {
+                    "color": "#EDEDED",
+                    "name": "LightGrey",
+                    "slug": "lightgrey"
+                },
+                {
+                    "color": "#081C15",
+                    "name": "Foreground",
+                    "slug": "foreground"
+                },
+                {
+                    "color": "#FCFFFC",
+                    "name": "Background",
+                    "slug": "background"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "White",
+                    "slug": "white"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "Light Background",
+                    "slug": "light-background"
+                }
+            ]
+		}
+	}
+}
+	
