@@ -8,7 +8,7 @@ Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, f
 Requires at least: 6.0
 Tested up to: 6.1
 Requires PHP: 7.4
-Version: 1.0.3
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: uniblock
@@ -477,7 +477,7 @@ ul li:where(.wp-block-list) {
 
 .wpz-alt-button .wp-block-button__link,
 .wpz-alt-button.wp-block-button__link {
-    color: var(--wp--preset--color--light-background);
+    color: var(--wp--preset--color--white);
 }
 
 .wpz-alt-button .wp-block-button__link:hover,
@@ -758,7 +758,6 @@ textarea {
 }
 
 ::placeholder {
-    color: var(--wp--preset--color--foreground);
     font-size: var(--wp--preset--font-size--small);
     opacity: 0.6;
 }
