@@ -9,12 +9,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.
+UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. The theme bundles 6 Color Schemes and 19 Block Patterns. DEMO CONTENT & Documentation can be found here: https://www.wpzoom.com/documentation/uniblock/
 
 == Changelog ==
 
 = 1.1.1 =
-* Minor fixes
+* Removed the Demo Content Importer due to Theme Requirements on wordpress.org
 
 = 1.1.0 =
 * Added Style variations
