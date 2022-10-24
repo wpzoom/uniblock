@@ -260,7 +260,7 @@ function uniblock_register_required_plugins() {
         array(
             'name'     => 'One Click Demo Import',
             'slug'     => 'one-click-demo-import',
-            'required' => true,
+            'required' => false,
         ),
     );
 
@@ -330,12 +330,12 @@ if ( ! class_exists( 'Uniblock_After_Setup_Theme' ) ) {
             [
                 'name'     => 'Video Popup Block by WPZOOM',
                 'slug'     => 'wpzoom-video-popup-block',
-                'required' => true,
+                'required' => false,
             ],
             [
                 'name'     => 'Map Block for Google Maps',
                 'slug'     => 'map-block-gutenberg',
-                'required' => true,
+                'required' => false,
             ],
           ];
 
@@ -346,9 +346,9 @@ if ( ! class_exists( 'Uniblock_After_Setup_Theme' ) ) {
         public function ocdi_import_files() {
           return [
             [
-              'import_file_name'           => 'UniBlock (Free)',
-              'import_file_url'            => 'https://www.wpzoom.com/downloads/xml/uniblock.xml',
-              'import_preview_image_url'   => 'https://www.wpzoom.com/wp-content/uploads/2022/10/uniblock-full-2-1-950x720.png',
+              'import_file_name'           => 'UniBlock',
+              'import_file_url'            => get_template_directory_uri() . '/inc/demo-content/uniblock.xml',
+              'import_preview_image_url'   => get_template_directory_uri() . '/screenshot.png',
               'preview_url'                => 'https://demo.wpzoom.com/uniblock/',
             ]
           ];
@@ -406,7 +406,7 @@ if ( ! class_exists( 'Uniblock_After_Setup_Theme' ) ) {
                 array(
                     'name'     => 'One Click Demo Import',
                     'slug'     => 'one-click-demo-import',
-                    'required' => true,
+                    'required' => false,
                 ),
 
                 array(
