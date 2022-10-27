@@ -2,6 +2,13 @@
     "version": 2,
     "title": "Montserrat",
     "settings": {
+        "custom": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            }
+        },
         "color": {
             "palette": [
                 {
@@ -50,6 +57,55 @@
                     "slug": "light-background"
                 }
             ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            }
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--source-sans-pro)"
         }
     }
 }

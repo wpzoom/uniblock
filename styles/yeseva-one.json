@@ -2,6 +2,13 @@
 	"version": 2,
 	"title": "Yeseva One",
 	"settings": {
+        "custom": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            }
+        },
 		"color": {
 			"palette": [
                 {
@@ -51,6 +58,55 @@
                 }
             ]
 		}
-	}
+	},
+    "styles": {
+        "blocks": {
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            }
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--yeseva-one)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--josefin-sans)"
+        }
+    }
 }
 	

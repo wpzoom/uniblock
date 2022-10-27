@@ -281,6 +281,11 @@
                   "slug": "inter"
                 },
                 {
+                  "fontFamily": "Josefin Sans, sans-serif",
+                  "name": "Josefin Sans",
+                  "slug": "josefin-sans"
+                },
+                {
                   "fontFamily": "Jost, sans-serif",
                   "name": "Jost",
                   "slug": "jost"
@@ -371,6 +376,11 @@
                   "slug": "rubik"
                 },
                 {
+                  "fontFamily": "Source Sans Pro, sans-serif",
+                  "name": "Source Sans Pro",
+                  "slug": "source-sans-pro"
+                },
+                {
                   "fontFamily": "Source Serif Pro, sans-serif",
                   "name": "Source Serif Pro",
                   "slug": "source-serif-pro"
@@ -389,6 +399,11 @@
                   "fontFamily": "Work Sans, sans-serif",
                   "name": "Work Sans",
                   "slug": "work-sans"
+                },
+                {
+                  "fontFamily": "Yeseva One, sans-serif",
+                  "name": "Yeseva One",
+                  "slug": "yeseva-one"
                 }
             ],
             "fontSizes": [

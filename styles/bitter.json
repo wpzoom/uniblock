@@ -103,6 +103,9 @@
                     "fontFamily": "var(--wp--preset--font-family--bitter)"
                 }
             }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--raleway)"
         }
     }
 }

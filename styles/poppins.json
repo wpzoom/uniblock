@@ -2,6 +2,13 @@
     "version": 2,
     "title": "Poppins",
     "settings": {
+        "custom": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
+            }
+        },
         "color": {
             "gradients": [
                 {
@@ -75,7 +82,52 @@
                 "color": {
                     "text": "var(--wp--preset--color--background)"
                 }
+            },
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
             }
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--poppins)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--nunito)"
         }
     }
 }

@@ -15,7 +15,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"60%","layout":{"type":"default"}} -->
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:heading {"level":1,"textColor":"white","fontSize":"max-48"} -->
-<h1 class="has-white-color has-text-color has-max-48-font-size">We help companies build great solutions </h1>
+<h1 class="has-white-color has-text-color has-max-48-font-size">Unblock your creative potential with UniBlock.</h1>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 

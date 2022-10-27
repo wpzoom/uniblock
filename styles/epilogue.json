@@ -2,6 +2,13 @@
     "version": 2,
     "title": "Epilogue",
     "settings": {
+        "custom": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
+            }
+        },
         "color": {
             "gradients": [
                 {
@@ -75,7 +82,52 @@
                 "color": {
                     "text": "var(--wp--preset--color--background)"
                 }
+            },
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
             }
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--inter)"
         }
     }
 }
