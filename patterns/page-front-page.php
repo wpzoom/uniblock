@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}}},"gradient":"black-primary","className":"site-content","layout":{"inherit":true}} -->
+<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}}},"gradient":"black-primary","className":"site-content","layout":{"type":"constrained"}} -->
 <main class="wp-block-group alignfull site-content has-black-primary-gradient-background has-background" style="margin-top:0"><!-- wp:group {"className":"is-style-default","layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"88px"} -->
 <div style="height:88px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -37,7 +37,7 @@
 <!-- wp:group {"style":{"border":{"radius":"20px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="border-radius:20px"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23-1.png","id":45,"dimRatio":30,"overlayColor":"secondary","minHeight":536,"minHeightUnit":"px","isDark":false,"align":"center","className":"is-style-round-corners"} -->
 <div class="wp-block-cover aligncenter is-light is-style-round-corners" style="min-height:536px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-45" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-23-1.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:wpzoom-video-popup-block/block {"url":"https://vimeo.com/693743279","text":"","icon":2,"iconSize":"50px","textColor":"white"} -->
-<a class="wp-block-wpzoom-video-popup-block-block wpzoom-video-popup-block has-white-color has-text-color" href="https://vimeo.com/693743279"><span class="wpzoom-video-popup-block_icon" style="height:50px;width:50px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"><path d="m14.25 10.367c-1-0.57778-2.2504 0.14388-2.2504 1.2988v8.6674c0 1.155 1.2504 1.8766 2.2504 1.2988l8.2498-4.7666c0.3094-0.1786 0.4998-0.5088 0.4998-0.86588 0-0.35714-0.1904-0.68718-0.4998-0.86586zm-14.25 5.6326c0-8.8366 7.1634-16 16-16 8.8366 0 16 7.1634 16 16 0 8.8366-7.1634 16-16 16-8.8366 0-16-7.1634-16-16zm16-14c-7.732 0-14 6.268-14 14 0 7.732 6.268 14 14 14 7.732 0 14-6.268 14-14 0-7.732-6.268-14-14-14z" fill="var(--wp--preset--color--primary)"></path></svg></span></a>
+<a class="wp-block-wpzoom-video-popup-block-block wpzoom-video-popup-block has-white-color has-text-color" href="https://vimeo.com/693743279"><span class="wpzoom-video-popup-block_icon" style="height:50px;width:50px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"><path d="m14.25 10.367c-1-0.57778-2.2504 0.14388-2.2504 1.2988v8.6674c0 1.155 1.2504 1.8766 2.2504 1.2988l8.2498-4.7666c0.3094-0.1786 0.4998-0.5088 0.4998-0.86588 0-0.35714-0.1904-0.68718-0.4998-0.86586zm-14.25 5.6326c0-8.8366 7.1634-16 16-16 8.8366 0 16 7.1634 16 16 0 8.8366-7.1634 16-16 16-8.8366 0-16-7.1634-16-16zm16-14c-7.732 0-14 6.268-14 14 0 7.732 6.268 14 14 14 7.732 0 14-6.268 14-14 0-7.732-6.268-14-14-14z" fill="currentColor"></path></svg></span></a>
 <!-- /wp:wpzoom-video-popup-block/block --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
@@ -48,11 +48,11 @@
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"is-style-default","layout":{"inherit":true}} -->
+<!-- wp:group {"className":"is-style-default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:group {"layout":{"type":"flex"}} -->
 <div class="wp-block-group"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"right":"var:preset|spacing|x-large"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-column" style="padding-right:var:preset|spacing|x-large;flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
+<div class="wp-block-column" style="padding-right:var(--wp--preset--spacing--x-large);flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
 <p class="has-primary-color has-text-color">WHO WE ARE</p>
 <!-- /wp:paragraph -->
 
@@ -66,7 +66,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"5px"}},"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link" style="border-radius:5px">Learn more</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" style="border-radius:5px">Learn more</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
@@ -80,7 +80,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -166,7 +166,7 @@
 <div style="height:114px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull"><!-- wp:media-text {"align":"full","mediaId":78,"mediaLink":"#","mediaType":"image","verticalAlignment":"center","backgroundColor":"secondary","className":"is-style-default"} -->
 <div class="wp-block-media-text alignfull is-stacked-on-mobile is-vertically-aligned-center is-style-default has-secondary-background-color has-background"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-29.png" alt="" class="wp-image-78 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"textColor":"white","fontSize":"max-48"} -->
 <h2 class="has-white-color has-text-color has-max-48-font-size">Monetise and scale with UniBlock</h2>
@@ -181,12 +181,22 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"textColor":"white"} -->
-<ul class="has-white-color has-text-color"><li>Ut enim ad minim veniam</li><li>Excepteur sint occaecat</li><li>Duis aute irure dolor in reprehenderit</li></ul>
+<ul class="has-white-color has-text-color"><!-- wp:list-item -->
+<li>Ut enim ad minim veniam</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Excepteur sint occaecat</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Duis aute irure dolor in reprehenderit</li>
+<!-- /wp:list-item --></ul>
 <!-- /wp:list --></div></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -205,7 +215,7 @@
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"4px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:4px">Get a free quote</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:4px">Get a free quote</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
@@ -238,7 +248,17 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Ut enim ad minim veniam</li><li>Excepteur sint occaecat</li><li>Duis aute irure dolor in reprehenderit</li></ul>
+<ul><!-- wp:list-item -->
+<li>Ut enim ad minim veniam</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Excepteur sint occaecat</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Duis aute irure dolor in reprehenderit</li>
+<!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column -->
 
@@ -260,7 +280,17 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Ut enim ad minim veniam</li><li>Excepteur sint occaecat</li><li>Duis aute irure dolor in reprehenderit</li></ul>
+<ul><!-- wp:list-item -->
+<li>Ut enim ad minim veniam</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Excepteur sint occaecat</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Duis aute irure dolor in reprehenderit</li>
+<!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column -->
 
@@ -282,13 +312,23 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Ut enim ad minim veniam</li><li>Excepteur sint occaecat</li><li>Duis aute irure dolor in reprehenderit</li></ul>
+<ul><!-- wp:list-item -->
+<li>Ut enim ad minim veniam</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Excepteur sint occaecat</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Duis aute irure dolor in reprehenderit</li>
+<!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"118px"} -->
 <div style="height:118px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -336,7 +376,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -401,7 +441,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:group {"align":"full","backgroundColor":"light-background","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull has-light-background-background-color has-background"><!-- wp:group {"layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-light-background-background-color has-background"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -428,7 +468,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -600,9 +640,9 @@
 <div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull"><!-- wp:media-text {"align":"full","mediaPosition":"right","mediaId":123,"mediaLink":"#","mediaType":"image","verticalAlignment":"center","imageFill":true,"backgroundColor":"secondary","className":"is-style-default"} -->
-<div class="wp-block-media-text alignfull has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-center is-image-fill is-style-default has-secondary-background-color has-background"><figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-46.png);background-position:50% 50%"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-46.png" alt="" class="wp-image-123 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:group {"layout":{"type":"flex"}} -->
+<div class="wp-block-media-text alignfull has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-center is-image-fill is-style-default has-secondary-background-color has-background"><div class="wp-block-media-text__content"><!-- wp:group {"layout":{"type":"flex"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"73px"} -->
 <div style="height:73px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -662,11 +702,11 @@
 <!-- wp:spacer {"height":"80px"} -->
 <div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
-<!-- /wp:group --></div></div>
+<!-- /wp:group --></div><figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-46.png);background-position:50% 50%"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-46.png" alt="" class="wp-image-123 size-full"/></figure></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -690,7 +730,7 @@
 
 <!-- wp:post-date /-->
 
-<!-- wp:post-title {"level":3,"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}}},"textColor":"tertiary","fontSize":"medium"} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"tertiary","fontSize":"medium"} /-->
 
 <!-- wp:post-excerpt /-->
 

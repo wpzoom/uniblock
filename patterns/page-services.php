@@ -8,7 +8,7 @@
 ?>
 <!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}},"color":{"gradient":"linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%)"}},"className":"site-content","layout":{"type":"default"}} -->
 <main class="wp-block-group alignfull site-content has-background" style="background:linear-gradient(180deg,rgb(14,21,31) 0%,rgb(14,21,31) 73%,rgb(249,250,253) 73%,rgb(249,250,253) 100%);margin-top:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-49.png","id":5614,"dimRatio":60,"overlayColor":"secondary","align":"full"} -->
-<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5614" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-49.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"is-style-default","layout":{"inherit":true}} -->
+<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5614" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>Rectangle-49.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"is-style-default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"88px"} -->
 <div style="height:88px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"is-style-default","layout":{"type":"default"}} -->
-<div class="wp-block-group is-style-default"><!-- wp:group {"layout":{"inherit":true}} -->
+<div class="wp-block-group is-style-default"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -63,7 +63,17 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Ut enim ad minim veniam</li><li>Excepteur sint occaecat</li><li>Duis aute irure dolor in reprehenderit</li></ul>
+<ul><!-- wp:list-item -->
+<li>Ut enim ad minim veniam</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Excepteur sint occaecat</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Duis aute irure dolor in reprehenderit</li>
+<!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -87,7 +97,17 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Ut enim ad minim veniam</li><li>Excepteur sint occaecat</li><li>Duis aute irure dolor in reprehenderit</li></ul>
+<ul><!-- wp:list-item -->
+<li>Ut enim ad minim veniam</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Excepteur sint occaecat</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Duis aute irure dolor in reprehenderit</li>
+<!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -104,7 +124,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -190,11 +210,11 @@
 <div style="height:114px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -214,7 +234,7 @@
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"4px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:4px">Get a free quote</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:4px">Get a free quote</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
@@ -232,7 +252,7 @@
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>

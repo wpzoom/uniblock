@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"align":"full","backgroundColor":"primary","layout":{"inherit":true}} -->
+<!-- wp:group {"align":"full","backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-primary-background-color has-background"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"151px"} -->
 <div style="height:151px" aria-hidden="true" class="wp-block-spacer"></div>
