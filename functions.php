@@ -113,42 +113,46 @@ add_action( 'init', 'uniblock_register_block_styles' );
  *
  * @since 1.0
  */
-function uniblock_register_block_pattern_categories() {
 
-	/* Functionality specific to the Block Pattern Explorer plugin. */
-	if ( function_exists( 'register_block_pattern_category_type' ) ) {
-		register_block_pattern_category_type( 'uniblock', array( 'label' => __( 'uniblock', 'uniblock' ) ) );
-	}
+if ( ! function_exists( 'uniblock_register_block_pattern_categories' ) ) {
 
-	$block_pattern_categories = array(
-		'uniblock-footer'  => array(
-			'label'         => __( 'Footer', 'uniblock' ),
-			'categoryTypes' => array( 'uniblock' ),
-		),
-		'uniblock-general' => array(
-			'label'         => __( 'Sections', 'uniblock' ),
-			'categoryTypes' => array( 'uniblock' ),
-		),
-		'uniblock-header'  => array(
-			'label'         => __( 'Header', 'uniblock' ),
-			'categoryTypes' => array( 'uniblock' ),
-		),
-		'uniblock-page'    => array(
-			'label'         => __( 'Pages', 'uniblock' ),
-			'categoryTypes' => array( 'uniblock' ),
-		),
-		'uniblock-query'   => array(
-			'label'         => __( 'Blog Posts', 'uniblock' ),
-			'categoryTypes' => array( 'uniblock' ),
-		),
-	);
+    function uniblock_register_block_pattern_categories() {
 
-	foreach ( $block_pattern_categories as $name => $properties ) {
-		register_block_pattern_category( $name, $properties );
-	}
+    	/* Functionality specific to the Block Pattern Explorer plugin. */
+    	if ( function_exists( 'register_block_pattern_category_type' ) ) {
+    		register_block_pattern_category_type( 'uniblock', array( 'label' => __( 'uniblock', 'uniblock' ) ) );
+    	}
+
+    	$block_pattern_categories = array(
+    		'uniblock-footer'  => array(
+    			'label'         => __( 'Footer', 'uniblock' ),
+    			'categoryTypes' => array( 'uniblock' ),
+    		),
+    		'uniblock-general' => array(
+    			'label'         => __( 'Sections', 'uniblock' ),
+    			'categoryTypes' => array( 'uniblock' ),
+    		),
+    		'uniblock-header'  => array(
+    			'label'         => __( 'Header', 'uniblock' ),
+    			'categoryTypes' => array( 'uniblock' ),
+    		),
+    		'uniblock-page'    => array(
+    			'label'         => __( 'Pages', 'uniblock' ),
+    			'categoryTypes' => array( 'uniblock' ),
+    		),
+    		'uniblock-query'   => array(
+    			'label'         => __( 'Blog Posts', 'uniblock' ),
+    			'categoryTypes' => array( 'uniblock' ),
+    		),
+    	);
+
+    	foreach ( $block_pattern_categories as $name => $properties ) {
+    		register_block_pattern_category( $name, $properties );
+    	}
+    }
+    add_action( 'init', 'uniblock_register_block_pattern_categories', 9 );
+
 }
-add_action( 'init', 'uniblock_register_block_pattern_categories', 9 );
-
 
 // Theme Admin Page
 require get_template_directory() . '/inc/admin/theme-admin.php';

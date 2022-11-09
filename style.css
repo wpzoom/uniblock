@@ -178,7 +178,7 @@ input[type="submit"]:hover,
 
 .wp-block-button.is-style-outline .wp-block-button__link {
     background-color: transparent;
-    border: 1px solid;
+    border: 2px solid;
     border-color: currentColor;
     color: var(--wp--preset--color--foreground);
     padding: 10px 25px;
@@ -195,7 +195,7 @@ input[type="submit"]:hover,
 
 .wp-block-button.is-style-outline-background .wp-block-button__link {
     background-color: transparent;
-    border: 1px solid;
+    border: 2px solid;
     border-color: var(--wp--preset--color--background);
     color: var(--wp--preset--color--background);
 }
