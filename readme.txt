@@ -3,7 +3,7 @@ Contributors: WPZOOM
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. The theme bundles 6 Color Schemes and 19 Block Patterns. DEMO CONTENT & Documentation can be found here: https://www.wpzoom.com/documentation/uniblock/
 
 == Changelog ==
+
+= 1.1.4 =
+* Minor fixes to make the theme work fine with the PRO version
 
 = 1.1.3 =
 * Added compatibility with WordPress 6.1
