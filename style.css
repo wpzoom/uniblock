@@ -894,3 +894,10 @@ textarea {
     }
 
 }
+
+
+@media screen and (max-width: 640px) {
+    .wpz-hide-mobile {
+        display: none !important;
+    }
+}
