@@ -8,7 +8,7 @@ Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, f
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Version: 1.1.4
+Version: 1.1.5
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: uniblock
@@ -712,6 +712,167 @@ a.wpzoom-video-popup-block .wpzoom-video-popup-block_icon svg {
 }
 
 
+/* WooCommerce */
+
+.woocommerce div.product p.price, .woocommerce div.product span.price,
+.woocommerce ul.products li.product .price {
+    color: var(--wp--preset--color--primary) !important;
+}
+
+.woocommerce div.product .summary .product_meta {
+    display: flex;
+    gap: 30px;
+    order: 2;
+    margin: 0 0 20px;
+}
+
+.woocommerce div.product .summary .woocommerce-product-details__short-description {
+    order: 3;
+    margin: 0 0 20px;
+}
+
+.woocommerce div.product .summary ins {
+    color: #101010;
+}
+
+.woocommerce div.product .summary .price {
+    order: 4;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.woocommerce-message {
+    border-top-color: var(--wp--preset--color--primary) !important;
+}
+
+.woocommerce-message::before {
+    color: var(--wp--preset--color--primary) !important;
+}
+
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+    background: var(--wp--preset--color--white);
+    border-radius: 5px;
+}
+
+.woocommerce .quantity .qty{
+    padding: 11px 8px;
+}
+
+.woocommerce nav.woocommerce-pagination {
+    margin-bottom: 40px;
+}
+
+.woocommerce nav.woocommerce-pagination ul {
+     border: none;
+     font-size: 18px;
+}
+ .woocommerce nav.woocommerce-pagination ul li {
+     border: none;
+     border-radius: 3px;
+     margin: 0 6px;
+}
+ .woocommerce nav.woocommerce-pagination ul li a,
+ .woocommerce nav.woocommerce-pagination ul li span {
+     padding: 13px 16px;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover {
+     background: none;
+     box-shadow: none;
+}
+
+.woocommerce nav.woocommerce-pagination ul li span.current {
+     background: none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  border-radius: 0;
+  margin: 0 5px;
+  border-color: var(--wp--preset--color--lightgrey);
+  background: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--wp--preset--color--tertiary);
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs:before {
+  border-color: var(--wp--preset--color--lightgrey);
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:after {
+  display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:before,
+.woocommerce div.product .woocommerce-tabs ul.tabs li:after {
+  display: none;
+}
+
+
+.woocommerce #content input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button {
+    background-color: var(--wp--preset--color--primary) !important;
+    color: var(--wp--preset--color--background);
+    border-color: #ca0606 !important;
+    font-weight: var(--wp--custom--font-weight--medium);
+}
+
+.woocommerce #content input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover {
+    background-color: var(--wp--preset--color--foreground)  !important;
+    color: var(--wp--preset--color--light-background);
+    border-color: #ca0606 !important;
+}
+
+.woocommerce #content input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce-page #respond input#submit:hover,
+.woocommerce-page a.button:hover,
+.woocommerce-page button.button:hover,
+.woocommerce-page input.button:hover {
+    background-color: var(--wp--preset--color--foreground)  !important;
+    color: var(--wp--preset--color--light-background);
+    border-color: #ca0606 !important;
+}
+
+.woocommerce #content input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover {
+    background-color: var(--wp--preset--color--foreground)  !important;
+    color: var(--wp--preset--color--light-background);
+    border-color: #ca0606 !important;
+}
 
 
 /* Forms
@@ -765,6 +926,8 @@ textarea {
 .nf-field-container {
     margin-bottom: 10px;
 }
+
+
 
 /* Experimental Styles
 --------------------------------------------- */
