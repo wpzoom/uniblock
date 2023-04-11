@@ -14,8 +14,8 @@
 <div style="height:88px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:heading {"level":1,"textColor":"white","fontSize":"max-48"} -->
-<h1 class="has-white-color has-text-color has-max-48-font-size">We help companies build <br>great solutions</h1>
+<!-- wp:heading {"level":3,"textColor":"white","fontSize":"max-48"} -->
+<h3 class="has-white-color has-text-color has-max-48-font-size">We help companies build <br>great solutions</h3>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"63px"} -->
