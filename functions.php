@@ -320,7 +320,7 @@ function uniblock_get_fonts_url() {
 
 	if( !empty( $user_custom_typos ) ) {
 		foreach( $user_custom_typos as $user_custom_typo ) {
-			$fonts_to_download[] = $font_families[ $user_custom_typo ];
+			$fonts_to_download[] = isset( $font_families[ $user_custom_typo ] ) ? $font_families[ $user_custom_typo ] : '';
 		}
 
 		$query_args = array(
