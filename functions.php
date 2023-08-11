@@ -236,18 +236,22 @@ function uniblock_theme_extract_font_families( $data = array() ) {
 */
 function uniblock_theme_fonts() {
 
-	$fonts_url = uniblock_get_fonts_url();
+	$theme_fonts_url             = uniblock_get_fonts_url();
+	$theme_fonts_url_for_editor  = uniblock_get_fonts_url( true );
 
     // Load Fonts if necessary.
-    if ( $fonts_url ) {
-        
+    if ( $theme_fonts_url ) {
 		require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
-        wp_enqueue_style( 'uniblock-theme-fonts', wptt_get_webfont_url( $fonts_url ), array(), wp_get_theme()->get( 'Version' ) );
-
+        wp_enqueue_style( 'uniblock-theme-fonts', wptt_get_webfont_url( $theme_fonts_url ), array(), wp_get_theme()->get( 'Version' ) );
     }
+	if ( $theme_fonts_url_for_editor ) {
+		add_editor_style( $theme_fonts_url_for_editor );
+	}
 
 }
+add_action( 'admin_init', 'uniblock_theme_fonts', 1 );
 add_action( 'wp_enqueue_scripts', 'uniblock_theme_fonts', 1 );
+add_action( 'enqueue_block_editor_assets', 'uniblock_theme_fonts', 1 );
 
 /*
  * Gutenberg Editor CSS
@@ -271,7 +275,22 @@ add_action( 'enqueue_block_editor_assets', 'uniblock_theme_gutenberg_editor_css'
 /**
  * Retrieve webfont URL to load fonts locally.
  */
-function uniblock_get_fonts_url() {
+function uniblock_get_fonts_url( $all = false ) {
+
+	//Set default theme typography font families
+	$theme_default_typo = array(
+		'inter',
+		'outfit',
+		'bitter',
+		'raleway',
+		'epilogue',
+		'montserrat',
+		'source-sans-pro',
+		'poppins',
+		'nunito',
+		'yeseva-one',
+		'josefin-sans'
+	);
 	
 	$fonts_to_download = array();
 
@@ -316,11 +335,22 @@ function uniblock_get_fonts_url() {
         'yeseva-one'         => 'Yeseva+One'
     );
 
+	//Get user's saved custom typography
 	$user_custom_typos = uniblock_theme_get_custom_typography();
+	
+	//Combine default and custom typography
+	$theme_custom_typo = array_merge( $user_custom_typo, $theme_default_typo );
+	
+	$theme_custom_typo = array_unique( $theme_custom_typo );
 
-	if( !empty( $user_custom_typos ) ) {
-		foreach( $user_custom_typos as $user_custom_typo ) {
-			$fonts_to_download[] = isset( $font_families[ $user_custom_typo ] ) ? $font_families[ $user_custom_typo ] : '';
+	if( !empty( $theme_custom_typo ) ) {
+		
+		foreach( $theme_custom_typo as $value ) {
+			$fonts_to_download[] = isset( $font_families[ $value ] ) ? $font_families[ $value ] : '';
+		}
+
+		if( $all ) {
+			$fonts_to_download = $font_families;
 		}
 
 		$query_args = array(
