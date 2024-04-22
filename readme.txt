@@ -1,7 +1,7 @@
 === UniBlock ===
 Contributors: WPZOOM
-Requires at least: 6.1
-Tested up to: 6.6
+Requires at least: 6.5
+Tested up to: 6.5
 Requires PHP: 7.4
 Stable tag: 1.1.6
 License: GPLv2 or later
@@ -75,10 +75,6 @@ GNU General Public License for more details.
 == Resources ==
 
 UniBlock bundles the following third-party resources:
-
-WPTT Webfont Loader - https://github.com/WPTT/webfont-loader
-License: Distributed under the terms of the MIT License (https://github.com/WPTT/webfont-loader/blob/master/LICENSE)
-Copyright: 2020 Ari Stathopoulos, WordPress Themes Team
 
 # Outfit Font
 Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)

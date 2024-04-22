@@ -172,204 +172,22 @@ endif;
 // add_action('customize_register', function ( $manager ) {  },  10, 1 );
 
 
-/**
-* Enqueue theme fonts.
-*/
 
-function uniblock_get_custom_typography() {
+add_action( 'init', 'uniblock_font_collections' );
 
-    $font_families = array();
-
-    $args = array(
-        'post_type'      => 'wp_global_styles',
-        'posts_per_page' => 1,
-    );
-
-    $get_custom_styles = get_posts( $args );
-
-    if( !empty( $get_custom_styles ) ) {
-
-        $styles = $get_custom_styles[0]->post_content;
-        $styles = json_decode( $styles, true );
-        $font_families = uniblock_extract_font_families( $styles );
-    }
-
-    return $font_families;
-
+function uniblock_font_collections() {
+    /* Register a collection of recommended fonts */
+    wp_register_font_collection( 'uniblock', [
+        'name'          => __( 'UniBlock', 'themeslug' ),
+        'description'   => __( 'A collection of fantasy fonts.', 'themeslug' ),
+        'font_families' => get_theme_file_path( 'assets/fonts/uniblock.json' ),
+        'categories' => [
+            [
+                'name' => __( 'Display', 'themeslug' ),
+                'slug' => 'display'
+            ]
+        ]
+    ] );
 }
 
-function uniblock_extract_font_families( $data = array() ) {
 
-    if( empty( $data ) ) {
-        return array();
-    }
-
-    $pattern  = '/var:preset\|font-family\|([^|]+)/';
-    $pattern2 = '/var\(--wp--preset--font-family--(\w+)\)/';
-    $preset_patern = 'var(--wp--preset--font-family--';
-
-    $font_families = $matches = $matches2 = array();
-
-    foreach ( $data as $key => $value ) {
-
-        if( $key === 'fontFamily') {
-
-            if ( strpos( $value, $preset_patern ) !== false ) {
-                if ( preg_match( $pattern2, $value, $matches2 ) ) {
-                    $value = $matches2[1];
-                    $font_families[] = $value;
-                }
-            } else {
-                if( preg_match_all( $pattern, $value, $matches ) ) {
-                    $value = end( $matches[1] );
-                }
-                $font_families[] = $value;
-            }
-        } elseif ( is_array( $value ) ) {
-            $font_families = array_merge( $font_families, uniblock_extract_font_families( $value ) );
-        }
-    }
-
-    $font_families = array_unique( $font_families );
-
-    return $font_families;
-}
-
-/**
-* Enqueue theme fonts.
-*/
-function uniblock_theme_fonts() {
-
-    $theme_fonts_url             = uniblock_get_fonts_url();
-    $theme_fonts_url_for_editor  = uniblock_get_fonts_url( true );
-
-    // Load Fonts if necessary.
-    if ( $theme_fonts_url ) {
-
-        require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
-
-        wp_enqueue_style( 'uniblock-theme-fonts', wptt_get_webfont_url( $theme_fonts_url ), array(), wp_get_theme()->get( 'Version' ) );
-
-        add_editor_style( $theme_fonts_url_for_editor );
-
-    }
-
-}
-add_action( 'admin_init', 'uniblock_theme_fonts', 1 );
-add_action( 'wp_enqueue_scripts', 'uniblock_theme_fonts', 1 );
-add_action( 'enqueue_block_editor_assets', 'uniblock_theme_fonts', 1 );
-
-
-/*
- * Gutenberg Editor CSS
- *
- * Load a stylesheet for customizing the Gutenberg editor
- * including support for Google Fonts and @import rules.
- */
-function uniblock_gutenberg_editor_css() {
-
-  wp_enqueue_style( 'uniblock-theme-editor-css', get_stylesheet_directory_uri() . '/assets/admin/css/editor-google-fonts.css', array(), wp_get_theme()->get( 'Version' ) );
-
-}
-add_action( 'enqueue_block_editor_assets', 'uniblock_gutenberg_editor_css' );
-
-
-
-
-/**
- * Retrieve webfont URL to load fonts locally.
- */
-function uniblock_get_fonts_url( $all = false )  {
-
-    //Set default theme typography font families
-    $theme_default_typo = array(
-        'outfit',
-        'bitter',
-        'epilogue',
-        'montserrat',
-        'poppins',
-        'yeseva-one',
-        'inter',
-        'source-sans-pro',
-        'nunito',
-        'josefin-sans',
-        'raleway'
-    );
-
-    $fonts_to_download = array();
-
-    $font_families = array(
-        'alegreya'           => 'Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900',
-        'archivo'            => 'Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'bitter'             => 'Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'cormorant-garamond' => 'Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700',
-        'crimson-pro'        => 'Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600',
-        'dm-sans'            => 'DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700',
-        'epilogue'           => 'Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'figtree'            => 'Figtree:wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900',
-        'ibm-plex-mono'      => 'IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700',
-        'ibm-plex-sans'      => 'IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700',
-        'inter'              => 'Inter:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900',
-        'josefin-sans'       => 'Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700',
-        'jost'               => 'Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'krona-one'          => 'Krona+One',
-        'lexend'             => 'Lexend:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900',
-        'libre-baskerville'  => 'Libre+Baskerville:ital,wght@0,400;0,700;1,400',
-        'libre-franklin'     => 'Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'lora'               => 'Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
-        'manrope'            => 'Manrope:wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800',
-        'merriweather'       => 'Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900',
-        'montserrat'         => 'Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'mulish'             => 'Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000',
-        'nunito'             => 'Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000',
-        'open-sans'          => 'Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800',
-        'oswald'             => 'Oswald:wght@0,200;0,300;0,400;0,500;0,600;0,700',
-        'outfit'             => 'Outfit:wght@100;200;300;400;500;600;700;800;900',
-        'philosopher'        => 'Philosopher:ital,wght@0,400;0,700;1,400;1,700',
-        'playfair-display'   => 'Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900',
-        'poppins'            => 'Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'quicksand'          => 'Quicksand:wght@0,300;0,400;0,500;0,600;0,700',
-        'raleway'            => 'Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'roboto'             => 'Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900',
-        'roboto-condensed'   => 'Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700',
-        'rubik'              => 'Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'source-sans-pro'    => 'Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900',
-        'source-serif-pro'   => 'Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900',
-        'space-grotesk'      => 'Space+Grotesk:wght@0,300;0,400;0,500;0,600;0,700',
-        'syne'               => 'Syne:wght@0,400;0,500;0,600;0,700;0,800,1,400;1,500;1,600;1,700;1,800',
-        'urbanist'           => 'Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'work-sans'          => 'Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'yeseva-one'         => 'Yeseva+One'
-    );
-
-    //Get user's saved custom typography
-    $user_custom_typo = uniblock_get_custom_typography();
-
-    //Combine default and custom typography
-    $theme_custom_typo = array_merge( $user_custom_typo, $theme_default_typo );
-
-    $theme_custom_typo = array_unique( $theme_custom_typo );
-
-    if( !empty( $theme_custom_typo ) ) {
-
-        foreach( $theme_custom_typo as $value ) {
-            $fonts_to_download[] = isset( $font_families[ $value ] ) ? $font_families[ $value ] : '';
-        }
-
-        if( $all ) {
-            $fonts_to_download = $font_families;
-        }
-
-        $query_args = array(
-            'family'  => implode( '|', $fonts_to_download ),
-            'subset'  => urlencode( 'latin,latin-ext' ),
-            'display' => urlencode( 'swap' ),
-        );
-
-        return apply_filters( 'uniblock_get_fonts_url', add_query_arg( $query_args, 'https://fonts.googleapis.com/css' ) );
-
-    }
-
-    return $fonts_to_download;
-
-}
