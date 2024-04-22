@@ -1,9 +1,9 @@
 === UniBlock ===
 Contributors: WPZOOM
-Requires at least: 6.1
-Tested up to: 6.1
-Requires PHP: 7.2
-Stable tag: 1.1.5
+Requires at least: 6.5
+Tested up to: 6.5
+Requires PHP: 7.4
+Stable tag: 1.1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. The theme bundles 6 Color Schemes and 19 Block Patterns. DEMO CONTENT & Documentation can be found here: https://www.wpzoom.com/documentation/uniblock/
 
 == Changelog ==
+
+= 1.1.6 =
+* Improvements and bug fixes
 
 = 1.1.5 =
 * Added WooCommerce styling
@@ -72,10 +75,6 @@ GNU General Public License for more details.
 == Resources ==
 
 UniBlock bundles the following third-party resources:
-
-WPTT Webfont Loader - https://github.com/WPTT/webfont-loader
-License: Distributed under the terms of the MIT License (https://github.com/WPTT/webfont-loader/blob/master/LICENSE)
-Copyright: 2020 Ari Stathopoulos, WordPress Themes Team
 
 # Outfit Font
 Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)

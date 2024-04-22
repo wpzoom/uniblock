@@ -12,7 +12,7 @@ Demo: https://demo.wpzoom.com/uniblock/
 
 ## Requirements
 
-- WordPress 6.1+
+- WordPress 6.5+
 - PHP 7.4+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
@@ -21,7 +21,7 @@ Demo: https://demo.wpzoom.com/uniblock/
 You can download the latest stable release of UniBlock using the link above. Alternatively, install the entire repository for development purposes:
 
 1. Set up a local WordPress development environment.
-2. Ensure you are using WordPress 6.1+
+2. Ensure you are using WordPress 6.5+
 3. Clone / download this repository into the `/wp-content/themes/` directory of your new WordPress instance.
 4. In the WordPress admin, use the Appearance > Themes screen to activate UniBlock.
 

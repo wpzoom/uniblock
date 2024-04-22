@@ -6,9 +6,9 @@ Author URI: https://www.wpzoom.com/
 Description: UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. The theme bundles 6 Color Schemes and 19 Block Patterns. DEMO CONTENT & Documentation can be found here: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#10132; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://www.wpzoom.com/documentation/uniblock/
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, block-patterns, full-site-editing, template-editing, e-commerce
 Requires at least: 6.1
-Tested up to: 6.1
-Requires PHP: 7.2
-Version: 1.1.5
+Tested up to: 6.5
+Requires PHP: 7.4
+Version: 1.1.6
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: uniblock
@@ -56,13 +56,6 @@ a:hover {
 a:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
-}
-
-ol,
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-position: inside;
 }
 
 b,
@@ -494,6 +487,42 @@ p.has-background {
     padding: 20px 30px;
 }
 
+
+/* Lists
+--------------------------------------------- */
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.entry-content ol,
+.entry-content ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    margin-bottom: 25px;
+}
+
+.entry-content li ul:not(.wp-block-gallery),
+.entry-content li ol {
+  margin-bottom: 0;
+  margin-left: 30px; }
+
+
+.editor-styles-wrapper ol,
+.editor-styles-wrapper ul {
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.editor-styles-wrapper li ul,
+.editor-styles-wrapper li ol {
+    margin-bottom: 0;
+}
+
+
 /* Preformatted
 --------------------------------------------- */
 
@@ -671,7 +700,7 @@ a.wpzoom-video-popup-block {
     padding: 0;
     position: relative;
     text-decoration: none;
-    text-transform: inherit
+    text-transform: inherit;
     transition: .3s ease all;
 }
 
@@ -1063,4 +1092,17 @@ textarea {
     .wpz-hide-mobile {
         display: none !important;
     }
+}
+
+
+@media (min-width:600px) {
+
+    .wp-block-navigation .wp-block-navigation-item .current-menu-ancestor {
+        color: var(--wp--preset--color--primary);
+    }
+
+    .wp-block-navigation .wp-block-navigation-item .current-menu-ancestor+button svg {
+        stroke: var(--wp--preset--color--primary);
+    }
+
 }

@@ -1,0 +1,2382 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/font-collection.json",
+    "font_families": [
+        {
+              "font_family_settings": {
+                "name": "Archivo",
+                "fontFamily": "Archivo, sans-serif",
+                "slug": "archivo",
+                "fontFace": [
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDJp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "100",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-100-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTtDNp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "200",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-200-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTajNp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "300",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-300-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDNp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-400-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTBjNp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-500-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT6jRp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "600",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-600-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT0zRp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-700-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTtDRp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "800",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-800-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTnTRp9R1oJ0vyVQ.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "normal",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-900-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCBshdpBU7iVdxQ.woff2",
+                    "fontWeight": "100",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-100-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HABsxdpBU7iVdxQ.woff2",
+                    "fontWeight": "200",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-200-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HDfsxdpBU7iVdxQ.woff2",
+                    "fontWeight": "300",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-300-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCBsxdpBU7iVdxQ.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-400-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCzsxdpBU7iVdxQ.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-500-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HBftBdpBU7iVdxQ.woff2",
+                    "fontWeight": "600",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-600-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HBmtBdpBU7iVdxQ.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-700-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HABtBdpBU7iVdxQ.woff2",
+                    "fontWeight": "800",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-800-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/archivo/v19/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HAotBdpBU7iVdxQ.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "italic",
+                    "fontFamily": "Archivo",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo-900-italic.svg"
+                  }
+                ],
+                "preview": "https://s.w.org/images/fonts/17.7/previews/archivo/archivo.svg"
+              },
+              "categories": [
+                "sans-serif"
+              ]
+            },
+        {
+              "font_family_settings": {
+                "name": "Alegreya",
+                "fontFamily": "Alegreya, serif",
+                "slug": "alegreya",
+                "fontFace": [
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNG9hUI-aCisSGVrw.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "normal",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-400-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGxBUI-aCisSGVrw.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "normal",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-500-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGKBII-aCisSGVrw.woff2",
+                    "fontWeight": "600",
+                    "fontStyle": "normal",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-600-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGERII-aCisSGVrw.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "normal",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-700-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGdhII-aCisSGVrw.woff2",
+                    "fontWeight": "800",
+                    "fontStyle": "normal",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-800-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGXxII-aCisSGVrw.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "normal",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-900-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlbgv6qjkySFr9V9.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "italic",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-400-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlbSv6qjkySFr9V9.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "italic",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-500-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlY-uKqjkySFr9V9.woff2",
+                    "fontWeight": "600",
+                    "fontStyle": "italic",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-600-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlYHuKqjkySFr9V9.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "italic",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-700-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlZguKqjkySFr9V9.woff2",
+                    "fontWeight": "800",
+                    "fontStyle": "italic",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-800-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/alegreya/v35/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlZJuKqjkySFr9V9.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "italic",
+                    "fontFamily": "Alegreya",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya-900-italic.svg"
+                  }
+                ],
+                "preview": "https://s.w.org/images/fonts/17.7/previews/alegreya/alegreya.svg"
+              },
+              "categories": [
+                "serif"
+              ]
+            },
+        {
+              "font_family_settings": {
+                "name": "Crimson Pro",
+                "fontFamily": "Crimson Pro, serif",
+                "slug": "crimson-pro",
+                "fontFace": [
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZTm18PZE_VNWoyQ.woff2",
+                    "fontWeight": "200",
+                    "fontStyle": "normal",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-200-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZkG18PZE_VNWoyQ.woff2",
+                    "fontWeight": "300",
+                    "fontStyle": "normal",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-300-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZzm18PZE_VNWoyQ.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "normal",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-400-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZ_G18PZE_VNWoyQ.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "normal",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-500-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZEGp8PZE_VNWoyQ.woff2",
+                    "fontWeight": "600",
+                    "fontStyle": "normal",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-600-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZKWp8PZE_VNWoyQ.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "normal",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-700-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZTmp8PZE_VNWoyQ.woff2",
+                    "fontWeight": "800",
+                    "fontStyle": "normal",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-800-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZZ2p8PZE_VNWoyQ.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "normal",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-900-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi4Ue5s-dtC4yZNE.woff2",
+                    "fontWeight": "200",
+                    "fontStyle": "italic",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-200-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi7Ke5s-dtC4yZNE.woff2",
+                    "fontWeight": "300",
+                    "fontStyle": "italic",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-300-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6Ue5s-dtC4yZNE.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "italic",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-400-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6me5s-dtC4yZNE.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "italic",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-500-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5KfJs-dtC4yZNE.woff2",
+                    "fontWeight": "600",
+                    "fontStyle": "italic",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-600-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5zfJs-dtC4yZNE.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "italic",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-700-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi4UfJs-dtC4yZNE.woff2",
+                    "fontWeight": "800",
+                    "fontStyle": "italic",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-800-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/crimsonpro/v24/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi49fJs-dtC4yZNE.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "italic",
+                    "fontFamily": "Crimson Pro",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro-900-italic.svg"
+                  }
+                ],
+                "preview": "https://s.w.org/images/fonts/17.7/previews/crimson-pro/crimson-pro.svg"
+              },
+              "categories": [
+                "serif"
+              ]
+            },
+        {
+              "font_family_settings": {
+                "name": "DM Sans",
+                "fontFamily": "DM Sans, sans-serif",
+                "slug": "dm-sans",
+                "fontFace": [
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAop1hS2f3ZGMZpg.woff2",
+                    "fontWeight": "100",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-100-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpxhS2f3ZGMZpg.woff2",
+                    "fontWeight": "200",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-200-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhS2f3ZGMZpg.woff2",
+                    "fontWeight": "300",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-300-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhS2f3ZGMZpg.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-400-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhS2f3ZGMZpg.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-500-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthS2f3ZGMZpg.woff2",
+                    "fontWeight": "600",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-600-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthS2f3ZGMZpg.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-700-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthS2f3ZGMZpg.woff2",
+                    "fontWeight": "800",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-800-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAC5thS2f3ZGMZpg.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "normal",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-900-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDG32RmYJpso5.woff2",
+                    "fontWeight": "100",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-100-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JDW32RmYJpso5.woff2",
+                    "fontWeight": "200",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-200-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat_XDW32RmYJpso5.woff2",
+                    "fontWeight": "300",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-300-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW32RmYJpso5.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-400-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-7DW32RmYJpso5.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-500-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9XCm32RmYJpso5.woff2",
+                    "fontWeight": "600",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-600-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9uCm32RmYJpso5.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-700-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JCm32RmYJpso5.woff2",
+                    "fontWeight": "800",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-800-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/dmsans/v14/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8gCm32RmYJpso5.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "italic",
+                    "fontFamily": "DM Sans",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans-900-italic.svg"
+                  }
+                ],
+                "preview": "https://s.w.org/images/fonts/17.7/previews/dm-sans/dm-sans.svg"
+              },
+              "categories": [
+                "sans-serif"
+              ]
+            },
+        {
+             "font_family_settings": {
+               "name": "Figtree",
+               "fontFamily": "Figtree, sans-serif",
+               "slug": "figtree",
+               "fontFace": [
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_chQF5bwkEU4HTy.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "normal",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-300-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5bwkEU4HTy.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "normal",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-400-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5bwkEU4HTy.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "normal",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-500-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15bwkEU4HTy.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "normal",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-600-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15bwkEU4HTy.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "normal",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-700-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_f_R15bwkEU4HTy.woff2",
+                   "fontWeight": "800",
+                   "fontStyle": "normal",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-800-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_fWR15bwkEU4HTy.woff2",
+                   "fontWeight": "900",
+                   "fontStyle": "normal",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-900-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A-gdyEA25WTybO8.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "italic",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-300-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A7YdyEA25WTybO8.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "italic",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-400-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A4QdyEA25WTybO8.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "italic",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-500-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A2gayEA25WTybO8.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "italic",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-600-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A1EayEA25WTybO8.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "italic",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-700-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3AzYayEA25WTybO8.woff2",
+                   "fontWeight": "800",
+                   "fontStyle": "italic",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-800-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/figtree/v5/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3Ax8ayEA25WTybO8.woff2",
+                   "fontWeight": "900",
+                   "fontStyle": "italic",
+                   "fontFamily": "Figtree",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree-900-italic.svg"
+                 }
+               ],
+               "preview": "https://s.w.org/images/fonts/17.7/previews/figtree/figtree.svg"
+             },
+             "categories": [
+               "sans-serif"
+             ]
+           },
+       {
+             "font_family_settings": {
+               "name": "IBM Plex Sans",
+               "fontFamily": "IBM Plex Sans, sans-serif",
+               "slug": "ibm-plex-sans",
+               "fontFace": [
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX-KVElMYYaJe8bpLHnCwDKjbLeFaxIedbzDw.woff2",
+                   "fontWeight": "100",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-100-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX8KVElMYYaJe8bpLHnCwDKhdTmdKZJW9PjD3N8.woff2",
+                   "fontWeight": "100",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-100-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjR7_MINmdd_qFmo.woff2",
+                   "fontWeight": "200",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-200-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdsdP3vBmpl8A.woff2",
+                   "fontWeight": "200",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-200-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8MINmdd_qFmo.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-300-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRsdP3vBmpl8A.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-300-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYXgKVElMYYaJe8bpLHnCwDKtdPUFI5NadY.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-400-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX-KVElMYYaJe8bpLHnCwDKhdTeFaxIedbzDw.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-400-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9MINmdd_qFmo.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-500-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVsdP3vBmpl8A.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-500-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76MINmdd_qFmo.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-600-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJsdP3vBmpl8A.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-600-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7MINmdd_qFmo.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-700-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINsdP3vBmpl8A.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Sans",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans-700-italic.svg"
+                 }
+               ],
+               "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-sans/ibm-plex-sans.svg"
+             },
+             "categories": [
+               "sans-serif"
+             ]
+           },
+       {
+             "font_family_settings": {
+               "name": "IBM Plex Mono",
+               "fontFamily": "IBM Plex Mono, monospace",
+               "slug": "ibm-plex-mono",
+               "fontFace": [
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n3kwq131hj-sNFQ.woff2",
+                   "fontWeight": "100",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-100-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6rfjptAgt5VM-kVkqdyU8n1ioStndgre4dFcFh.woff2",
+                   "fontWeight": "100",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-100-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3uAL8lJPg-IUDNg.woff2",
+                   "fontWeight": "200",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-200-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSGlZFgsARHNh4zg.woff2",
+                   "fontWeight": "200",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-200-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3oQI8lJPg-IUDNg.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-300-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSflVFgsARHNh4zg.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-300-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n5i0g1l9kn-s.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-400-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n1ioq131hj-sNFQ.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-400-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-500-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSJlRFgsARHNh4zg.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-500-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3vAO8lJPg-IUDNg.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-600-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSClNFgsARHNh4zg.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-600-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3pQP8lJPg-IUDNg.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "normal",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-700-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSblJFgsARHNh4zg.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "italic",
+                   "fontFamily": "IBM Plex Mono",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-700-italic.svg"
+                 }
+               ],
+               "preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono.svg"
+             },
+             "categories": [
+               "monospace"
+             ]
+           },
+       {
+             "font_family_settings": {
+               "name": "Jost",
+               "fontFamily": "Jost, sans-serif",
+               "slug": "jost",
+               "fontFace": [
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7myjJAVDPokMmuHL.woff2",
+                   "fontWeight": "100",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-100-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mwjJQVDPokMmuHL.woff2",
+                   "fontWeight": "200",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-200-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mz9JQVDPokMmuHL.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-300-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7myjJQVDPokMmuHL.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-400-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7myRJQVDPokMmuHL.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-500-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mx9IgVDPokMmuHL.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-600-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mxEIgVDPokMmuHL.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-700-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mwjIgVDPokMmuHL.woff2",
+                   "fontWeight": "800",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-800-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mwKIgVDPokMmuHL.woff2",
+                   "fontWeight": "900",
+                   "fontStyle": "normal",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-900-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0ENIgun_HLMEo.woff2",
+                   "fontWeight": "100",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-100-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FNIgun_HLMEo.woff2",
+                   "fontWeight": "200",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-200-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFNIgun_HLMEo.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-300-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FNIgun_HLMEo.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-400-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FNIgun_HLMEo.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-500-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCNIgun_HLMEo.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-600-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCNIgun_HLMEo.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-700-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CNIgun_HLMEo.woff2",
+                   "fontWeight": "800",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-800-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCNIgun_HLMEo.woff2",
+                   "fontWeight": "900",
+                   "fontStyle": "italic",
+                   "fontFamily": "Jost",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost-900-italic.svg"
+                 }
+               ],
+               "preview": "https://s.w.org/images/fonts/17.7/previews/jost/jost.svg"
+             },
+             "categories": [
+               "sans-serif"
+             ]
+           },
+       {
+             "font_family_settings": {
+               "name": "Lexend",
+               "fontFamily": "Lexend, sans-serif",
+               "slug": "lexend",
+               "fontFace": [
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX_LVte6KuGEo.woff2",
+                   "fontWeight": "100",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-100-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sW_LVte6KuGEo.woff2",
+                   "fontWeight": "200",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-200-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC2UW_LVte6KuGEo.woff2",
+                   "fontWeight": "300",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-300-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LVte6KuGEo.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-400-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LVte6KuGEo.woff2",
+                   "fontWeight": "500",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-500-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LVte6KuGEo.woff2",
+                   "fontWeight": "600",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-600-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LVte6KuGEo.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-700-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LVte6KuGEo.woff2",
+                   "fontWeight": "800",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-800-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LVte6KuGEo.woff2",
+                   "fontWeight": "900",
+                   "fontStyle": "normal",
+                   "fontFamily": "Lexend",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend-900-normal.svg"
+                 }
+               ],
+               "preview": "https://s.w.org/images/fonts/17.7/previews/lexend/lexend.svg"
+             },
+             "categories": [
+               "sans-serif"
+             ]
+           },
+       {
+             "font_family_settings": {
+               "name": "Libre Baskerville",
+               "fontFamily": "Libre Baskerville, serif",
+               "slug": "libre-baskerville",
+               "fontFace": [
+                 {
+                   "src": "https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNbYRI4CN2V.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "normal",
+                   "fontFamily": "Libre Baskerville",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/libre-baskerville/libre-baskerville-400-normal.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcaxMaDc2V2ro.woff2",
+                   "fontWeight": "400",
+                   "fontStyle": "italic",
+                   "fontFamily": "Libre Baskerville",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/libre-baskerville/libre-baskerville-400-italic.svg"
+                 },
+                 {
+                   "src": "https://fonts.gstatic.com/s/librebaskerville/v14/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTjY1I8Gcw6Oi.woff2",
+                   "fontWeight": "700",
+                   "fontStyle": "normal",
+                   "fontFamily": "Libre Baskerville",
+                   "preview": "https://s.w.org/images/fonts/17.7/previews/libre-baskerville/libre-baskerville-700-normal.svg"
+                 }
+               ],
+               "preview": "https://s.w.org/images/fonts/17.7/previews/libre-baskerville/libre-baskerville.svg"
+             },
+             "categories": [
+               "serif"
+             ]
+           },
+       {
+            "font_family_settings": {
+              "name": "Libre Franklin",
+              "fontFamily": "Libre Franklin, sans-serif",
+              "slug": "libre-franklin",
+              "fontFace": [
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsSUAtrIb-JH1g.woff2",
+                  "fontWeight": "100",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-100-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsWUAtrIb-JH1g.woff2",
+                  "fontWeight": "200",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-200-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhcMWUAtrIb-JH1g.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-300-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWUAtrIb-JH1g.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-400-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhHMWUAtrIb-JH1g.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-500-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduh8MKUAtrIb-JH1g.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-600-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKUAtrIb-JH1g.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-700-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsKUAtrIb-JH1g.woff2",
+                  "fontWeight": "800",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-800-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhh8KUAtrIb-JH1g.woff2",
+                  "fontWeight": "900",
+                  "fontStyle": "normal",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-900-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8RdDJTedX1sGE.woff2",
+                  "fontWeight": "100",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-100-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8RNDJTedX1sGE.woff2",
+                  "fontWeight": "200",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-200-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oYiRNDJTedX1sGE.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-300-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8RNDJTedX1sGE.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-400-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZORNDJTedX1sGE.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-500-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oaiQ9DJTedX1sGE.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-600-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oabQ9DJTedX1sGE.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-700-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8Q9DJTedX1sGE.woff2",
+                  "fontWeight": "800",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-800-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05obVQ9DJTedX1sGE.woff2",
+                  "fontWeight": "900",
+                  "fontStyle": "italic",
+                  "fontFamily": "Libre Franklin",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin-900-italic.svg"
+                }
+              ],
+              "preview": "https://s.w.org/images/fonts/17.7/previews/libre-franklin/libre-franklin.svg"
+            },
+            "categories": [
+              "sans-serif"
+            ]
+          },
+      {
+            "font_family_settings": {
+              "name": "Lora",
+              "fontFamily": "Lora, serif",
+              "slug": "lora",
+              "fontFace": [
+                {
+                  "src": "https://fonts.gstatic.com/s/lora/v32/0QI6MX1D_JOuGQbT0gvTJPa787weuyJDmKxemMeZ.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "normal",
+                  "fontFamily": "Lora",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora-400-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/lora/v32/0QI6MX1D_JOuGQbT0gvTJPa787wsuyJDmKxemMeZ.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "normal",
+                  "fontFamily": "Lora",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora-500-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/lora/v32/0QI6MX1D_JOuGQbT0gvTJPa787zAvCJDmKxemMeZ.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "normal",
+                  "fontFamily": "Lora",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora-600-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/lora/v32/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJDmKxemMeZ.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "normal",
+                  "fontFamily": "Lora",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora-700-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/lora/v32/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFkq18ndeZzZ0.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "italic",
+                  "fontFamily": "Lora",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora-400-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/lora/v32/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-PgFkq18ndeZzZ0.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "italic",
+                  "fontFamily": "Lora",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora-500-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/lora/v32/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-BQCkq18ndeZzZ0.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "italic",
+                  "fontFamily": "Lora",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora-600-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/lora/v32/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Ckq18ndeZzZ0.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "italic",
+                  "fontFamily": "Lora",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora-700-italic.svg"
+                }
+              ],
+              "preview": "https://s.w.org/images/fonts/17.7/previews/lora/lora.svg"
+            },
+            "categories": [
+              "serif"
+            ]
+          },
+      {
+            "font_family_settings": {
+              "name": "Manrope",
+              "fontFamily": "Manrope, sans-serif",
+              "slug": "manrope",
+              "fontFace": [
+                {
+                  "src": "https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59FO_A87jxeN7B.woff2",
+                  "fontWeight": "200",
+                  "fontStyle": "normal",
+                  "fontFamily": "Manrope",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/manrope/manrope-200-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk6jFO_A87jxeN7B.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "normal",
+                  "fontFamily": "Manrope",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/manrope/manrope-300-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_A87jxeN7B.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "normal",
+                  "fontFamily": "Manrope",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/manrope/manrope-400-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_A87jxeN7B.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "normal",
+                  "fontFamily": "Manrope",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/manrope/manrope-500-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_A87jxeN7B.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "normal",
+                  "fontFamily": "Manrope",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/manrope/manrope-600-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_A87jxeN7B.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "normal",
+                  "fontFamily": "Manrope",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/manrope/manrope-700-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_A87jxeN7B.woff2",
+                  "fontWeight": "800",
+                  "fontStyle": "normal",
+                  "fontFamily": "Manrope",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/manrope/manrope-800-normal.svg"
+                }
+              ],
+              "preview": "https://s.w.org/images/fonts/17.7/previews/manrope/manrope.svg"
+            },
+            "categories": [
+              "sans-serif"
+            ]
+          },
+      {
+            "font_family_settings": {
+              "name": "Merriweather",
+              "fontFamily": "Merriweather, serif",
+              "slug": "merriweather",
+              "fontFace": [
+                {
+                  "src": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l521wRpWs37pvjxPA.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "normal",
+                  "fontFamily": "Merriweather",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather-300-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7lXcf6hP3hPGWH.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "italic",
+                  "fontFamily": "Merriweather",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather-300-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5OfixNV-bnrw.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "normal",
+                  "fontFamily": "Merriweather",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather-400-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eSZMdeP3r-Ho.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "italic",
+                  "fontFamily": "Merriweather",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather-400-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNpWs37pvjxPA.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "normal",
+                  "fontFamily": "Merriweather",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather-700-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wsf6hP3hPGWH.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "italic",
+                  "fontFamily": "Merriweather",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather-700-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52_wFpWs37pvjxPA.woff2",
+                  "fontWeight": "900",
+                  "fontStyle": "normal",
+                  "fontFamily": "Merriweather",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather-900-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7NWMf6hP3hPGWH.woff2",
+                  "fontWeight": "900",
+                  "fontStyle": "italic",
+                  "fontFamily": "Merriweather",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather-900-italic.svg"
+                }
+              ],
+              "preview": "https://s.w.org/images/fonts/17.7/previews/merriweather/merriweather.svg"
+            },
+            "categories": [
+              "serif"
+            ]
+          },
+      {
+            "font_family_settings": {
+              "name": "Mulish",
+              "fontFamily": "Mulish, sans-serif",
+              "slug": "mulish",
+              "fontFace": [
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNRwaWlGrw-PTY.woff2",
+                  "fontWeight": "200",
+                  "fontStyle": "normal",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-200-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexc1RwaWlGrw-PTY.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "normal",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-300-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaWlGrw-PTY.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "normal",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-400-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexaFRwaWlGrw-PTY.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "normal",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-500-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexU1WwaWlGrw-PTY.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "normal",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-600-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaWlGrw-PTY.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "normal",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-700-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNWwaWlGrw-PTY.woff2",
+                  "fontWeight": "800",
+                  "fontStyle": "normal",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-800-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexTpWwaWlGrw-PTY.woff2",
+                  "fontWeight": "900",
+                  "fontStyle": "normal",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-900-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeOvG547LTZFwA.woff2",
+                  "fontWeight": "200",
+                  "fontStyle": "italic",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-200-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSd-OvG547LTZFwA.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "italic",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-300-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSKeOvG547LTZFwA.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "italic",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-400-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSG-OvG547LTZFwA.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "italic",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-500-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsS9-SvG547LTZFwA.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "italic",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-600-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSzuSvG547LTZFwA.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "italic",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-700-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeSvG547LTZFwA.woff2",
+                  "fontWeight": "800",
+                  "fontStyle": "italic",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-800-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSgOSvG547LTZFwA.woff2",
+                  "fontWeight": "900",
+                  "fontStyle": "italic",
+                  "fontFamily": "Mulish",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish-900-italic.svg"
+                }
+              ],
+              "preview": "https://s.w.org/images/fonts/17.7/previews/mulish/mulish.svg"
+            },
+            "categories": [
+              "sans-serif"
+            ]
+          },
+      {
+            "font_family_settings": {
+              "name": "Open Sans",
+              "fontFamily": "Open Sans, sans-serif",
+              "slug": "open-sans",
+              "fontFace": [
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4iY1M2xLER.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "normal",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-300-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4iY1M2xLER.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "normal",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-400-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4iY1M2xLER.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "normal",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-500-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4iY1M2xLER.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "normal",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-600-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4iY1M2xLER.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "normal",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-700-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4iY1M2xLER.woff2",
+                  "fontWeight": "800",
+                  "fontStyle": "normal",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-800-normal.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVIUwaERZjA.woff2",
+                  "fontWeight": "300",
+                  "fontStyle": "italic",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-300-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVIUwaERZjA.woff2",
+                  "fontWeight": "400",
+                  "fontStyle": "italic",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-400-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkaVIUwaERZjA.woff2",
+                  "fontWeight": "500",
+                  "fontStyle": "italic",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-500-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVIUwaERZjA.woff2",
+                  "fontWeight": "600",
+                  "fontStyle": "italic",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-600-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVIUwaERZjA.woff2",
+                  "fontWeight": "700",
+                  "fontStyle": "italic",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-700-italic.svg"
+                },
+                {
+                  "src": "https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVIUwaERZjA.woff2",
+                  "fontWeight": "800",
+                  "fontStyle": "italic",
+                  "fontFamily": "Open Sans",
+                  "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans-800-italic.svg"
+                }
+              ],
+              "preview": "https://s.w.org/images/fonts/17.7/previews/open-sans/open-sans.svg"
+            },
+            "categories": [
+              "sans-serif"
+            ]
+          },
+          {
+               "font_family_settings": {
+                 "name": "Oswald",
+                 "fontFamily": "Oswald, sans-serif",
+                 "slug": "oswald",
+                 "fontFace": [
+                   {
+                     "src": "https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgURoZAaRliE.woff2",
+                     "fontWeight": "200",
+                     "fontStyle": "normal",
+                     "fontFamily": "Oswald",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/oswald/oswald-200-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs169vgURoZAaRliE.woff2",
+                     "fontWeight": "300",
+                     "fontStyle": "normal",
+                     "fontFamily": "Oswald",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/oswald/oswald-300-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgURoZAaRliE.woff2",
+                     "fontWeight": "400",
+                     "fontStyle": "normal",
+                     "fontFamily": "Oswald",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/oswald/oswald-400-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvgURoZAaRliE.woff2",
+                     "fontWeight": "500",
+                     "fontStyle": "normal",
+                     "fontFamily": "Oswald",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/oswald/oswald-500-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1y9ogURoZAaRliE.woff2",
+                     "fontWeight": "600",
+                     "fontStyle": "normal",
+                     "fontFamily": "Oswald",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/oswald/oswald-600-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogURoZAaRliE.woff2",
+                     "fontWeight": "700",
+                     "fontStyle": "normal",
+                     "fontFamily": "Oswald",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/oswald/oswald-700-normal.svg"
+                   }
+                 ],
+                 "preview": "https://s.w.org/images/fonts/17.7/previews/oswald/oswald.svg"
+               },
+               "categories": [
+                 "sans-serif"
+               ]
+             },
+         {
+               "font_family_settings": {
+                 "name": "Playfair Display",
+                 "fontFamily": "Playfair Display, serif",
+                 "slug": "playfair-display",
+                 "fontFace": [
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDVZNLo_U2r.woff2",
+                     "fontWeight": "400",
+                     "fontStyle": "normal",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-400-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vUDVZNLo_U2r.woff2",
+                     "fontWeight": "500",
+                     "fontStyle": "normal",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-500-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebukDVZNLo_U2r.woff2",
+                     "fontWeight": "600",
+                     "fontStyle": "normal",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-600-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDVZNLo_U2r.woff2",
+                     "fontWeight": "700",
+                     "fontStyle": "normal",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-700-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfFukDVZNLo_U2r.woff2",
+                     "fontWeight": "800",
+                     "fontStyle": "normal",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-800-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsukDVZNLo_U2r.woff2",
+                     "fontWeight": "900",
+                     "fontStyle": "normal",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-900-normal.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTbtPK-F2rA0s.woff2",
+                     "fontWeight": "400",
+                     "fontStyle": "italic",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-400-italic.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_pqTbtPK-F2rA0s.woff2",
+                     "fontWeight": "500",
+                     "fontStyle": "italic",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-500-italic.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_naUbtPK-F2rA0s.woff2",
+                     "fontWeight": "600",
+                     "fontStyle": "italic",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-600-italic.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UbtPK-F2rA0s.woff2",
+                     "fontWeight": "700",
+                     "fontStyle": "italic",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-700-italic.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_iiUbtPK-F2rA0s.woff2",
+                     "fontWeight": "800",
+                     "fontStyle": "italic",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-800-italic.svg"
+                   },
+                   {
+                     "src": "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_gGUbtPK-F2rA0s.woff2",
+                     "fontWeight": "900",
+                     "fontStyle": "italic",
+                     "fontFamily": "Playfair Display",
+                     "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display-900-italic.svg"
+                   }
+                 ],
+                 "preview": "https://s.w.org/images/fonts/17.7/previews/playfair-display/playfair-display.svg"
+               },
+               "categories": [
+                 "serif"
+               ]
+             },
+         {
+           "font_family_settings": {
+             "name": "Quicksand",
+             "fontFamily": "Quicksand, sans-serif",
+             "slug": "quicksand",
+             "fontFace": [
+               {
+                 "src": "https://fonts.gstatic.com/s/quicksand/v31/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18S0wx40QDw.woff2",
+                 "fontWeight": "300",
+                 "fontStyle": "normal",
+                 "fontFamily": "Quicksand",
+                 "preview": "https://s.w.org/images/fonts/17.7/previews/quicksand/quicksand-300-normal.svg"
+               },
+               {
+                 "src": "https://fonts.gstatic.com/s/quicksand/v31/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18S0wx40QDw.woff2",
+                 "fontWeight": "400",
+                 "fontStyle": "normal",
+                 "fontFamily": "Quicksand",
+                 "preview": "https://s.w.org/images/fonts/17.7/previews/quicksand/quicksand-400-normal.svg"
+               },
+               {
+                 "src": "https://fonts.gstatic.com/s/quicksand/v31/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18S0wx40QDw.woff2",
+                 "fontWeight": "500",
+                 "fontStyle": "normal",
+                 "fontFamily": "Quicksand",
+                 "preview": "https://s.w.org/images/fonts/17.7/previews/quicksand/quicksand-500-normal.svg"
+               },
+               {
+                 "src": "https://fonts.gstatic.com/s/quicksand/v31/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv18S0wx40QDw.woff2",
+                 "fontWeight": "600",
+                 "fontStyle": "normal",
+                 "fontFamily": "Quicksand",
+                 "preview": "https://s.w.org/images/fonts/17.7/previews/quicksand/quicksand-600-normal.svg"
+               },
+               {
+                 "src": "https://fonts.gstatic.com/s/quicksand/v31/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv18S0wx40QDw.woff2",
+                 "fontWeight": "700",
+                 "fontStyle": "normal",
+                 "fontFamily": "Quicksand",
+                 "preview": "https://s.w.org/images/fonts/17.7/previews/quicksand/quicksand-700-normal.svg"
+               }
+             ],
+             "preview": "https://s.w.org/images/fonts/17.7/previews/quicksand/quicksand.svg"
+           },
+           "categories": [
+             "sans-serif"
+           ]
+         },
+         {
+              "font_family_settings": {
+                "name": "Roboto",
+                "fontFamily": "Roboto, sans-serif",
+                "slug": "roboto",
+                "fontFace": [
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgWxKKTM1K9nz.woff2",
+                    "fontWeight": "100",
+                    "fontStyle": "normal",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-100-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOiCnqEu92Fr1Mu51QrIzIXLsnzjYk.woff2",
+                    "fontWeight": "100",
+                    "fontStyle": "italic",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-100-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vBh05IsDqlA.woff2",
+                    "fontWeight": "300",
+                    "fontStyle": "normal",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-300-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TjARc4AMX6lJBP.woff2",
+                    "fontWeight": "300",
+                    "fontStyle": "italic",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-300-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "normal",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-400-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu52xKKTM1K9nz.woff2",
+                    "fontWeight": "400",
+                    "fontStyle": "italic",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-400-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vBh05IsDqlA.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "normal",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-500-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ABc4AMX6lJBP.woff2",
+                    "fontWeight": "500",
+                    "fontStyle": "italic",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-500-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvBh05IsDqlA.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "normal",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-700-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBhc4AMX6lJBP.woff2",
+                    "fontWeight": "700",
+                    "fontStyle": "italic",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-700-italic.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtvBh05IsDqlA.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "normal",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-900-normal.svg"
+                  },
+                  {
+                    "src": "https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TLBBc4AMX6lJBP.woff2",
+                    "fontWeight": "900",
+                    "fontStyle": "italic",
+                    "fontFamily": "Roboto",
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto-900-italic.svg"
+                  }
+                ],
+                "preview": "https://s.w.org/images/fonts/17.7/previews/roboto/roboto.svg"
+              },
+              "categories": [
+                "sans-serif"
+              ]
+            },
+            {
+                  "font_family_settings": {
+                    "name": "Rubik",
+                    "fontFamily": "Rubik, sans-serif",
+                    "slug": "rubik",
+                    "fontFace": [
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1VU80V4bVkA.woff2",
+                        "fontWeight": "300",
+                        "fontStyle": "normal",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-300-normal.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1VU80V4bVkA.woff2",
+                        "fontWeight": "400",
+                        "fontStyle": "normal",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-400-normal.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1VU80V4bVkA.woff2",
+                        "fontWeight": "500",
+                        "fontStyle": "normal",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-500-normal.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-2Y-1VU80V4bVkA.woff2",
+                        "fontWeight": "600",
+                        "fontStyle": "normal",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-600-normal.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1VU80V4bVkA.woff2",
+                        "fontWeight": "700",
+                        "fontStyle": "normal",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-700-normal.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-h4-1VU80V4bVkA.woff2",
+                        "fontWeight": "800",
+                        "fontStyle": "normal",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-800-normal.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-1VU80V4bVkA.woff2",
+                        "fontWeight": "900",
+                        "fontStyle": "normal",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-900-normal.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0U1dYPFkJ1O.woff2",
+                        "fontWeight": "300",
+                        "fontStyle": "italic",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-300-italic.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0U1dYPFkJ1O.woff2",
+                        "fontWeight": "400",
+                        "fontStyle": "italic",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-400-italic.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0U1dYPFkJ1O.woff2",
+                        "fontWeight": "500",
+                        "fontStyle": "italic",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-500-italic.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFEU1dYPFkJ1O.woff2",
+                        "fontWeight": "600",
+                        "fontStyle": "italic",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-600-italic.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEU1dYPFkJ1O.woff2",
+                        "fontWeight": "700",
+                        "fontStyle": "italic",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-700-italic.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8vdFEU1dYPFkJ1O.woff2",
+                        "fontWeight": "800",
+                        "fontStyle": "italic",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-800-italic.svg"
+                      },
+                      {
+                        "src": "https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FEU1dYPFkJ1O.woff2",
+                        "fontWeight": "900",
+                        "fontStyle": "italic",
+                        "fontFamily": "Rubik",
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik-900-italic.svg"
+                      }
+                    ],
+                    "preview": "https://s.w.org/images/fonts/17.7/previews/rubik/rubik.svg"
+                  },
+                  "categories": [
+                    "sans-serif"
+                  ]
+                },
+                {
+                      "font_family_settings": {
+                        "name": "Space Grotesk",
+                        "fontFamily": "Space Grotesk, sans-serif",
+                        "slug": "space-grotesk",
+                        "fontFace": [
+                          {
+                            "src": "https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UUsmNsFjTDJK.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Space Grotesk",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/space-grotesk/space-grotesk-300-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsmNsFjTDJK.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Space Grotesk",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/space-grotesk/space-grotesk-400-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUUsmNsFjTDJK.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Space Grotesk",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/space-grotesk/space-grotesk-500-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42VksmNsFjTDJK.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Space Grotesk",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/space-grotesk/space-grotesk-600-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksmNsFjTDJK.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Space Grotesk",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/space-grotesk/space-grotesk-700-normal.svg"
+                          }
+                        ],
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/space-grotesk/space-grotesk.svg"
+                      },
+                      "categories": [
+                        "sans-serif"
+                      ]
+                    },
+                {
+                      "font_family_settings": {
+                        "name": "Urbanist",
+                        "fontFamily": "Urbanist, sans-serif",
+                        "slug": "urbanist",
+                        "fontFace": [
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDyx8fE5OrS8SlKw.woff2",
+                            "fontWeight": "100",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-100-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDSx4fE5OrS8SlKw.woff2",
+                            "fontWeight": "200",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-200-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDlR4fE5OrS8SlKw.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-300-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDyx4fE5OrS8SlKw.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-400-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqD-R4fE5OrS8SlKw.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-500-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDFRkfE5OrS8SlKw.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-600-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDLBkfE5OrS8SlKw.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-700-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDSxkfE5OrS8SlKw.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-800-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDYhkfE5OrS8SlKw.woff2",
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-900-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA133VJmqacG1K4S1.woff2",
+                            "fontWeight": "100",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-100-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA113VZmqacG1K4S1.woff2",
+                            "fontWeight": "200",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-200-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA12pVZmqacG1K4S1.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-300-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA133VZmqacG1K4S1.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-400-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA13FVZmqacG1K4S1.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-500-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA10pUpmqacG1K4S1.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-600-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA10QUpmqacG1K4S1.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-700-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA113UpmqacG1K4S1.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-800-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/urbanist/v15/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA11eUpmqacG1K4S1.woff2",
+                            "fontWeight": "900",
+                            "fontStyle": "italic",
+                            "fontFamily": "Urbanist",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist-900-italic.svg"
+                          }
+                        ],
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/urbanist/urbanist.svg"
+                      },
+                      "categories": [
+                        "sans-serif"
+                      ]
+                    },
+                {
+                      "font_family_settings": {
+                        "name": "Work Sans",
+                        "fontFamily": "Work Sans, sans-serif",
+                        "slug": "work-sans",
+                        "fontFace": [
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWNi0Dp6_cOyA.woff2",
+                            "fontWeight": "100",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-100-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nXNi0Dp6_cOyA.woff2",
+                            "fontWeight": "200",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-200-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXNi0Dp6_cOyA.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-300-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNi0Dp6_cOyA.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-400-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXNi0Dp6_cOyA.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-500-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQNi0Dp6_cOyA.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-600-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QNi0Dp6_cOyA.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-700-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nQNi0Dp6_cOyA.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-800-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQNi0Dp6_cOyA.woff2",
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-900-normal.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3moJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "100",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-100-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmsJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "200",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-200-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGsJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-300-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3msJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-400-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7GsJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-500-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUAGwJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-600-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUOWwJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-700-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmwJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-800-italic.svg"
+                          },
+                          {
+                            "src": "https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUd2wJpo3ZKyDSQQ.woff2",
+                            "fontWeight": "900",
+                            "fontStyle": "italic",
+                            "fontFamily": "Work Sans",
+                            "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans-900-italic.svg"
+                          }
+                        ],
+                        "preview": "https://s.w.org/images/fonts/17.7/previews/work-sans/work-sans.svg"
+                      },
+                      "categories": [
+                        "sans-serif"
+                      ]
+                    }
+    ]
+}

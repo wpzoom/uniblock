@@ -103,9 +103,6 @@
                     "fontFamily": "var(--wp--preset--font-family--montserrat)"
                 }
             }
-        },
-        "typography": {
-            "fontFamily": "var(--wp--preset--font-family--source-sans-pro)"
         }
     }
 }

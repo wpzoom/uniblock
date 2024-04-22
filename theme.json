@@ -1,5 +1,5 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
     "customTemplates": [
         {
             "name": "about",
@@ -199,15 +199,214 @@
             "fluid": true,
             "fontFamilies": [
                 {
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+                    "name": "System Font",
+                    "slug": "system-font"
+                },
+                {
                     "fontFace": [
                         {
-                            "fontDisplay": "block",
-                            "fontFamily": "Outfit",
-                            "fontStretch": "normal",
+                            "fontFamily": "Epilogue",
                             "fontStyle": "normal",
-                            "fontWeight": "300 900",
+                            "fontWeight": "400",
                             "src": [
-                                "file:./assets/fonts/Outfit-Variable.woff2"
+                               "file:./assets/fonts/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXMDPiCZXVigHPVA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Epilogue",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXsDTiCZXVigHPVA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Epilogue",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/O4ZMFGj5hxF0EhjimngomvnCCtqb30OX7jTiCZXVigHPVA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Epilogue",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HAKT5_UqATfVHNU.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Epilogue",
+                            "fontStyle": "italic",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HCKSJ_UqATfVHNU.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Epilogue",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HDUSJ_UqATfVHNU.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Epilogue, sans-serif",
+                    "name": "Epilogue",
+                    "slug": "epilogue"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZ1rib2Bg-4.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Inter, sans-serif",
+                    "name": "Inter",
+                    "slug": "inter"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Montserrat",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7Y3tcoqK5.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Montserrat",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7Y3tcoqK5.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Montserrat",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7Y3tcoqK5.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Montserrat",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aXp-p7K5ILg.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Montserrat",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aXp-p7K5ILg.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Montserrat, sans-serif",
+                    "name": "Montserrat",
+                    "slug": "montserrat"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Nunito",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshRTY9jo7eTWk.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Nunito",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmRTY9jo7eTWk.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Nunito",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmRTY9jo7eTWk.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Nunito",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXA3j6zbXWnoeg.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Nunito",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3c3j6zbXWnoeg.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Nunito, sans-serif",
+                    "name": "Nunito",
+                    "slug": "nunito"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4S-EiAou6Y.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yC4S-EiAou6Y.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyC4S-EiAou6Y.woff2"
                             ]
                         }
                     ],
@@ -216,194 +415,215 @@
                     "slug": "outfit"
                 },
                 {
-                  "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif)",
-                  "name": "Sans Serif",
-                  "slug": "sans-serif"
+                    "fontFace": [
+                        {
+                            "fontFamily": "Raleway",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCKNLA3JC9c.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Raleway",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpYCKNLA3JC9c.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Raleway",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtapYCKNLA3JC9c.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Raleway",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMPrEVIT9c2c8.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Raleway",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4bbLPrEVIT9c2c8.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Raleway, sans-serif",
+                    "name": "Raleway",
+                    "slug": "raleway"
                 },
                 {
-                  "fontFamily": "serif",
-                  "name": "Serif",
-                  "slug": "serif"
+                    "fontFace": [
+                        {
+                            "fontFamily": "\"Yeseva One\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/OpNJno4ck8vc-xYpwWWxpi9fWhXD00c.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Yeseva One\", system-ui",
+                    "name": "Yeseva One",
+                    "slug": "yeseva-one"
                 },
                 {
-                  "fontFamily": "monospace",
-                  "name": "Monospace",
-                  "slug": "monospace"
+                    "fontFace": [
+                        {
+                            "fontFamily": "\"Josefin Sans\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXMRrLgTsQV0.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Josefin Sans\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ObXXMRrLgTsQV0.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Josefin Sans\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtIJhLybpUV3MEQ.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Josefin Sans\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTaoVhLybpUV3MEQ.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Josefin Sans\", sans-serif",
+                    "name": "Josefin Sans",
+                    "slug": "josefin-sans"
                 },
                 {
-                  "fontFamily": "Archivo, sans-serif",
-                  "name": "Archivo",
-                  "slug": "archivo"
+                    "fontFace": [
+                        {
+                            "fontFamily": "Bitter",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbfCLrEXFh2reU.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Bitter",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8SjYCLrEXFh2reU.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Bitter",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbYCLrEXFh2reU.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Bitter",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4PzOXXpzveWxBw.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Bitter",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cPvvOXXpzveWxBw.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Bitter",
+                            "fontStyle": "italic",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cYPvOXXpzveWxBw.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Bitter, serif",
+                    "name": "Bitter",
+                    "slug": "bitter"
                 },
                 {
-                  "fontFamily": "Alegreya, serif",
-                  "name": "Alegreya",
-                  "slug": "alegreya"
-                },
-                {
-                  "fontFamily": "Bitter, sans-serif",
-                  "name": "Bitter",
-                  "slug": "bitter"
-                },
-                {
-                  "fontFamily": "Crimson Pro, serif",
-                  "name": "Crimson Pro",
-                  "slug": "crimson-pro"
-                },
-                {
-                  "fontFamily": "DM Sans, sans-serif",
-                  "name": "DM Sans",
-                  "slug": "dm-sans"
-                },
-                {
-                  "fontFamily": "Epilogue, sans-serif",
-                  "name": "Epilogue",
-                  "slug": "epilogue"
-                },
-                {
-                  "fontFamily": "Figtree, sans-serif",
-                  "name": "Figtree",
-                  "slug": "figtree"
-                },
-                {
-                  "fontFamily": "IBM Plex Sans, sans-serif",
-                  "name": "IBM Plex Sans",
-                  "slug": "ibm-plex-sans"
-                },
-                {
-                  "fontFamily": "IBM Plex Mono, monospace",
-                  "name": "IBM Plex Mono",
-                  "slug": "ibm-plex-mono"
-                },
-                {
-                  "fontFamily": "Inter, sans-serif",
-                  "name": "Inter",
-                  "slug": "inter"
-                },
-                {
-                  "fontFamily": "Josefin Sans, sans-serif",
-                  "name": "Josefin Sans",
-                  "slug": "josefin-sans"
-                },
-                {
-                  "fontFamily": "Jost, sans-serif",
-                  "name": "Jost",
-                  "slug": "jost"
-                },
-                {
-                  "fontFamily": "Lexend, sans-serif",
-                  "name": "Lexend",
-                  "slug": "lexend"
-                },
-                {
-                    "fontFamily": "'Libre Baskerville', serif",
-                    "slug": "libre-baskerville",
-                    "name": "Libre Baskerville"
-                },
-                {
-                    "fontFamily": "'Libre Franklin', sans-serif",
-                    "slug": "libre-franklin",
-                    "name": "Libre Franklin"
-                },
-                {
-                  "fontFamily": "Lora, serif",
-                  "name": "Lora",
-                  "slug": "lora"
-                },
-                {
-                  "fontFamily": "Manrope, sans-serif",
-                  "name": "Manrope",
-                  "slug": "manrope"
-                },
-                {
-                    "fontFamily": "Merriweather, serif",
-                    "slug": "merriweather",
-                    "name": "Merriweather"
-                },
-                {
-                    "fontFamily": "Montserrat, sans-serif",
-                    "slug": "montserrat",
-                    "name": "Montserrat"
-                },
-                {
-                  "fontFamily": "Mulish, sans-serif",
-                  "name": "Mulish",
-                  "slug": "mulish"
-                },
-                {
-                    "fontFamily": "Nunito, sans-serif",
-                    "slug": "nunito",
-                    "name": "Nunito"
-                },
-                {
-                  "fontFamily": "Open Sans, sans-serif",
-                  "name": "Open Sans",
-                  "slug": "open-sans"
-                },
-                {
-                  "fontFamily": "Oswald, sans-serif",
-                  "name": "Oswald",
-                  "slug": "oswald"
-                },
-                {
-                  "fontFamily": "Playfair Display, serif",
-                  "name": "Playfair Display",
-                  "slug": "playfair-display"
-                },
-                {
-                  "fontFamily": "Poppins, sans-serif",
-                  "name": "Poppins",
-                  "slug": "poppins"
-                },
-                {
-                  "fontFamily": "Quicksand, sans-serif",
-                  "name": "Quicksand",
-                  "slug": "quicksand"
-                },
-                {
-                  "fontFamily": "Raleway, sans-serif",
-                  "name": "Raleway",
-                  "slug": "raleway"
-                },
-                {
-                  "fontFamily": "Roboto, sans-serif",
-                  "name": "Roboto",
-                  "slug": "roboto"
-                },
-                {
-                  "fontFamily": "Rubik, sans-serif",
-                  "name": "Rubik",
-                  "slug": "rubik"
-                },
-                {
-                  "fontFamily": "Source Sans Pro, sans-serif",
-                  "name": "Source Sans Pro",
-                  "slug": "source-sans-pro"
-                },
-                {
-                  "fontFamily": "Source Serif Pro, sans-serif",
-                  "name": "Source Serif Pro",
-                  "slug": "source-serif-pro"
-                },
-                {
-                  "fontFamily": "Space Grotesk, sans-serif",
-                  "name": "Space Grotesk",
-                  "slug": "space-grotesk"
-                },
-                {
-                  "fontFamily": "Urbanist, sans-serif",
-                  "name": "Urbanist",
-                  "slug": "urbanist"
-                },
-                {
-                  "fontFamily": "Work Sans, sans-serif",
-                  "name": "Work Sans",
-                  "slug": "work-sans"
-                },
-                {
-                  "fontFamily": "Yeseva One, sans-serif",
-                  "name": "Yeseva One",
-                  "slug": "yeseva-one"
+                    "fontFace": [
+                        {
+                            "fontFamily": "Poppins",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/pxiEyp8kv8JHgFVrFJXUc1NECPY.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Poppins",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/pxiByp8kv8JHgFVrLEj6V15vFP-KUEg.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Poppins",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/pxiByp8kv8JHgFVrLDD4V15vFP-KUEg.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Poppins",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                               "file:./assets/fonts/pxiGyp8kv8JHgFVrJJLecnFBGPaTSQ.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Poppins",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                               "file:./assets/fonts/pxiDyp8kv8JHgFVrJJLmr19lFd2PQEhcqw.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Poppins",
+                            "fontStyle": "italic",
+                            "fontWeight": "800",
+                            "src": [
+                               "file:./assets/fonts/pxiDyp8kv8JHgFVrJJLm111lFd2PQEhcqw.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Poppins, sans-serif",
+                    "name": "Poppins",
+                    "slug": "poppins"
                 }
             ],
             "fontSizes": [
