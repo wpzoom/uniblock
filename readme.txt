@@ -3,7 +3,7 @@ Contributors: WPZOOM
 Requires at least: 6.5
 Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 1.1.6
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,8 @@ UniBlock is a next-generation WordPress theme that adopts the Full Site Editing 
 
 == Changelog ==
 
-= 1.1.6 =
+= 2.0.0 =
+* Added support for the new Font Library feature in WordPress 6.5
 * Improvements and bug fixes
 
 = 1.1.5 =

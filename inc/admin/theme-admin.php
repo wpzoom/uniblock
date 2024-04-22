@@ -66,7 +66,7 @@ function uniblock_admin_page_content() {
 							<?php echo esc_html__( 'UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.', 'uniblock' ); ?>
 						</p>
 						<p class="uniblock-intro-text">
-						<a href="https://www.wpzoom.com/documentation/uniblock/" target="_blank"><?php echo esc_html__( 'UniBlock Documentation', 'uniblock' ); ?></a> &nbsp;&nbsp; <strong><a href="https://www.wpzoom.com/themes/uniblock-pro/" target="_blank"><?php echo esc_html__( 'UniBlock PRO', 'uniblock' ); ?></a></strong>
+						<a href="https://www.wpzoom.com/documentation/uniblock/" target="_blank"><?php echo esc_html__( 'UniBlock Documentation', 'uniblock' ); ?></a> &nbsp;&nbsp; <strong><a href="https://www.wpzoom.com/themes/uniblock-pro/?utm_source=wp-admin&utm_medium=uniblock-free&utm_campaign=uniblock-about-free" target="_blank"><?php echo esc_html__( 'UniBlock PRO', 'uniblock' ); ?></a></strong>
 
 						</p>
 						<br><br><hr>
@@ -81,7 +81,7 @@ function uniblock_admin_page_content() {
 							<?php echo __( 'UniBlock PRO comes packaged with numerous features to help you build beautiful websites in seconds. Get access to <strong>premium block patterns</strong>, <strong>header & footer layouts</strong>, and a <strong>1-click demo content importer</strong> to help you get started quickly.', 'uniblock' ); ?>
 						</p>
 
-						<p><a href="https://www.wpzoom.com/themes/uniblock-pro/" class="button button-primary button-hero" style="text-decoration: none;" target="_blank"><?php esc_html_e( 'Get UniBlock PRO &rarr;', 'uniblock' ); ?></a></p>
+						<p><a href="https://www.wpzoom.com/themes/uniblock-pro/?utm_source=wp-admin&utm_medium=uniblock-free&utm_campaign=uniblock-about-free" class="button button-primary button-hero" style="text-decoration: none;" target="_blank"><?php esc_html_e( 'Get UniBlock PRO &rarr;', 'uniblock' ); ?></a></p>
 
 
 					</div> <!-- .body -->
@@ -95,7 +95,7 @@ function uniblock_admin_page_content() {
                         <div class="uniblock-widget">
                             <h2 class="uniblock-widget-title"><?php echo esc_html__( 'Get UniBlock PRO!', 'uniblock' ); ?></h2>
                             <p><?php echo esc_html__( 'We\'ve released UniBlock PRO, an advanced version of the UniBlock theme. The PRO version includes additional patterns, header & footer layouts, and more.', 'uniblock' ); ?></p>
-                            <a href="https://www.wpzoom.com/themes/uniblock-pro/" class="button button-primary button-hero" style="text-decoration: none;" target="_blank"><?php esc_html_e( 'Get the PRO Version &rarr;', 'uniblock' ); ?></a>
+                            <a href="https://www.wpzoom.com/themes/uniblock-pro/?utm_source=wp-admin&utm_medium=uniblock-free&utm_campaign=uniblock-about-free" class="button button-primary button-hero" style="text-decoration: none;" target="_blank"><?php esc_html_e( 'Get the PRO Version &rarr;', 'uniblock' ); ?></a>
                         </div>
 
 
@@ -104,7 +104,7 @@ function uniblock_admin_page_content() {
 
 							<ul class="uniblock-useful-links">
                                 <li>
-                                    <strong><a href="https://www.wpzoom.com/themes/uniblock-pro/" target="_blank"><?php echo esc_html__( 'UniBlock PRO', 'uniblock' ); ?></a> - <em>NEW</em></strong>
+                                    <strong><a href="https://www.wpzoom.com/themes/uniblock-pro/?utm_source=wp-admin&utm_medium=uniblock-free&utm_campaign=uniblock-about-free" target="_blank"><?php echo esc_html__( 'UniBlock PRO', 'uniblock' ); ?></a> - <em>NEW</em></strong>
                                 </li>
 								<li>
 									<a href="https://www.wpzoom.com/documentation/uniblock/" target="_blank"><?php echo esc_html__( 'UniBlock Documentation', 'uniblock' ); ?></a>
