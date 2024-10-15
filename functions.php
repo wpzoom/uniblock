@@ -189,5 +189,3 @@ function uniblock_font_collections() {
         ]
     ] );
 }
-
-
