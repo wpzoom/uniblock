@@ -707,11 +707,25 @@
         "blocks": {
             "core/button": {
                 "color": {
-                    "background": "var(--wp--preset--color--primary)"
+                    "background": "var(--wp--preset--color--primary)",
+                    "text": "#ffffff"
                 },
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "fontWeight": "var(--wp--custom--font-weight--medium)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "#ffffff"
+                        },
+                        ":hover": {
+                            "color": {
+                                "background": "#ffffff",
+                                "text": "#ff6600"
+                            }
+                        }
+                    }
                 }
             },
             "core/buttons": {
