@@ -6,9 +6,9 @@ Author URI: https://www.wpzoom.com/
 Description: UniBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. The theme bundles 6 Color Schemes and 19 Block Patterns. DEMO CONTENT & Documentation can be found here: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#10132; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://www.wpzoom.com/documentation/uniblock/
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, block-patterns, full-site-editing, template-editing, e-commerce
 Requires at least: 6.5
-Tested up to: 6.5
+Tested up to: 6.9
 Requires PHP: 7.4
-Version: 2.0.0
+Version: 2.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: uniblock
@@ -672,7 +672,7 @@ ul {
 }
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-    background-color: #eee;
+    background-color: var(--wp--preset--color--lightgrey);
 }
 
 /* Custom
@@ -761,7 +761,7 @@ a.wpzoom-video-popup-block .wpzoom-video-popup-block_icon svg {
 }
 
 .woocommerce div.product .summary ins {
-    color: #101010;
+    color: var(--wp--preset--color--foreground);
 }
 
 .woocommerce div.product .summary .price {
@@ -854,7 +854,7 @@ a.wpzoom-video-popup-block .wpzoom-video-popup-block_icon svg {
 .woocommerce-page input.button {
     background-color: var(--wp--preset--color--primary) !important;
     color: var(--wp--preset--color--background);
-    border-color: #ca0606 !important;
+    border-color: var(--wp--preset--color--primary) !important;
     font-weight: var(--wp--custom--font-weight--medium);
 }
 
@@ -870,7 +870,7 @@ a.wpzoom-video-popup-block .wpzoom-video-popup-block_icon svg {
 .woocommerce-page input.button.alt:hover {
     background-color: var(--wp--preset--color--foreground)  !important;
     color: var(--wp--preset--color--light-background);
-    border-color: #ca0606 !important;
+    border-color: var(--wp--preset--color--primary) !important;
 }
 
 .woocommerce #content input.button:hover,
@@ -885,7 +885,7 @@ a.wpzoom-video-popup-block .wpzoom-video-popup-block_icon svg {
 .woocommerce-page input.button:hover {
     background-color: var(--wp--preset--color--foreground)  !important;
     color: var(--wp--preset--color--light-background);
-    border-color: #ca0606 !important;
+    border-color: var(--wp--preset--color--primary) !important;
 }
 
 .woocommerce #content input.button.alt:hover,
@@ -900,7 +900,7 @@ a.wpzoom-video-popup-block .wpzoom-video-popup-block_icon svg {
 .woocommerce-page input.button.alt:hover {
     background-color: var(--wp--preset--color--foreground)  !important;
     color: var(--wp--preset--color--light-background);
-    border-color: #ca0606 !important;
+    border-color: var(--wp--preset--color--primary) !important;
 }
 
 
