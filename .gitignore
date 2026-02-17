@@ -6,3 +6,4 @@ vendor/
 **/*.map
 .ignore
 .github_token
+CLAUDE.md

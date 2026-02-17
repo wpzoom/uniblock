@@ -178,12 +178,12 @@ add_action( 'init', 'uniblock_font_collections' );
 function uniblock_font_collections() {
     /* Register a collection of recommended fonts */
     wp_register_font_collection( 'uniblock', [
-        'name'          => __( 'UniBlock', 'themeslug' ),
-        'description'   => __( 'A collection of fantasy fonts.', 'themeslug' ),
+        'name'          => __( 'UniBlock', 'uniblock' ),
+        'description'   => __( 'A collection of fantasy fonts.', 'uniblock' ),
         'font_families' => get_theme_file_path( 'assets/fonts/uniblock.json' ),
         'categories' => [
             [
-                'name' => __( 'Display', 'themeslug' ),
+                'name' => __( 'Display', 'uniblock' ),
                 'slug' => 'display'
             ]
         ]
