@@ -15,11 +15,11 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":1,"textColor":"white","fontSize":"max-48"} -->
-<h1 class="has-white-color has-text-color has-max-48-font-size">Our News</h1>
+<h1 class="has-white-color has-text-color has-max-48-font-size"><?php echo esc_html__( 'Our News', 'uniblock' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Latest announcement, articles, and more!</p>
+<p><?php echo esc_html__( 'Latest announcement, articles, and more!', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"63px"} -->

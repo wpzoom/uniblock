@@ -16,7 +16,7 @@
 
 <!-- wp:buttons {"className":"wpz-header-button wpz-alt-button","layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons wpz-header-button wpz-alt-button"><!-- wp:button {"style":{"border":{"radius":"4px"},"spacing":{"padding":{"top":"8px","bottom":"8px","left":"25px","right":"25px"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="border-radius:4px;padding-top:8px;padding-right:25px;padding-bottom:8px;padding-left:25px">Contact us</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="border-radius:4px;padding-top:8px;padding-right:25px;padding-bottom:8px;padding-left:25px"><?php echo esc_html__( 'Contact us', 'uniblock' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

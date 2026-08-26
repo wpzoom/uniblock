@@ -14,7 +14,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":1,"textColor":"white","fontSize":"max-48"} -->
-<h1 class="has-white-color has-text-color has-max-48-font-size">We help companies build <br>great solutions</h1>
+<h1 class="has-white-color has-text-color has-max-48-font-size"><?php /* translators: %1$s: line break. */ printf( esc_html__( 'We help companies build %1$sgreat solutions', 'uniblock' ), '<br>' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"63px"} -->
@@ -33,15 +33,15 @@
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"right":"var:preset|spacing|80"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-column" style="padding-right:var(--wp--preset--spacing--80);flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color">OUR STORY  </p>
+<p class="has-primary-color has-text-color"><?php echo esc_html__( 'OUR STORY', 'uniblock' ); ?>  </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"max-48"} -->
-<h2 class="has-max-48-font-size">We are your partner in growth</h2>
+<h2 class="has-max-48-font-size"><?php echo esc_html__( 'We are your partner in growth', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who <a href="#">need some type</a> to visualize what the actual copy might look like if it were real content.<br><br>If you want to read, I might suggest a good book, perhaps Hemingway or Melville. That’s why they call it, the dummy copy. This, of course, is not the real copy for this entry. Rest assured, the words will expand the concept. With clarity. Conviction. And a little wit.</p>
+<p><?php /* translators: %1$s: opening link tag, %2$s: closing link tag, %3$s: line breaks. */ printf( esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who %1$sneed some type%2$s to visualize what the actual copy might look like if it were real content.%3$sIf you want to read, I might suggest a good book, perhaps Hemingway or Melville. That’s why they call it, the dummy copy. This, of course, is not the real copy for this entry. Rest assured, the words will expand the concept. With clarity. Conviction. And a little wit.', 'uniblock' ), '<a href="#">', '</a>', '<br><br>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -62,7 +62,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Happy Customers</p>
+<p class="has-text-align-center"><?php echo esc_html__( 'Happy Customers', 'uniblock' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -80,7 +80,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Partners around the World</p>
+<p class="has-text-align-center"><?php echo esc_html__( 'Partners around the World', 'uniblock' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -100,7 +100,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Offices in different countries</p>
+<p class="has-text-align-center"><?php echo esc_html__( 'Offices in different countries', 'uniblock' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -118,7 +118,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Team Members</p>
+<p class="has-text-align-center"><?php echo esc_html__( 'Team Members', 'uniblock' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -143,15 +143,15 @@
 
 <!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"left":"var:preset|spacing|80"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-column" style="padding-left:var(--wp--preset--spacing--80);flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color">OUR EXPERTISE</p>
+<p class="has-primary-color has-text-color"><?php echo esc_html__( 'OUR EXPERTISE', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"max-48"} -->
-<h2 class="has-max-48-font-size">Duis aute irure dolor reprehenderit</h2>
+<h2 class="has-max-48-font-size"><?php echo esc_html__( 'Duis aute irure dolor reprehenderit', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who <a href="#">need some type</a> to visualize what the actual copy might look like if it were real content.<br><br>If you want to read, I might suggest a good book, perhaps Hemingway or Melville. That’s why they call it, the dummy copy. This, of course, is not the real copy for this entry. Rest assured, the words will expand the concept. With clarity. Conviction. And a little wit.</p>
+<p><?php /* translators: %1$s: opening link tag, %2$s: closing link tag, %3$s: line breaks. */ printf( esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who %1$sneed some type%2$s to visualize what the actual copy might look like if it were real content.%3$sIf you want to read, I might suggest a good book, perhaps Hemingway or Melville. That’s why they call it, the dummy copy. This, of course, is not the real copy for this entry. Rest assured, the words will expand the concept. With clarity. Conviction. And a little wit.', 'uniblock' ), '<a href="#">', '</a>', '<br><br>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -165,11 +165,11 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color">WHAT WE DO</p>
+<p class="has-text-align-center has-primary-color has-text-color"><?php echo esc_html__( 'WHAT WE DO', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","fontSize":"max-48"} -->
-<h2 class="has-text-align-center has-max-48-font-size">Bring the world to <br>your solutions</h2>
+<h2 class="has-text-align-center has-max-48-font-size"><?php /* translators: %1$s: line break. */ printf( esc_html__( 'Bring the world to %1$syour solutions', 'uniblock' ), '<br>' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer -->
@@ -183,15 +183,15 @@
 <!-- /wp:outermost/icon-block -->
 
 <!-- wp:heading -->
-<h2>Service 1</h2>
+<h2><?php echo esc_html__( 'Service 1', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+<p><?php echo esc_html__( 'Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#">Learn more →</a></p>
+<p><a href="#"><?php echo esc_html__( 'Learn more', 'uniblock' ); ?> →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -201,15 +201,15 @@
 <!-- /wp:outermost/icon-block -->
 
 <!-- wp:heading -->
-<h2>Service 2</h2>
+<h2><?php echo esc_html__( 'Service 2', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+<p><?php echo esc_html__( 'Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#">Learn more →</a></p>
+<p><a href="#"><?php echo esc_html__( 'Learn more', 'uniblock' ); ?> →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -219,15 +219,15 @@
 <!-- /wp:outermost/icon-block -->
 
 <!-- wp:heading -->
-<h2>Service 3</h2>
+<h2><?php echo esc_html__( 'Service 3', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+<p><?php echo esc_html__( 'Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#">Learn more →</a></p>
+<p><a href="#"><?php echo esc_html__( 'Learn more', 'uniblock' ); ?> →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -241,11 +241,11 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color">OUR TEAM</p>
+<p class="has-primary-color has-text-color"><?php echo esc_html__( 'OUR TEAM', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"max-48"} -->
-<h2 class="has-max-48-font-size">We are friendly <br>and collaborative</h2>
+<h2 class="has-max-48-font-size"><?php /* translators: %1$s: line break. */ printf( esc_html__( 'We are friendly %1$sand collaborative', 'uniblock' ), '<br>' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"71px"} -->
@@ -263,15 +263,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>Jimmy Banh</h2>
+<h2><?php echo esc_html__( 'Jimmy Banh', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Co-founder / CEO</p>
+<p><?php echo esc_html__( 'Co-founder / CEO', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.</p>
+<p><?php echo esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"lightgrey","iconColorValue":"#6C6C77","className":"is-style-logos-only"} -->
@@ -285,15 +285,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>Cynthia Howery</h2>
+<h2><?php echo esc_html__( 'Cynthia Howery', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>CCO</p>
+<p><?php echo esc_html__( 'CCO', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.</p>
+<p><?php echo esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"lightgrey","iconColorValue":"#6C6C77","className":"is-style-logos-only"} -->
@@ -307,15 +307,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>Leo Palmieri</h2>
+<h2><?php echo esc_html__( 'Leo Palmieri', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>CFO</p>
+<p><?php echo esc_html__( 'CFO', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.</p>
+<p><?php echo esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"lightgrey","iconColorValue":"#6C6C77","className":"is-style-logos-only"} -->
@@ -335,15 +335,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>Randy Phillips</h2>
+<h2><?php echo esc_html__( 'Randy Phillips', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>COO</p>
+<p><?php echo esc_html__( 'COO', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.</p>
+<p><?php echo esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"lightgrey","iconColorValue":"#6C6C77","className":"is-style-logos-only"} -->
@@ -357,15 +357,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>Jennie Thompson</h2>
+<h2><?php echo esc_html__( 'Jennie Thompson', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>CLCO</p>
+<p><?php echo esc_html__( 'CLCO', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.</p>
+<p><?php echo esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"lightgrey","iconColorValue":"#6C6C77","className":"is-style-logos-only"} -->
@@ -379,15 +379,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>Sharon Austin</h2>
+<h2><?php echo esc_html__( 'Sharon Austin', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>CTO</p>
+<p><?php echo esc_html__( 'CTO', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.</p>
+<p><?php echo esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"lightgrey","iconColorValue":"#6C6C77","className":"is-style-logos-only"} -->
@@ -411,11 +411,11 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph {"align":"left","textColor":"primary"} -->
-<p class="has-text-align-left has-primary-color has-text-color">WHERE ARE WE LOCATED</p>
+<p class="has-text-align-left has-primary-color has-text-color"><?php echo esc_html__( 'WHERE ARE WE LOCATED', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"left","fontSize":"max-48"} -->
-<h2 class="has-text-align-left has-max-48-font-size">Our Location</h2>
+<h2 class="has-text-align-left has-max-48-font-size"><?php echo esc_html__( 'Our Location', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns -->
@@ -451,18 +451,18 @@
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","left":"0","bottom":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:0"><!-- wp:column {"verticalAlignment":"center","width":"66.66%","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:heading -->
-<h2>Thinking about joining our team?</h2>
+<h2><?php echo esc_html__( 'Thinking about joining our team?', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Check out our open positions, or drop us a line, say hi.</p>
+<p><?php echo esc_html__( 'Check out our open positions, or drop us a line, say hi.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"4px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-primary-background-color has-background wp-element-button" style="border-radius:4px">View Job Openings</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-primary-background-color has-background wp-element-button" style="border-radius:4px"><?php echo esc_html__( 'View Job Openings', 'uniblock' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

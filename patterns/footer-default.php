@@ -15,7 +15,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content.</p>
+<p><?php echo esc_html__( 'This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content.', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","style":{"spacing":{"blockGap":{"top":"3px","left":"19px"}}},"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
@@ -31,7 +31,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"tertiary","fontSize":"small"} -->
-<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)">Company</h3>
+<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)"><?php echo esc_html__( 'Company', 'uniblock' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:page-list /--></div>
@@ -39,7 +39,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"tertiary","fontSize":"small"} -->
-<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)">Legal</h3>
+<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)"><?php echo esc_html__( 'Legal', 'uniblock' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:page-list /--></div>
@@ -47,17 +47,17 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"tertiary","fontSize":"small"} -->
-<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)">Subscribe to our Newsletter</h3>
+<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)"><?php echo esc_html__( 'Subscribe to our Newsletter', 'uniblock' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Sign up with your email address to receive our weekly news</p>
+<p><?php echo esc_html__( 'Sign up with your email address to receive our weekly news', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <form action="/action_page.php">
-    <input type="text" placeholder="Email address" name="mail" required="">
-    <input type="submit" value="Subscribe">
+    <input type="text" placeholder="<?php echo esc_attr__( 'Email address', 'uniblock' ); ?>" name="mail" required="">
+    <input type="submit" value="<?php echo esc_attr__( 'Subscribe', 'uniblock' ); ?>">
 </form>
 <!-- /wp:html --></div>
 <!-- /wp:column --></div>
@@ -69,11 +69,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"tertiary"} -->
-<p class="has-tertiary-color has-text-color">Copyright © <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo get_bloginfo( 'name' ); ?></p>
+<p class="has-tertiary-color has-text-color"><?php echo esc_html__( 'Copyright ©', 'uniblock' ); ?> <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo get_bloginfo( 'name' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"tertiary"} -->
-<p class="has-tertiary-color has-text-color">Powered by WordPress. Designed by <a href="https://www.wpzoom.com" data-type="URL" data-id="https://www.wpzoom.com" target="_blank" rel="noreferrer noopener">WPZOOM</a></p>
+<p class="has-tertiary-color has-text-color"><?php /* translators: %1$s: opening link tag, %2$s: closing link tag. */ printf( esc_html__( 'Powered by WordPress. Designed by %1$sWPZOOM%2$s', 'uniblock' ), '<a href="https://www.wpzoom.com" data-type="URL" data-id="https://www.wpzoom.com" target="_blank" rel="noreferrer noopener">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
