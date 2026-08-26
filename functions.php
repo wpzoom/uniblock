@@ -162,7 +162,7 @@ require get_template_directory() . '/inc/admin/theme-admin.php';
 --------------------------------------------------------------*/
 if ( ! function_exists( 'uniblock_admin_scripts' ) ) :
     function uniblock_admin_scripts() {
-        wp_enqueue_style( 'uniblock-admin-styles', get_template_directory_uri() . '/assets/admin/css/admin-styles.css' );
+        wp_enqueue_style( 'uniblock-admin-styles', get_template_directory_uri() . '/assets/admin/css/admin-styles.css', array(), wp_get_theme()->get( 'Version' ) );
     }
     add_action( 'admin_enqueue_scripts', 'uniblock_admin_scripts' );
 endif;
