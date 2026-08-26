@@ -15,7 +15,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3,"textColor":"white","fontSize":"max-48"} -->
-<h3 class="has-white-color has-text-color has-max-48-font-size">We help companies build <br>great solutions</h3>
+<h3 class="has-white-color has-text-color has-max-48-font-size"><?php /* translators: %1$s: line break. */ printf( esc_html__( 'We help companies build %1$sgreat solutions', 'uniblock' ), '<br>' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"63px"} -->

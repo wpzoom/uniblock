@@ -104,7 +104,7 @@ function uniblock_admin_page_content() {
 
 							<ul class="uniblock-useful-links">
                                 <li>
-                                    <strong><a href="https://www.wpzoom.com/themes/uniblock-pro/?utm_source=wp-admin&utm_medium=uniblock-free&utm_campaign=uniblock-about-free" target="_blank"><?php echo esc_html__( 'UniBlock PRO', 'uniblock' ); ?></a> - <em>NEW</em></strong>
+                                    <strong><a href="https://www.wpzoom.com/themes/uniblock-pro/?utm_source=wp-admin&utm_medium=uniblock-free&utm_campaign=uniblock-about-free" target="_blank"><?php echo esc_html__( 'UniBlock PRO', 'uniblock' ); ?></a> - <em><?php echo esc_html__( 'NEW', 'uniblock' ); ?></em></strong>
                                 </li>
 								<li>
 									<a href="https://www.wpzoom.com/documentation/uniblock/" target="_blank"><?php echo esc_html__( 'UniBlock Documentation', 'uniblock' ); ?></a>

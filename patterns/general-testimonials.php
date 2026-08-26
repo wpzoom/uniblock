@@ -12,11 +12,11 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color">TESTIMONIALS</p>
+<p class="has-primary-color has-text-color"><?php echo esc_html__( 'TESTIMONIALS', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"max-48"} -->
-<h2 class="has-max-48-font-size">What people say<br>about us</h2>
+<h2 class="has-max-48-font-size"><?php /* translators: %1$s: line break. */ printf( esc_html__( 'What people say%1$sabout us', 'uniblock' ), '<br>' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"73px"} -->
@@ -26,7 +26,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"light-background","className":"is-style-shadow"} -->
 <div class="wp-block-column is-style-shadow has-light-background-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:paragraph -->
-<p>"Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam."</p>
+<p><?php echo esc_html__( '"Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam."', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -35,14 +35,14 @@
 <!-- /wp:image -->
 
 <!-- wp:pullquote {"textAlign":"left","style":{"border":{"width":"0px","style":"none"}},"textColor":"tertiary"} -->
-<figure class="wp-block-pullquote has-text-align-left has-tertiary-color has-text-color" style="border-style:none;border-width:0px"><blockquote><p><strong>Eva Lester</strong></p><cite>Senior Supervisors ・ Fables</cite></blockquote></figure>
+<figure class="wp-block-pullquote has-text-align-left has-tertiary-color has-text-color" style="border-style:none;border-width:0px"><blockquote><p><strong><?php echo esc_html__( 'Eva Lester', 'uniblock' ); ?></strong></p><cite><?php echo esc_html__( 'Senior Supervisors ・ Fables', 'uniblock' ); ?></cite></blockquote></figure>
 <!-- /wp:pullquote --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"light-background","className":"is-style-shadow"} -->
 <div class="wp-block-column is-style-shadow has-light-background-background-color has-background" style="border-style:none;border-width:0px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:paragraph -->
-<p>"Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam."</p>
+<p><?php echo esc_html__( '"Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam."', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -51,7 +51,7 @@
 <!-- /wp:image -->
 
 <!-- wp:pullquote {"textAlign":"left","style":{"border":{"width":"0px","style":"none"}},"textColor":"tertiary"} -->
-<figure class="wp-block-pullquote has-text-align-left has-tertiary-color has-text-color" style="border-style:none;border-width:0px"><blockquote><p><strong>James Richardson</strong></p><cite>Environmental Economist</cite></blockquote></figure>
+<figure class="wp-block-pullquote has-text-align-left has-tertiary-color has-text-color" style="border-style:none;border-width:0px"><blockquote><p><strong><?php echo esc_html__( 'James Richardson', 'uniblock' ); ?></strong></p><cite><?php echo esc_html__( 'Environmental Economist', 'uniblock' ); ?></cite></blockquote></figure>
 <!-- /wp:pullquote --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -62,6 +62,6 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color"><strong><a href="#">View more</a></strong></p>
+<p class="has-text-align-center has-primary-color has-text-color"><strong><a href="#"><?php echo esc_html__( 'View more', 'uniblock' ); ?></a></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

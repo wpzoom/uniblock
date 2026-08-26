@@ -12,7 +12,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"className":"has-text-align-left has-x-large-font-size"} -->
-<h2 class="has-text-align-left has-x-large-font-size" id="pricing-table">Pricing Table</h2>
+<h2 class="has-text-align-left has-x-large-font-size" id="pricing-table"><?php echo esc_html__( 'Pricing Table', 'uniblock' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -27,7 +27,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","fontSize":"max-48"} -->
-<h3 class="has-text-align-center has-white-color has-text-color has-max-48-font-size">Starter </h3>
+<h3 class="has-text-align-center has-white-color has-text-color has-max-48-font-size"><?php echo esc_html__( 'Starter', 'uniblock' ); ?> </h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"center","level":5,"style":{"color":{"text":"#ffffff99"}}} -->
@@ -41,7 +41,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"style":"none","width":"0px"}}} -->
 <div class="wp-block-group" style="border-style:none;border-width:0px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #1</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #1', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -49,7 +49,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #2</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #2', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -57,7 +57,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #3</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #3', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -65,7 +65,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #4</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #4', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -73,12 +73,12 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #5</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #5', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px"><!-- wp:button {"style":{"border":{"radius":"5px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px">Sign Up Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px"><?php echo esc_html__( 'Sign Up Now', 'uniblock' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -91,7 +91,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","fontSize":"max-48"} -->
-<h3 class="has-text-align-center has-white-color has-text-color has-max-48-font-size">Professional </h3>
+<h3 class="has-text-align-center has-white-color has-text-color has-max-48-font-size"><?php echo esc_html__( 'Professional', 'uniblock' ); ?> </h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"center","level":5,"style":{"color":{"text":"#ffffff99"}}} -->
@@ -105,7 +105,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"style":"none","width":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="border-style:none;border-width:0px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #1</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #1', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -113,7 +113,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #2</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #2', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -121,7 +121,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #3</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #3', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -129,7 +129,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #4</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #4', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -137,12 +137,12 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #5</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #5', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px"><!-- wp:button {"style":{"border":{"radius":"5px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px">Sign Up Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px"><?php echo esc_html__( 'Sign Up Now', 'uniblock' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -155,7 +155,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","fontSize":"max-48"} -->
-<h3 class="has-text-align-center has-white-color has-text-color has-max-48-font-size">Agency </h3>
+<h3 class="has-text-align-center has-white-color has-text-color has-max-48-font-size"><?php echo esc_html__( 'Agency', 'uniblock' ); ?> </h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"center","level":5,"style":{"color":{"text":"#ffffff99"}}} -->
@@ -169,7 +169,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"style":"none","width":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="border-style:none;border-width:0px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #1</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #1', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -177,7 +177,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #2</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #2', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -185,7 +185,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #3</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #3', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -193,7 +193,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #4</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #4', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"lightgrey","className":"is-style-wide"} -->
@@ -201,12 +201,12 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Feature #5</p>
+<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature #5', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px"><!-- wp:button {"style":{"border":{"radius":"5px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px">Sign Up Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" style="border-radius:5px"><?php echo esc_html__( 'Sign Up Now', 'uniblock' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
