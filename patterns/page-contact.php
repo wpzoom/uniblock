@@ -45,7 +45,7 @@
 <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"right":"7%"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="padding-right:7%;flex-basis:50%"><!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color"><?php echo esc_html__( "Let's Connect!", 'uniblock' ); ?></p>
+<p class="has-primary-color has-text-color"><?php echo esc_html__( 'Let\'s Connect!', 'uniblock' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"max-48"} -->

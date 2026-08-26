@@ -445,7 +445,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","fontSize":"max-48"} -->
-<h2 class="has-text-align-center has-max-48-font-size"><?php /* translators: %1$s: line break. */ printf( esc_html__( "They're already winning %1$swith us", 'uniblock' ), '<br>' ); ?></h2>
+<h2 class="has-text-align-center has-max-48-font-size"><?php /* translators: %1$s: line break. */ printf( esc_html__( 'They\'re already winning %1$swith us', 'uniblock' ), '<br>' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"81px"} -->
