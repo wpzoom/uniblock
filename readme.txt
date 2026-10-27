@@ -13,7 +13,7 @@ UniBlock is a next-generation WordPress theme that adopts the Full Site Editing 
 
 == Changelog ==
 
-= 2.0.3 =
+= 2.0.2 =
 * Mobile menu: restored the theme's overlay colors (WordPress 7.1 started painting the open mobile menu white with white links); submenus now collapse into an accordion (tap the arrow to expand; the current page's branch opens automatically) and use the same font size as the top-level items
 * Improved translation support
 
