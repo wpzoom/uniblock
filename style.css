@@ -390,6 +390,11 @@ ul li:where(.wp-block-list) {
 
 }
 
+/* WP 7.1 core paints the open overlay white / black text via
+   `.wp-block-navigation:not(.has-background|.has-text-color) ... .is-menu-open:not(.disable-default-overlay)`;
+   the first two selectors match that specificity so the theme colors win again. */
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay),
+.wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay),
 .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open,
 .wp-block-navigation__responsive-container.is-menu-open {
     padding: 30px var(--wp--custom--spacing--outer);
@@ -398,10 +403,72 @@ ul li:where(.wp-block-list) {
     font-size: var(--wp--preset--font-size--max-36);
 }
 
-.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container {
-    font-size: var(--wp--preset--font-size--large);
-    padding-top: 0 !important;
- }
+/* Mobile overlay menu: collapsible submenus (accordion)
+   Since WP 7.1 the core navigation script reports aria-expanded="true" on every
+   submenu toggle while the overlay is open, so the open/closed state is tracked
+   with the theme's own .wpz-submenu-open class (see assets/js/navigation.js).
+   Scoped to the open overlay rather than a viewport width so it also applies
+   when the Navigation block's overlay is set to "Always". */
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+    /* Keep the last item reachable above sticky footer bars / ads. */
+    padding-bottom: calc(90px + env(safe-area-inset-bottom, 0px));
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item.has-child {
+    display: block;
+    width: 100%;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item.has-child > .wp-block-navigation-item__content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-self: unset;
+    width: auto;
+    height: auto;
+    line-height: 0;
+    margin-left: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-icon svg {
+    flex: none;
+    width: 14px;
+    height: 14px;
+    margin: 0;
+}
+
+/* Collapsed by default; "Always open" submenus stay expanded. */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item.has-child:not(.open-always):not(.wpz-submenu-open) > .wp-block-navigation__submenu-container {
+    display: none;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item.has-child > .wp-block-navigation__submenu-container {
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 0;
+    padding-bottom: 6px;
+    margin-top: 6px;
+    font-size: inherit;
+    border-radius: 0;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item.has-child > .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+    padding: 0;
+}
+
+/* The dropdown arrow belongs to the desktop menu only. */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container:before {
+    display: none;
+}
 
 .wp-block-navigation__responsive-container-close svg,
 .wp-block-navigation__responsive-container-open svg {
